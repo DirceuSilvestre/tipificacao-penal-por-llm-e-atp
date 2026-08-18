@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "fato": "Vereadores foram condenados por peculato, pelo desvio, através do recebimento de diárias, de recursos públicos em proveito próprio.",
+    "numero_processo": "0118197-53.2015.8.14.0023",
+    "link": "https://www.tjpa.jus.br/PortalExterno/imprensa/noticias/Informes/1406165-treze-pessoas-sao-condenadas-por-peculato.xhtml",
+    "versoes": {
+     "facil": "Vereadores receberam valores públicos sob a forma de diárias que não correspondiam a atividades realizadas.",
+     "medio": "Agentes públicos receberam valores sob a justificativa de diárias, embora não houvesse deslocamento ou atividade que justificasse o pagamento.",
+     "dificil": "Agentes públicos receberam valores previstos para custeio de atividades externas, sem a realização das atividades correspondentes."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": ["proveito_proprio", "proveito_alheio"]
+    }
+  }, 
+  {
+    "id": 2,
+    "fato": "Funcionárias de uma Unidade de Saúde foram condenadas por peculato culposo pelo sumiço de doses de vacina do local onde possuiam a chave",
+    "numero_processo": "...",
+    "link": "https://g1.globo.com/se/sergipe/noticia/duas-pessoas-foram-indicadas-por-peculato-culposo-por-envolvimento-no-roubo-de-600-doses-de-vacina.ghtml",
+    "versoes": {
+     "facil": "Servidoras públicas responsáveis pelo armazenamento de vacinas permitiram, por falta de cuidado, o desaparecimento de doses sob sua guarda.",
+     "medio": "Agentes públicas que tinham acesso ao local onde vacinas eram armazenadas não adotaram os cuidados necessários, resultando no desaparecimento das doses.",
+     "dificil": "Doses de vacina desapareceram de um local de armazenamento ao qual apenas determinadas agentes públicas possuíam acesso, sem indícios de subtração por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 3,
+    "fato": "Funcionário público foi condenado por peculato mediante erro de outrem, por receber dinheiro de pessoas quando agencia dos correios estava fechada e utilizar o carimbo dos correios nestes recebimentos.",
+    "numero_processo": "APR XXXXX00010000047 PI XXXXX00010000047",
+    "link": "https://www.jusbrasil.com.br/jurisprudencia/tj-pi/388025818",
+    "versoes": {
+     "facil": "Funcionário público recebeu valores de usuários por engano e se apropriou desses valores sem realizar o devido repasse.",
+     "medio": "Funcionário público passou a receber valores de usuários em situações irregulares e deixou de destiná-los ao fim correto.",
+     "dificil": "Valores foram entregues por usuários a um agente público em circunstâncias atípicas de atendimento, sem que houvesse o devido registro ou encaminhamento formal desses pagamentos."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 4,
+    "fato": "Policiais rodoviarios foram condenados pelo crime de concussão, por terem exigido dinheiro de motoristas para liberar seus veículos durante fiscalização rodoviária.",
+    "numero_processo": "0000007-34.2013.4.03.6105",
+    "link": "https://web.trf3.jus.br/noticias-sjsp/Noticiar/ExibirNoticia/325-policiais-rodoviarios-sao-condenados-por-crime-de",
+    "versoes": {
+     "facil": "Policiais rodoviários exigiram pagamento de motoristas para liberar veículos durante fiscalização.",
+     "medio": "Policiais rodoviários condicionaram a liberação de veículos ao pagamento de valores por parte dos motoristas abordados.",
+     "dificil": "Motoristas abordados em fiscalização realizaram pagamentos a agentes públicos para conseguir a liberação de seus veículos e cargas."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 5,
+    "fato": "Deputados e suplentes foram condenados por corrupção passiva, ao exigir dinheiro para destinar emendas parlamentares a municípios.",
+    "numero_processo": "...",
+    "link": "https://g1.globo.com/politica/noticia/2026/03/17/stf-condena-por-corrupcao-deputados-do-pl-acusados-de-irregularidades-com-emendas.ghtml",
+    "versoes": {
+     "facil": "Parlamentares solicitaram pagamento de valores para destinar recursos públicos a determinado município.",
+     "medio": "Parlamentares condicionaram a destinação de recursos públicos ao recebimento de valores por parte de gestores municipais.",
+     "dificil": "Recursos públicos foram direcionados a um município após tratativas entre agentes públicos e gestores locais envolvendo repasses financeiros."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 6,
+    "fato": "Sargento do Exército foi condenado por prevaricação, por não reportar transgressão disciplinar de soldado para ameaçar e assediar o mesmo.",
+    "numero_processo": "...",
+    "link": "https://www.mpm.mp.br/arquivos/52583",
+    "versoes": {
+     "facil": "Sargento deixou de registrar e comunicar uma infração disciplinar que presenciou, para atender a interesse pessoal.",
+     "medio": "Sargento, mesmo ciente de irregularidade praticada por subordinado, optou por não adotar as providências que lhe cabiam em razão de circunstâncias pessoais.",
+     "dificil": "Após identificar uma conduta irregular de subordinado, um agente público não tomou as medidas formais esperadas em sua função, mantendo a situação sem registro ou comunicação."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "retardar_ou_deixar_de_praticar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 7,
+    "fato": "Um funcionário público (comandante militar), ciente de que seus subordinados cometeram irregularidades, deixou de adotar providências para responsabilizá-los.",
+    "numero_processo": "0011517-86.2023.8.12.0001 Campo Grande",
+    "link": "https://www.jusbrasil.com.br/jurisprudencia/tj-ms/3822332819",
+    "versoes": {
+     "facil": "Um comandante militar, ciente de que seus subordinados cometeram irregularidades, deixou de adotar providências para responsabilizá-los por indulgência.",
+     "medio": "Um superior hierárquico, após tomar conhecimento de infrações praticadas por subordinados, não adotou medidas para apuração e responsabilização dos envolvidos.",
+     "dificil": "Um agente público, mesmo após ser informado sobre irregularidades praticadas por integrantes sob sua supervisão, deixou de agir para apurar os fatos e promover responsabilização."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 8,
+    "fato": "Servidor público foi condenado pelo crime de advocacia administrativa, por utilizar seu acesso interno ao sistema judicial para consultar processos e obter documentos, repassando essas informações a uma advogada para beneficiar interesses privados, recebendo posteriormente valores em dinheiro.",
+    "numero_processo": "5029135-22.2020.4.04.0000/TRF",
+    "link": "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=15526",
+    "versoes": {
+     "facil": "Um servidor público utilizou seu cargo para patrocinar interesses privados perante a administração pública, acessando processos internos e repassando informações a uma advogada, recebendo valores em troca.",
+     "medio": "Um servidor público utilizou seu acesso ao sistema interno para consultar processos e obter documentos, repassando essas informações a uma advogada, que posteriormente lhe transferiu valores em dinheiro.",
+     "dificil": "Um servidor com acesso a sistemas internos realizou consultas processuais e compartilhou documentos com terceiros, que posteriormente efetuaram transferências financeiras para sua conta."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 9,
+    "fato": "Um delegado da Polícia Federal foi condenado por violação de sigilo funcional, ao revelar informações sigilosas de uma investigação em andamento a jornalistas, incluindo detalhes sobre diligências policiais, causando prejuízo à administração pública.",
+    "numero_processo": "",
+    "link": "https://noticias.stf.jus.br/postsnoticias/2a-turma-mantem-condenacao-de-deputado-por-violacao-de-sigilo-em-operacao-policial/",
+    "versoes": {
+     "facil": "Um funcionário público revelou informações sigilosas de uma investigação oficial a jornalistas, violando seu dever funcional e causando prejuízo à administração pública.",
+     "medio": "Durante uma investigação em andamento, um agente público compartilhou com jornalistas detalhes sobre diligências que seriam realizadas pela polícia.",
+     "dificil": "Durante uma operação em curso, informações sobre ações futuras foram divulgadas a terceiros por alguém com acesso interno à investigação."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 10,
+    "fato": "Um homem foi condenado por homicídio qualificado, pois após uma discussão dentro de uma loja, agrediu uma mulher e, em seguida, utilizou um canivete para desferir golpes que causaram sua morte.",
+    "numero_processo": "",
+    "link": "",
+    "versoes": {
+     "facil": "Um homem matou uma mulher com golpes de faca após uma discussão, sendo posteriormente condenado por homicídio.",
+     "medio": "Após uma discussão em um estabelecimento comercial, um indivíduo agrediu uma mulher e utilizou um objeto perfurante, causando sua morte.",
+     "dificil": "Durante um conflito em um ambiente comercial, uma pessoa agrediu outra fisicamente e utilizou um objeto para causar lesões fatais."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  }
+]

@@ -1,0 +1,360 @@
+{"id": 1, "nível": "fácil", "texto": "O servidor pega para si dinheiro público que estava sob sua responsabilidade no trabalho.", "classe_correta": "peculato"}
+{"id": 2, "nível": "médio", "texto": "O funcionário público utiliza para si recursos financeiros públicos que estavam sob sua guarda funcional.", "classe_correta": "peculato"}
+{"id": 3, "nível": "difícil", "texto": "O agente estatal incorpora ao seu patrimônio valores públicos cuja disponibilidade decorria diretamente das atribuições do cargo.", "classe_correta": "peculato"}
+{"id": 4, "nível": "fácil", "texto": "O servidor entrega a outra pessoa um valor de um particular que estava sob sua guarda.", "classe_correta": "peculato"}
+{"id": 5, "nível": "médio", "texto": "O funcionário público destina a terceiro quantia pertencente a particular que estava sob sua responsabilidade funcional.", "classe_correta": "peculato"}
+{"id": 6, "nível": "difícil", "texto": "O agente, investido em função pública, transfere a outrem valores privados cuja custódia lhe fora confiada institucionalmente.", "classe_correta": "peculato"}
+{"id": 7, "nível": "fácil", "texto": "O servidor usa dinheiro público para outra finalidade para se beneficiar.", "classe_correta": "peculato"}
+{"id": 8, "nível": "médio", "texto": "O funcionário altera a destinação de recursos públicos sob sua posse para obter vantagem pessoal.", "classe_correta": "peculato"}
+{"id": 9, "nível": "difícil", "texto": "O agente público redireciona valores estatais sob sua administração para finalidade diversa, com intuito de benefício próprio.", "classe_correta": "peculato"}
+{"id": 10, "nível": "fácil", "texto": "O servidor desvia um bem de outra pessoa que estava sob sua responsabilidade no cargo para beneficiar alguém.", "classe_correta": "peculato"}
+{"id": 11, "nível": "médio", "texto": "O funcionário modifica a destinação de um bem particular sob sua guarda funcional em favor de terceiro.", "classe_correta": "peculato"}
+{"id": 12, "nível": "difícil", "texto": "O agente público altera a finalidade de uso de bem móvel privado sob sua custódia institucional para favorecer terceiro.", "classe_correta": "peculato"}
+{"id": 13, "nível": "fácil", "texto": "O servidor pega dinheiro público sem ter acesso direto, usando sua função.", "classe_correta": "peculato"}
+{"id": 14, "nível": "médio", "texto": "O funcionário público retira valores públicos sem posse prévia, aproveitando-se das facilidades do cargo.", "classe_correta": "peculato"}
+{"id": 15, "nível": "difícil", "texto": "O agente, embora destituído de posse imediata, obtém valores públicos mediante exploração das prerrogativas inerentes à função.", "classe_correta": "peculato"}
+{"id": 16, "nível": "fácil", "texto": "O servidor ajuda a retirar dinheiro de alguém usando seu cargo.", "classe_correta": "peculato"}
+{"id": 17, "nível": "médio", "texto": "O funcionário subtrai valores privados sem posse direta, utilizando-se de vantagens da função, em favor de terceiro.", "classe_correta": "peculato"}
+{"id": 18, "nível": "difícil", "texto": "O agente público, sem detenção prévia do bem, promove sua retirada indevida valendo-se das facilidades institucionais, beneficiando outrem.", "classe_correta": "peculato"}
+{"id": 19, "nível": "fácil", "texto": "O servidor ajuda alguém a pegar dinheiro público para benefício próprio.", "classe_correta": "peculato"}
+{"id": 20, "nível": "médio", "texto": "O funcionário colabora para a retirada de recursos públicos, usando sua função para obter vantagem pessoal.", "classe_correta": "peculato"}
+{"id": 21, "nível": "difícil", "texto": "O agente estatal atua em cooperação para viabilizar a subtração de valores públicos, explorando as condições funcionais para proveito próprio.", "classe_correta": "peculato"}
+{"id": 22, "nível": "fácil", "texto": "O servidor ajuda alguém a pegar um bem de outra pessoa.", "classe_correta": "peculato"}
+{"id": 23, "nível": "médio", "texto": "O funcionário público contribui para a subtração de bem privado utilizando sua posição funcional.", "classe_correta": "peculato"}
+{"id": 24, "nível": "difícil", "texto": "O agente concorre para a retirada indevida de bem móvel de particular, valendo-se das prerrogativas inerentes ao cargo para beneficiar terceiro.", "classe_correta": "peculato"}
+{"id": 25, "nível": "fácil", "texto": "O servidor usa dinheiro público para beneficiar outra pessoa.", "classe_correta": "peculato"}
+{"id": 26, "nível": "médio", "texto": "O funcionário direciona recursos públicos sob sua posse para favorecer terceiros.", "classe_correta": "peculato"}
+{"id": 27, "nível": "difícil", "texto": "O agente público altera a destinação de valores estatais sob sua guarda institucional com intuito de beneficiar outrem.", "classe_correta": "peculato"}
+{"id": 28, "nível": "fácil", "texto": "O servidor fica com um bem de outra pessoa que estava sob sua responsabilidade.", "classe_correta": "peculato"}
+{"id": 29, "nível": "médio", "texto": "O funcionário público toma para si bem privado sob sua custódia funcional.", "classe_correta": "peculato"}
+{"id": 30, "nível": "difícil", "texto": "O agente estatal incorpora ao próprio patrimônio bem móvel de titularidade privada cuja guarda decorria de atribuição do cargo.", "classe_correta": "peculato"}
+{"id": 31, "nível": "fácil", "texto": "O servidor, por descuido, deixa outra pessoa acessar dinheiro público e essa pessoa pega o dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 32, "nível": "médio", "texto": "O funcionário público, por negligência, permite que terceiros tenham acesso indevido a valores sob sua guarda, possibilitando sua subtração.", "classe_correta": "peculato_culposo"}
+{"id": 33, "nível": "difícil", "texto": "O agente estatal, por omissão negligente no dever de vigilância, viabiliza o acesso indevido de terceiros a valores públicos, contribuindo culposamente para sua subtração.", "classe_correta": "peculato_culposo"}
+{"id": 34, "nível": "fácil", "texto": "O servidor não cuida corretamente de bens públicos e outra pessoa se apropria deles.", "classe_correta": "peculato_culposo"}
+{"id": 35, "nível": "médio", "texto": "O funcionário, por negligência na proteção de bens públicos, facilita sua apropriação por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 36, "nível": "difícil", "texto": "O agente público, ao descumprir deveres de guarda por negligência, possibilita que terceiros incorporem bens públicos indevidamente.", "classe_correta": "peculato_culposo"}
+{"id": 37, "nível": "fácil", "texto": "O servidor deixa de controlar dinheiro público e outra pessoa desvia esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 38, "nível": "médio", "texto": "O funcionário omite medidas de controle sobre valores públicos, permitindo desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 39, "nível": "difícil", "texto": "O agente, por inércia negligente nos mecanismos de controle, concorre para o desvio de valores públicos por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 40, "nível": "fácil", "texto": "O servidor expõe dinheiro público ao risco e outra pessoa pega esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 41, "nível": "médio", "texto": "O funcionário age de forma imprudente ao expor valores públicos, possibilitando sua subtração por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 42, "nível": "difícil", "texto": "O agente estatal, mediante conduta imprudente, cria situação de risco que viabiliza a subtração de valores públicos por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 43, "nível": "fácil", "texto": "O servidor deixa alguém não autorizado mexer em bens públicos e essa pessoa fica com eles.", "classe_correta": "peculato_culposo"}
+{"id": 44, "nível": "médio", "texto": "O funcionário permite, imprudentemente, o acesso de pessoa não autorizada a bens públicos, facilitando sua apropriação.", "classe_correta": "peculato_culposo"}
+{"id": 45, "nível": "difícil", "texto": "O agente público, ao admitir indevidamente o manuseio de bens por terceiros, concorre culposamente para sua apropriação.", "classe_correta": "peculato_culposo"}
+{"id": 46, "nível": "fácil", "texto": "O servidor age de forma arriscada com dinheiro público e outra pessoa desvia esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 47, "nível": "médio", "texto": "O funcionário adota conduta imprudente na gestão de valores públicos, permitindo desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 48, "nível": "difícil", "texto": "O agente estatal, por gestão temerária de recursos públicos, cria condições para seu desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 49, "nível": "fácil", "texto": "O servidor não sabe administrar corretamente bens públicos e outra pessoa os pega.", "classe_correta": "peculato_culposo"}
+{"id": 50, "nível": "médio", "texto": "O funcionário, por falta de capacidade técnica, permite que terceiros subtraiam bens públicos.", "classe_correta": "peculato_culposo"}
+{"id": 51, "nível": "difícil", "texto": "O agente público, por imperícia na administração patrimonial, contribui para a subtração de bens por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 52, "nível": "fácil", "texto": "O servidor não sabe controlar dinheiro público e outra pessoa desvia esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 53, "nível": "médio", "texto": "O funcionário demonstra imperícia no controle de valores públicos, facilitando desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 54, "nível": "difícil", "texto": "A deficiência técnica do agente no controle financeiro público viabiliza o desvio de valores por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 55, "nível": "fácil", "texto": "O servidor deixa alguém acessar um bem público e essa pessoa o pega.", "classe_correta": "peculato_culposo"}
+{"id": 56, "nível": "médio", "texto": "O funcionário, por negligência, não impede acesso indevido a bem público, facilitando sua subtração.", "classe_correta": "peculato_culposo"}
+{"id": 57, "nível": "difícil", "texto": "O agente público, ao falhar no dever de impedir acessos indevidos, concorre culposamente para a subtração de bem público.", "classe_correta": "peculato_culposo"}
+{"id": 58, "nível": "fácil", "texto": "O servidor guarda mal dinheiro público e outra pessoa fica com ele.", "classe_correta": "peculato_culposo"}
+{"id": 59, "nível": "médio", "texto": "O funcionário, por imprudência na guarda de valores públicos, permite sua apropriação por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 60, "nível": "difícil", "texto": "O agente estatal, mediante falha imprudente na custódia de valores públicos, possibilita sua apropriação por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 61, "nível": "fácil", "texto": "O servidor pega para si dinheiro público que estava sob sua responsabilidade no trabalho.", "classe_correta": "peculato"}
+{"id": 62, "nível": "médio", "texto": "O funcionário público utiliza para si recursos financeiros públicos que estavam sob sua guarda funcional.", "classe_correta": "peculato"}
+{"id": 63, "nível": "difícil", "texto": "O agente estatal incorpora ao seu patrimônio valores públicos cuja disponibilidade decorria diretamente das atribuições do cargo.", "classe_correta": "peculato"}
+{"id": 64, "nível": "fácil", "texto": "O servidor entrega a outra pessoa um valor de um particular que estava sob sua guarda.", "classe_correta": "peculato"}
+{"id": 65, "nível": "médio", "texto": "O funcionário público destina a terceiro quantia pertencente a particular que estava sob sua responsabilidade funcional.", "classe_correta": "peculato"}
+{"id": 66, "nível": "difícil", "texto": "O agente, investido em função pública, transfere a outrem valores privados cuja custódia lhe fora confiada institucionalmente.", "classe_correta": "peculato"}
+{"id": 67, "nível": "fácil", "texto": "O servidor usa dinheiro público para outra finalidade para se beneficiar.", "classe_correta": "peculato"}
+{"id": 68, "nível": "médio", "texto": "O funcionário altera a destinação de recursos públicos sob sua posse para obter vantagem pessoal.", "classe_correta": "peculato"}
+{"id": 69, "nível": "difícil", "texto": "O agente público redireciona valores estatais sob sua administração para finalidade diversa, com intuito de benefício próprio.", "classe_correta": "peculato"}
+{"id": 70, "nível": "fácil", "texto": "O servidor desvia um bem de outra pessoa que estava sob sua responsabilidade no cargo para beneficiar alguém.", "classe_correta": "peculato"}
+{"id": 71, "nível": "médio", "texto": "O funcionário modifica a destinação de um bem particular sob sua guarda funcional em favor de terceiro.", "classe_correta": "peculato"}
+{"id": 72, "nível": "difícil", "texto": "O agente público altera a finalidade de uso de bem móvel privado sob sua custódia institucional para favorecer terceiro.", "classe_correta": "peculato"}
+{"id": 73, "nível": "fácil", "texto": "O servidor pega dinheiro público sem ter acesso direto, usando sua função.", "classe_correta": "peculato"}
+{"id": 74, "nível": "médio", "texto": "O funcionário público retira valores públicos sem posse prévia, aproveitando-se das facilidades do cargo.", "classe_correta": "peculato"}
+{"id": 75, "nível": "difícil", "texto": "O agente, embora destituído de posse imediata, obtém valores públicos mediante exploração das prerrogativas inerentes à função.", "classe_correta": "peculato"}
+{"id": 76, "nível": "fácil", "texto": "O servidor ajuda a retirar dinheiro de alguém usando seu cargo.", "classe_correta": "peculato"}
+{"id": 77, "nível": "médio", "texto": "O funcionário subtrai valores privados sem posse direta, utilizando-se de vantagens da função, em favor de terceiro.", "classe_correta": "peculato"}
+{"id": 78, "nível": "difícil", "texto": "O agente público, sem detenção prévia do bem, promove sua retirada indevida valendo-se das facilidades institucionais, beneficiando outrem.", "classe_correta": "peculato"}
+{"id": 79, "nível": "fácil", "texto": "O servidor ajuda alguém a pegar dinheiro público para benefício próprio.", "classe_correta": "peculato"}
+{"id": 80, "nível": "médio", "texto": "O funcionário colabora para a retirada de recursos públicos, usando sua função para obter vantagem pessoal.", "classe_correta": "peculato"}
+{"id": 81, "nível": "difícil", "texto": "O agente estatal atua em cooperação para viabilizar a subtração de valores públicos, explorando as condições funcionais para proveito próprio.", "classe_correta": "peculato"}
+{"id": 82, "nível": "fácil", "texto": "O servidor ajuda alguém a pegar um bem de outra pessoa.", "classe_correta": "peculato"}
+{"id": 83, "nível": "médio", "texto": "O funcionário público contribui para a subtração de bem privado utilizando sua posição funcional.", "classe_correta": "peculato"}
+{"id": 84, "nível": "difícil", "texto": "O agente concorre para a retirada indevida de bem móvel de particular, valendo-se das prerrogativas inerentes ao cargo para beneficiar terceiro.", "classe_correta": "peculato"}
+{"id": 85, "nível": "fácil", "texto": "O servidor usa dinheiro público para beneficiar outra pessoa.", "classe_correta": "peculato"}
+{"id": 86, "nível": "médio", "texto": "O funcionário direciona recursos públicos sob sua posse para favorecer terceiros.", "classe_correta": "peculato"}
+{"id": 87, "nível": "difícil", "texto": "O agente público altera a destinação de valores estatais sob sua guarda institucional com intuito de beneficiar outrem.", "classe_correta": "peculato"}
+{"id": 88, "nível": "fácil", "texto": "O servidor fica com um bem de outra pessoa que estava sob sua responsabilidade.", "classe_correta": "peculato"}
+{"id": 89, "nível": "médio", "texto": "O funcionário público toma para si bem privado sob sua custódia funcional.", "classe_correta": "peculato"}
+{"id": 90, "nível": "difícil", "texto": "O agente estatal incorpora ao próprio patrimônio bem móvel de titularidade privada cuja guarda decorria de atribuição do cargo.", "classe_correta": "peculato"}
+{"id": 91, "nível": "fácil", "texto": "O servidor, por descuido, deixa outra pessoa acessar dinheiro público e essa pessoa pega o dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 92, "nível": "médio", "texto": "O funcionário público, por negligência, permite que terceiros tenham acesso indevido a valores sob sua guarda, possibilitando sua subtração.", "classe_correta": "peculato_culposo"}
+{"id": 93, "nível": "difícil", "texto": "O agente estatal, por omissão negligente no dever de vigilância, viabiliza o acesso indevido de terceiros a valores públicos, contribuindo culposamente para sua subtração.", "classe_correta": "peculato_culposo"}
+{"id": 94, "nível": "fácil", "texto": "O servidor não cuida corretamente de bens públicos e outra pessoa se apropria deles.", "classe_correta": "peculato_culposo"}
+{"id": 95, "nível": "médio", "texto": "O funcionário, por negligência na proteção de bens públicos, facilita sua apropriação por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 96, "nível": "difícil", "texto": "O agente público, ao descumprir deveres de guarda por negligência, possibilita que terceiros incorporem bens públicos indevidamente.", "classe_correta": "peculato_culposo"}
+{"id": 97, "nível": "fácil", "texto": "O servidor deixa de controlar dinheiro público e outra pessoa desvia esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 98, "nível": "médio", "texto": "O funcionário omite medidas de controle sobre valores públicos, permitindo desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 99, "nível": "difícil", "texto": "O agente, por inércia negligente nos mecanismos de controle, concorre para o desvio de valores públicos por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 100, "nível": "fácil", "texto": "O servidor expõe dinheiro público ao risco e outra pessoa pega esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 101, "nível": "médio", "texto": "O funcionário age de forma imprudente ao expor valores públicos, possibilitando sua subtração por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 102, "nível": "difícil", "texto": "O agente estatal, mediante conduta imprudente, cria situação de risco que viabiliza a subtração de valores públicos por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 103, "nível": "fácil", "texto": "O servidor deixa alguém não autorizado mexer em bens públicos e essa pessoa fica com eles.", "classe_correta": "peculato_culposo"}
+{"id": 104, "nível": "médio", "texto": "O funcionário permite, imprudentemente, o acesso de pessoa não autorizada a bens públicos, facilitando sua apropriação.", "classe_correta": "peculato_culposo"}
+{"id": 105, "nível": "difícil", "texto": "O agente público, ao admitir indevidamente o manuseio de bens por terceiros, concorre culposamente para sua apropriação.", "classe_correta": "peculato_culposo"}
+{"id": 106, "nível": "fácil", "texto": "O servidor age de forma arriscada com dinheiro público e outra pessoa desvia esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 107, "nível": "médio", "texto": "O funcionário adota conduta imprudente na gestão de valores públicos, permitindo desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 108, "nível": "difícil", "texto": "O agente estatal, por gestão temerária de recursos públicos, cria condições para seu desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 109, "nível": "fácil", "texto": "O servidor não sabe administrar corretamente bens públicos e outra pessoa os pega.", "classe_correta": "peculato_culposo"}
+{"id": 110, "nível": "médio", "texto": "O funcionário, por falta de capacidade técnica, permite que terceiros subtraiam bens públicos.", "classe_correta": "peculato_culposo"}
+{"id": 111, "nível": "difícil", "texto": "O agente público, por imperícia na administração patrimonial, contribui para a subtração de bens por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 112, "nível": "fácil", "texto": "O servidor não sabe controlar dinheiro público e outra pessoa desvia esse dinheiro.", "classe_correta": "peculato_culposo"}
+{"id": 113, "nível": "médio", "texto": "O funcionário demonstra imperícia no controle de valores públicos, facilitando desvio por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 114, "nível": "difícil", "texto": "A deficiência técnica do agente no controle financeiro público viabiliza o desvio de valores por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 115, "nível": "fácil", "texto": "O servidor deixa alguém acessar um bem público e essa pessoa o pega.", "classe_correta": "peculato_culposo"}
+{"id": 116, "nível": "médio", "texto": "O funcionário, por negligência, não impede acesso indevido a bem público, facilitando sua subtração.", "classe_correta": "peculato_culposo"}
+{"id": 117, "nível": "difícil", "texto": "O agente público, ao falhar no dever de impedir acessos indevidos, concorre culposamente para a subtração de bem público.", "classe_correta": "peculato_culposo"}
+{"id": 118, "nível": "fácil", "texto": "O servidor guarda mal dinheiro público e outra pessoa fica com ele.", "classe_correta": "peculato_culposo"}
+{"id": 119, "nível": "médio", "texto": "O funcionário, por imprudência na guarda de valores públicos, permite sua apropriação por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 120, "nível": "difícil", "texto": "O agente estatal, mediante falha imprudente na custódia de valores públicos, possibilita sua apropriação por terceiros.", "classe_correta": "peculato_culposo"}
+{"id": 121, "nível": "fácil", "texto": "A pessoa entrega dinheiro por engano ao servidor, e ele fica com o valor sabendo do erro.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 122, "nível": "médio", "texto": "O funcionário recebe pagamento equivocado de cidadão durante o trabalho e decide se apropriar da quantia.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 123, "nível": "difícil", "texto": "O agente estatal, percebendo entrega pecuniária indevida decorrente de equívoco de administrado no contexto funcional, incorpora conscientemente o numerário ao patrimônio próprio.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 124, "nível": "fácil", "texto": "O servidor recebe por engano um vale com valor e resolve ficar com ele.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 125, "nível": "médio", "texto": "Durante atendimento público, o agente recebe utilidade financeira entregue por erro de terceiro e a retém para si.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 126, "nível": "difícil", "texto": "No desempenho das atribuições administrativas, o funcionário obtém título patrimonial repassado equivocadamente por particular e voluntariamente o incorpora ao seu acervo.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 127, "nível": "fácil", "texto": "Um cidadão deposita dinheiro por engano, e o servidor fica com a quantia.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 128, "nível": "médio", "texto": "O agente público recebe depósito equivocado relacionado ao cargo e se apropria dos valores recebidos.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 129, "nível": "difícil", "texto": "Recebida transferência monetária indevida por erro material de particular em contexto funcional, o servidor, ciente da irregularidade, retém o numerário.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 130, "nível": "fácil", "texto": "Uma pessoa entrega objeto valioso por engano ao funcionário, e ele fica com o item.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 131, "nível": "médio", "texto": "O servidor recebe bem de valor entregue equivocadamente por usuário do serviço e o toma para si.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 132, "nível": "difícil", "texto": "O agente administrativo, ao receber utilidade patrimonial entregue indevidamente por administrado, decide incorporá-la ao patrimônio particular.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 133, "nível": "fácil", "texto": "O cidadão paga duas vezes sem querer, e o servidor guarda o valor extra.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 134, "nível": "médio", "texto": "O funcionário recebe pagamento duplicado por erro de terceiro e retém conscientemente a diferença.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 135, "nível": "difícil", "texto": "Em razão de pagamento excedente decorrente de equívoco do administrado, o agente público apropria-se dolosamente da parcela indevida.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 136, "nível": "fácil", "texto": "O servidor recebe benefício enviado por engano e fica com ele.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 137, "nível": "médio", "texto": "O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 138, "nível": "difícil", "texto": "Obtida utilidade econômica por erro de terceiro no exercício funcional, o funcionário opta por incorporá-la indevidamente ao patrimônio próprio.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 139, "nível": "fácil", "texto": "Entregam um envelope com dinheiro por engano ao servidor, e ele fica com tudo.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 140, "nível": "médio", "texto": "O funcionário recebe valores entregues equivocadamente durante atividade pública e resolve retê-los.O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 141, "nível": "difícil", "texto": "Recebido invólucro contendo numerário por equívoco de administrado no curso do expediente, o agente estatal apropria-se conscientemente do conteúdo.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 142, "nível": "fácil", "texto": "O setor recebe item valioso por engano, e o servidor pega para si.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 143, "nível": "médio", "texto": "O agente público recebe utilidade enviada por erro de terceiro ao local de trabalho e se apropria do bem.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 144, "nível": "difícil", "texto": "Encaminhada vantagem patrimonial por erro material ao órgão em que atua, o servidor a subtrai da esfera administrativa para incorporação pessoal.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 145, "nível": "fácil", "texto": "Uma pessoa transfere dinheiro errado ao servidor, e ele fica com a quantia.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 146, "nível": "médio", "texto": "O funcionário recebe transferência equivocada de particular e mantém os valores para si.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 147, "nível": "difícil", "texto": "Ciente do equívoco de particular que lhe remeteu valores no contexto funcional, o agente público decide reter indevidamente o montante.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 148, "nível": "fácil", "texto": "O cidadão entrega dinheiro errado ao servidor, e ele coloca no próprio bolso.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 149, "nível": "médio", "texto": "O funcionário recebe quantia entregue indevidamente em razão do trabalho e a incorpora ao patrimônio.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 150, "nível": "difícil", "texto": "No exercício da função pública, ao receber numerário entregue por erro de administrado, o agente resolve integrá-lo ilicitamente ao acervo pessoal.", "classe_correta": "peculato_mediante_erro_de_outrem"}
+{"id": 151, "nível": "fácil", "texto": "O servidor manda o cidadão pagar dinheiro extra para fazer seu serviço.", "classe_correta": "concussao"}
+{"id": 152, "nível": "médio", "texto": "O funcionário exige quantia indevida para praticar ato que deveria realizar.", "classe_correta": "concussao"}
+{"id": 153, "nível": "difícil", "texto": "O agente estatal impõe ao administrado pagamento ilícito como condição para execução de ato funcional, visando proveito próprio.", "classe_correta": "concussao"}
+{"id": 154, "nível": "fácil", "texto": "O servidor obriga a pessoa a pagar para liberar um documento.", "classe_correta": "concussao"}
+{"id": 155, "nível": "médio", "texto": "O agente público exige valor indevido de particular para liberar documento administrativo.", "classe_correta": "concussao"}
+{"id": 156, "nível": "difícil", "texto": "Valendo-se da autoridade pública, o funcionário condiciona a entrega de documento estatal ao pagamento de vantagem indevida destinada a terceiro.", "classe_correta": "concussao"}
+{"id": 157, "nível": "fácil", "texto": "O fiscal manda comerciante pagar para não ser fiscalizado.", "classe_correta": "concussao"}
+{"id": 158, "nível": "médio", "texto": "O agente exige vantagem econômica para deixar de fiscalizar estabelecimento.", "classe_correta": "concussao"}
+{"id": 159, "nível": "difícil", "texto": "Mediante abuso da função fiscalizatória, o servidor impõe prestação patrimonial indevida ao comerciante para omitir controle administrativo.", "classe_correta": "concussao"}
+{"id": 160, "nível": "fácil", "texto": "O funcionário exige um bem valioso para acelerar o processo.", "classe_correta": "concussao"}
+{"id": 161, "nível": "médio", "texto": "O servidor condiciona a rapidez do procedimento à entrega de bem de valor.", "classe_correta": "concussao"}
+{"id": 162, "nível": "difícil", "texto": "O agente público, explorando sua posição funcional, exige utilidade patrimonial como requisito para priorização indevida de trâmite administrativo.", "classe_correta": "concussao"}
+{"id": 163, "nível": "fácil", "texto": "Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.", "classe_correta": "concussao"}
+{"id": 164, "nível": "médio", "texto": "Fora do expediente, o agente exige quantia indevida invocando a função pública.", "classe_correta": "concussao"}
+{"id": 165, "nível": "difícil", "texto": "Ainda ausente do exercício imediato das atividades, o funcionário utiliza a autoridade do cargo para impor pagamento ilícito ao particular.", "classe_correta": "concussao"}
+{"id": 166, "nível": "fácil", "texto": "Antes de tomar posse, a pessoa exige dinheiro para agir no futuro cargo.Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.", "classe_correta": "concussao"}
+{"id": 167, "nível": "médio", "texto": "Nomeado para cargo público, o agente exige vantagem indevida antes da posse.", "classe_correta": "concussao"}
+{"id": 168, "nível": "difícil", "texto": "Mesmo antes da investidura formal, o futuro servidor condiciona atuação funcional futura ao recebimento de benefício patrimonial ilícito.", "classe_correta": "concussao"}
+{"id": 169, "nível": "fácil", "texto": "O servidor manda empresário pagar todo mês para continuar funcionando.", "classe_correta": "concussao"}
+{"id": 170, "nível": "médio", "texto": "O agente exige pagamentos periódicos indevidos para permitir atividade econômica regular.", "classe_correta": "concussao"}
+{"id": 171, "nível": "difícil", "texto": "Mediante coerção derivada da autoridade estatal, o funcionário impõe prestações mensais ilícitas como condição para continuidade empresarial.", "classe_correta": "concussao"}
+{"id": 172, "nível": "fácil", "texto": "O servidor exige algo de valor para não aplicar multa.", "classe_correta": "concussao"}
+{"id": 173, "nível": "médio", "texto": "O funcionário exige vantagem patrimonial para deixar de aplicar sanção administrativa.", "classe_correta": "concussao"}
+{"id": 174, "nível": "difícil", "texto": "Abusando do poder sancionador, o agente público impõe entrega de utilidade econômica como preço para omissão punitiva.", "classe_correta": "concussao"}
+{"id": 175, "nível": "fácil", "texto": "O servidor manda outra pessoa cobrar dinheiro para fazer serviço público.", "classe_correta": "concussao"}
+{"id": 176, "nível": "médio", "texto": "Por meio de intermediário, o agente exige valor indevido para prestar serviço estatal devido.", "classe_correta": "concussao"}
+{"id": 177, "nível": "difícil", "texto": "Utilizando interposta pessoa, o funcionário formula exigência patrimonial ilícita como condição para execução de serviço público obrigatório.", "classe_correta": "concussao"}
+{"id": 178, "nível": "fácil", "texto": "O agente exige dinheiro para encaminhar processo e beneficiar outra pessoa.", "classe_correta": "concussao"}
+{"id": 179, "nível": "médio", "texto": "O servidor exige vantagem econômica para dar andamento a processo administrativo em favor de terceiro.", "classe_correta": "concussao"}
+{"id": 180, "nível": "difícil", "texto": "Valendo-se da capacidade decisória no âmbito administrativo, o agente condiciona o impulso processual ao pagamento indevido destinado a outrem.", "classe_correta": "concussao"}
+{"id": 181, "nível": "fácil", "texto": "O servidor pede dinheiro extra para fazer algo do trabalho.", "classe_correta": "corrupcao_passiva"}
+{"id": 182, "nível": "médio", "texto": "O funcionário solicita quantia indevida para realizar ato ligado ao cargo.", "classe_correta": "corrupcao_passiva"}
+{"id": 183, "nível": "difícil", "texto": "O agente estatal formula pedido patrimonial ilícito como condição informal para desempenho de atribuição funcional, visando proveito próprio.", "classe_correta": "corrupcao_passiva"}
+{"id": 184, "nível": "fácil", "texto": "O servidor recebe dinheiro para ajudar em processo administrativo.", "classe_correta": "corrupcao_passiva"}
+{"id": 185, "nível": "médio", "texto": "O agente público recebe vantagem indevida de particular para favorecer procedimento administrativo.", "classe_correta": "corrupcao_passiva"}
+{"id": 186, "nível": "difícil", "texto": "Mediante recebimento de prestação econômica ilícita, o funcionário compromete a imparcialidade no trato de processo submetido à esfera pública.", "classe_correta": "corrupcao_passiva"}
+{"id": 187, "nível": "fácil", "texto": "O servidor aceita promessa de pagamento para ajudar outra pessoa.", "classe_correta": "corrupcao_passiva"}
+{"id": 188, "nível": "médio", "texto": "O funcionário aceita futura vantagem indevida para beneficiar terceiro em ato funcional.", "classe_correta": "corrupcao_passiva"}
+{"id": 189, "nível": "difícil", "texto": "O agente público anui ao oferecimento futuro de utilidade patrimonial ilícita em troca de favorecimento administrativo destinado a outrem.", "classe_correta": "corrupcao_passiva"}
+{"id": 190, "nível": "fácil", "texto": "O funcionário pede um bem valioso para acelerar atendimento.", "classe_correta": "corrupcao_passiva"}
+{"id": 191, "nível": "médio", "texto": "O servidor solicita bem de valor para dar rapidez a serviço público.", "classe_correta": "corrupcao_passiva"}
+{"id": 192, "nível": "difícil", "texto": "Valendo-se da posição funcional, o agente requer utilidade patrimonial como preço indevido para priorização de atendimento estatal.", "classe_correta": "corrupcao_passiva"}
+{"id": 193, "nível": "fácil", "texto": "Mesmo fora do trabalho, o servidor recebe dinheiro por causa do cargo.", "classe_correta": "corrupcao_passiva"}
+{"id": 194, "nível": "médio", "texto": "Fora do expediente, o agente recebe vantagem indevida em razão da função pública.", "classe_correta": "corrupcao_passiva"}
+{"id": 195, "nível": "difícil", "texto": "Embora ausente do exercício imediato das atividades, o funcionário percebe benefício ilícito decorrente da autoridade inerente ao cargo.", "classe_correta": "corrupcao_passiva"}
+{"id": 196, "nível": "fácil", "texto": "Antes de assumir o cargo, a pessoa aceita promessa de dinheiro pelo futuro trabalho.", "classe_correta": "corrupcao_passiva"}
+{"id": 197, "nível": "médio", "texto": "Nomeado para função pública, o agente aceita promessa de vantagem indevida antes da posse.Fora do expediente, o agente recebe vantagem indevida em razão da função pública.", "classe_correta": "corrupcao_passiva"}
+{"id": 198, "nível": "difícil", "texto": "Ainda não investido formalmente, o futuro servidor consente em receber benefício patrimonial ilícito vinculado à atuação funcional futura.", "classe_correta": "corrupcao_passiva"}
+{"id": 199, "nível": "fácil", "texto": "O servidor pede pagamentos todo mês para continuar ajudando alguém.", "classe_correta": "corrupcao_passiva"}
+{"id": 200, "nível": "médio", "texto": "O agente solicita prestações periódicas indevidas para manter favorecimento administrativo.", "classe_correta": "corrupcao_passiva"}
+{"id": 201, "nível": "difícil", "texto": "O funcionário estabelece exigências patrimoniais reiteradas, sob forma de solicitações sucessivas, para preservar tratamento estatal privilegiado.", "classe_correta": "corrupcao_passiva"}
+{"id": 202, "nível": "fácil", "texto": "O servidor recebe vantagem por outra pessoa para favorecer alguém.", "classe_correta": "corrupcao_passiva"}
+{"id": 203, "nível": "médio", "texto": "O agente recebe utilidade indevida por intermediário em troca de favorecimento funcional.", "classe_correta": "corrupcao_passiva"}
+{"id": 204, "nível": "difícil", "texto": "Por meio de interposta pessoa, o funcionário percebe benefício econômico ilícito correlacionado ao exercício de atribuições públicas.", "classe_correta": "corrupcao_passiva"}
+{"id": 205, "nível": "fácil", "texto": "O servidor pede dinheiro para atrasar uma fiscalização.", "classe_correta": "corrupcao_passiva"}
+{"id": 206, "nível": "médio", "texto": "O agente solicita valor indevido para retardar ato oficial de fiscalização.", "classe_correta": "corrupcao_passiva"}
+{"id": 207, "nível": "difícil", "texto": "O funcionário condiciona a tempestividade da atividade fiscalizatória ao recebimento de vantagem patrimonial ilícita.", "classe_correta": "corrupcao_passiva"}
+{"id": 208, "nível": "fácil", "texto": "O servidor recebe dinheiro para fazer algo proibido no cargo.", "classe_correta": "corrupcao_passiva"}
+{"id": 209, "nível": "médio", "texto": "O agente público recebe vantagem indevida para praticar ato funcional contra dever legal.", "classe_correta": "corrupcao_passiva"}
+{"id": 210, "nível": "difícil", "texto": "Mediante percepção de utilidade econômica ilícita, o funcionário executa conduta administrativa incompatível com os deveres inerentes ao cargo.", "classe_correta": "corrupcao_passiva"}
+{"id": 211, "nível": "fácil", "texto": "O servidor atrasa documento para ajudar um amigo.", "classe_correta": "prevaricacao"}
+{"id": 212, "nível": "médio", "texto": "O funcionário demora indevidamente a emitir documento oficial para favorecer pessoa próxima.", "classe_correta": "prevaricacao"}
+{"id": 213, "nível": "difícil", "texto": "O agente estatal posterga injustificadamente ato administrativo vinculado, buscando satisfazer interesse pessoal relacionado a terceiro próximo.", "classe_correta": "prevaricacao"}
+{"id": 214, "nível": "fácil", "texto": "O servidor não faz obrigação do cargo para prejudicar alguém de quem não gosta.", "classe_correta": "prevaricacao"}
+{"id": 215, "nível": "médio", "texto": "O funcionário deixa de cumprir ato obrigatório para atingir desafeto pessoal.", "classe_correta": "prevaricacao"}
+{"id": 216, "nível": "difícil", "texto": "Movido por animosidade subjetiva, o agente público omite indevidamente providência funcional legalmente exigida.", "classe_correta": "prevaricacao"}
+{"id": 217, "nível": "fácil", "texto": "O servidor faz algo proibido pela lei para ajudar parente.", "classe_correta": "prevaricacao"}
+{"id": 218, "nível": "médio", "texto": "O agente pratica ato administrativo contrário à lei para beneficiar familiar.", "classe_correta": "prevaricacao"}
+{"id": 219, "nível": "difícil", "texto": "Em desvio de finalidade, o funcionário executa providência vedada por norma expressa visando favorecimento de vínculo familiar.", "classe_correta": "prevaricacao"}
+{"id": 220, "nível": "fácil", "texto": "O servidor atrasa pedido oficial por vingança.", "classe_correta": "prevaricacao"}
+{"id": 221, "nível": "médio", "texto": "O funcionário retarda análise administrativa por sentimento pessoal contra o interessado.", "classe_correta": "prevaricacao"}
+{"id": 222, "nível": "difícil", "texto": "Impulsionado por ressentimento subjetivo, o agente posterga indevidamente deliberação funcional devida ao administrado.", "classe_correta": "prevaricacao"}
+{"id": 223, "nível": "fácil", "texto": "O servidor não abre procedimento obrigatório para proteger seu próprio interesse financeiro.", "classe_correta": "prevaricacao"}
+{"id": 224, "nível": "médio", "texto": "O funcionário deixa de instaurar processo exigido para preservar vantagem econômica pessoal.", "classe_correta": "prevaricacao"}
+{"id": 225, "nível": "difícil", "texto": "Com finalidade de resguardar benefício patrimonial próprio, o agente omite providência funcional legalmente imposta.", "classe_correta": "prevaricacao"}
+{"id": 226, "nível": "fácil", "texto": "O servidor autoriza algo proibido porque queria favorecer alguém de sua preferência.", "classe_correta": "prevaricacao"}
+{"id": 227, "nível": "médio", "texto": "O agente concede medida vedada em lei para atender interesse pessoal.", "classe_correta": "prevaricacao"}
+{"id": 228, "nível": "difícil", "texto": "Desconsiderando proibição normativa expressa, o funcionário pratica ato administrativo ilícito para satisfação de conveniência subjetiva.", "classe_correta": "prevaricacao"}
+{"id": 229, "nível": "fácil", "texto": "O diretor do presídio deixa preso ficar com telefone para falar com fora da prisão.", "classe_correta": "prevaricacao"}
+{"id": 230, "nível": "médio", "texto": "O diretor penitenciário não impede que preso mantenha aparelho telefônico apto à comunicação externa.", "classe_correta": "prevaricacao"}
+{"id": 231, "nível": "difícil", "texto": "Descumprindo dever legal de vigilância carcerária, o gestor prisional tolera posse de equipamento comunicador por custodiado.", "classe_correta": "prevaricacao"}
+{"id": 232, "nível": "fácil", "texto": "O agente penitenciário deixa preso usar rádio comunicador proibido.", "classe_correta": "prevaricacao"}
+{"id": 233, "nível": "médio", "texto": "O servidor penitenciário se omite e permite uso de rádio capaz de comunicação pelo preso.", "classe_correta": "prevaricacao"}
+{"id": 234, "nível": "difícil", "texto": "Por omissão funcional relevante, o agente encarregado da custódia admite utilização de dispositivo comunicacional vedado no cárcere.", "classe_correta": "prevaricacao"}
+{"id": 235, "nível": "fácil", "texto": "O servidor encontra celular com preso e não recolhe o aparelho.", "classe_correta": "prevaricacao"}
+{"id": 236, "nível": "médio", "texto": "O responsável pela unidade prisional deixa de retirar telefone encontrado em posse de preso.", "classe_correta": "prevaricacao"}
+{"id": 237, "nível": "difícil", "texto": "Mesmo ciente da posse irregular de aparelho telefônico por interno, o agente público abstém-se de adotar a medida repressiva devida.", "classe_correta": "prevaricacao"}
+{"id": 238, "nível": "fácil", "texto": "O diretor do presídio deixa preso continuar usando telefone.", "classe_correta": "prevaricacao"}
+{"id": 239, "nível": "médio", "texto": "O diretor penal omite dever funcional e permite acesso contínuo de preso a aparelho telefônico.", "classe_correta": "prevaricacao"}
+{"id": 240, "nível": "difícil", "texto": "Violando obrigação institucional de impedir meios de comunicação indevidos, o gestor carcerário tolera uso reiterado de telefone por custodiado.", "classe_correta": "prevaricacao"}
+{"id": 241, "nível": "fácil", "texto": "O chefe não pune subordinado que errou no cargo porque era amigo dele.", "classe_correta": "condescendencia_criminosa"}
+{"id": 242, "nível": "médio", "texto": "O superior deixa de abrir procedimento contra subordinado infrator por amizade pessoal.", "classe_correta": "condescendencia_criminosa"}
+{"id": 243, "nível": "difícil", "texto": "Detendo atribuição correicional, o agente público abstém-se de responsabilizar subordinado faltoso movido por indulgência decorrente de vínculo pessoal.", "classe_correta": "condescendencia_criminosa"}
+{"id": 244, "nível": "fácil", "texto": "O supervisor não aplica punição a servidor que fraudou registro porque quis relevar.", "classe_correta": "condescendencia_criminosa"}
+{"id": 245, "nível": "médio", "texto": "Tendo competência, o chefe deixa de sancionar subordinado que alterou registro oficial por complacência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 246, "nível": "difícil", "texto": "Mesmo investido de poder disciplinar, o superior hierárquico omite reprimenda funcional a subordinado infrator por leniência voluntária.", "classe_correta": "condescendencia_criminosa"}
+{"id": 247, "nível": "fácil", "texto": "O diretor não responsabiliza servidor que desviou material público por pena dele.", "classe_correta": "condescendencia_criminosa"}
+{"id": 248, "nível": "médio", "texto": "O diretor administrativo deixa de responsabilizar subordinado por desvio de bens, por indulgência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 249, "nível": "difícil", "texto": "Conhecendo irregular apropriação de recursos públicos por subordinado, o gestor abstém-se de adotar responsabilização em razão de benevolência pessoal.", "classe_correta": "condescendencia_criminosa"}
+{"id": 250, "nível": "fácil", "texto": "O coordenador não pune funcionário que abandonou o trabalho porque quis ajudar.", "classe_correta": "condescendencia_criminosa"}
+{"id": 251, "nível": "médio", "texto": "O superior deixa de punir subordinado que abandonou posto de serviço por benevolência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 252, "nível": "difícil", "texto": "Embora ciente de abandono funcional praticado por subordinado, o agente competente renuncia à medida disciplinar motivado por tolerância subjetiva.", "classe_correta": "condescendencia_criminosa"}
+{"id": 253, "nível": "fácil", "texto": "O gerente podia agir, mas não tomou medida contra subordinado que mexeu em documento errado.", "classe_correta": "condescendencia_criminosa"}
+{"id": 254, "nível": "médio", "texto": "Podendo agir, o chefe não responsabiliza subordinado que adulterou documento interno por tolerância indevida.", "classe_correta": "condescendencia_criminosa"}
+{"id": 255, "nível": "difícil", "texto": "Investido de atribuição sancionatória, o superior hierárquico deixa de reagir à falsificação documental interna praticada por subordinado em razão de indulgência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 256, "nível": "fácil", "texto": "O chefe que não podia punir também não contou ao superior que subordinado recebeu vantagem indevida.", "classe_correta": "condescendencia_criminosa"}
+{"id": 257, "nível": "médio", "texto": "Sem competência disciplinar, o funcionário deixa de comunicar à autoridade superior infração de subordinado por indulgência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 258, "nível": "difícil", "texto": "Desprovido de poder sancionador direto, o agente omite ciência à autoridade competente acerca de falta funcional de subordinado por complacência deliberada.", "classe_correta": "condescendencia_criminosa"}
+{"id": 259, "nível": "fácil", "texto": "O chefe imediato não avisou o superior sobre erro do subordinado porque era amigo dele.", "classe_correta": "condescendencia_criminosa"}
+{"id": 260, "nível": "médio", "texto": "Sem poder de punição, o chefe deixa de informar infração funcional praticada por subordinado por amizade.", "classe_correta": "condescendencia_criminosa"}
+{"id": 261, "nível": "difícil", "texto": "Por motivo de indulgência decorrente de relação pessoal, o superior imediato abstém-se de reportar ilícito funcional do subordinado à instância competente.", "classe_correta": "condescendencia_criminosa"}
+{"id": 262, "nível": "fácil", "texto": "O superior não comunica falta grave do subordinado porque quis relevar.", "classe_correta": "condescendencia_criminosa"}
+{"id": 263, "nível": "médio", "texto": "O servidor hierarquicamente superior omite comunicação de infração grave do subordinado por complacência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 264, "nível": "difícil", "texto": "Ciente de transgressão relevante cometida por subordinado, o superior funcional deixa de acionar a autoridade competente movido por indulgência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 265, "nível": "fácil", "texto": "O coordenador não podia punir e também não contou o desvio do subordinado.", "classe_correta": "condescendencia_criminosa"}
+{"id": 266, "nível": "médio", "texto": "Sem competência sancionadora, o coordenador deixa de relatar desvio funcional do subordinado por benevolência.", "classe_correta": "condescendencia_criminosa"}
+{"id": 267, "nível": "difícil", "texto": "Mesmo impossibilitado de impor sanção direta, o agente hierárquico omite encaminhamento formal de irregularidade funcional à autoridade apta, por tolerância pessoal.", "classe_correta": "condescendencia_criminosa"}
+{"id": 268, "nível": "fácil", "texto": "O responsável pela equipe não avisa a autoridade sobre erro do subordinado porque quis proteger.", "classe_correta": "condescendencia_criminosa"}
+{"id": 269, "nível": "médio", "texto": "O chefe de equipe deixa de noticiar infração funcional praticada por subordinado por indulgência pessoal.", "classe_correta": "condescendencia_criminosa"}
+{"id": 270, "nível": "difícil", "texto": "Movido por sentimento de proteção indevida, o superior responsável abstém-se de comunicar à autoridade competente ilícito cometido por subordinado no exercício do cargo.", "classe_correta": "condescendencia_criminosa"}
+{"id": 271, "nível": "fácil", "texto": "O servidor usa o cargo para ajudar pedido de um amigo no órgão público.", "classe_correta": "advocacia_administrativa"}
+{"id": 272, "nível": "médio", "texto": "O funcionário utiliza sua posição pública para defender interesse particular perante repartição.", "classe_correta": "advocacia_administrativa"}
+{"id": 273, "nível": "difícil", "texto": "Valendo-se da autoridade inerente ao cargo, o agente estatal patrocina pretensão privada de terceiro perante a Administração.", "classe_correta": "advocacia_administrativa"}
+{"id": 274, "nível": "fácil", "texto": "O servidor fala com colegas para ajudar processo de um familiar.", "classe_correta": "advocacia_administrativa"}
+{"id": 275, "nível": "médio", "texto": "O agente intervém junto ao setor para favorecer interesse privado de parente.", "classe_correta": "advocacia_administrativa"}
+{"id": 276, "nível": "difícil", "texto": "Mediante influência funcional interna, o funcionário mobiliza agentes administrativos em prol de demanda privada familiar.", "classe_correta": "advocacia_administrativa"}
+{"id": 277, "nível": "fácil", "texto": "O servidor usa o cargo para encaminhar pedido de empresa privada.", "classe_correta": "advocacia_administrativa"}
+{"id": 278, "nível": "médio", "texto": "O funcionário promove internamente demanda empresarial particular aproveitando-se da função.", "classe_correta": "advocacia_administrativa"}
+{"id": 279, "nível": "difícil", "texto": "Explorando prerrogativas institucionais, o agente impulsiona interesse corporativo privado perante a estrutura administrativa.", "classe_correta": "advocacia_administrativa"}
+{"id": 280, "nível": "fácil", "texto": "O servidor usa sua influência para acelerar pedido de particular.", "classe_correta": "advocacia_administrativa"}
+{"id": 281, "nível": "médio", "texto": "O funcionário emprega prestígio funcional para dar rapidez a requerimento privado.", "classe_correta": "advocacia_administrativa"}
+{"id": 282, "nível": "difícil", "texto": "Com abuso da posição administrativa, o agente interfere no fluxo burocrático para priorizar pretensão particular.", "classe_correta": "advocacia_administrativa"}
+{"id": 283, "nível": "fácil", "texto": "O servidor ajuda comerciante em licença pública usando o cargo.", "classe_correta": "advocacia_administrativa"}
+{"id": 284, "nível": "médio", "texto": "O agente atua informalmente para beneficiar comerciante em procedimento de licenciamento.", "classe_correta": "advocacia_administrativa"}
+{"id": 285, "nível": "difícil", "texto": "Valendo-se da condição funcional, o funcionário patrocina interesse econômico privado em trâmite autorizativo estatal.", "classe_correta": "advocacia_administrativa"}
+{"id": 286, "nível": "fácil", "texto": "O servidor usa o cargo para conseguir documento indevido para outra pessoa.", "classe_correta": "advocacia_administrativa"}
+{"id": 287, "nível": "médio", "texto": "O agente patrocina interesse privado ilegítimo buscando liberação documental irregular.", "classe_correta": "advocacia_administrativa"}
+{"id": 288, "nível": "difícil", "texto": "Utilizando ascendência institucional, o funcionário sustenta pretensão privada manifestamente ilegítima perante a Administração.", "classe_correta": "advocacia_administrativa"}
+{"id": 289, "nível": "fácil", "texto": "O servidor tenta cancelar multa de conhecido usando o cargo.", "classe_correta": "advocacia_administrativa"}
+{"id": 290, "nível": "médio", "texto": "O funcionário intercede internamente para afastar penalidade administrativa aplicada a particular conhecido.", "classe_correta": "advocacia_administrativa"}
+{"id": 291, "nível": "difícil", "texto": "Em favor de terceiro relacionado, o agente público maneja influência funcional visando desconstituir sanção regularmente imposta.", "classe_correta": "advocacia_administrativa"}
+{"id": 292, "nível": "fácil", "texto": "O servidor usa acesso do trabalho para ajudar empresa amiga em contratação pública.", "classe_correta": "advocacia_administrativa"}
+{"id": 293, "nível": "médio", "texto": "O funcionário emprega acesso institucional para favorecer empresa privada em contratação estatal.", "classe_correta": "advocacia_administrativa"}
+{"id": 294, "nível": "difícil", "texto": "Aproveitando-se das prerrogativas do cargo, o agente patrocina interesse empresarial particular em procedimento contratual público.", "classe_correta": "advocacia_administrativa"}
+{"id": 295, "nível": "fácil", "texto": "O servidor pede prioridade para processo de interesse do vizinho.", "classe_correta": "advocacia_administrativa"}
+{"id": 296, "nível": "médio", "texto": "O agente solicita tratamento prioritário interno para demanda administrativa privada de terceiro.", "classe_correta": "advocacia_administrativa"}
+{"id": 297, "nível": "difícil", "texto": "Valendo-se da qualidade funcional, o funcionário busca alterar a ordem procedimental em benefício de interesse particular alheio.", "classe_correta": "advocacia_administrativa"}
+{"id": 298, "nível": "fácil", "texto": "O servidor usa o cargo para defender pedido privado de outra pessoa no órgão público.", "classe_correta": "advocacia_administrativa"}
+{"id": 299, "nível": "médio", "texto": "O funcionário vale-se da função para sustentar pretensão particular perante órgão estatal.", "classe_correta": "advocacia_administrativa"}
+{"id": 300, "nível": "difícil", "texto": "Com fundamento no prestígio institucional do cargo, o agente público patrocina demanda privada submetida à apreciação administrativa.", "classe_correta": "advocacia_administrativa"}
+{"id": 301, "nível": "fácil", "texto": "O servidor conta um segredo do trabalho para outra pessoa.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 302, "nível": "médio", "texto": "O funcionário revela informação sigilosa obtida no cargo a terceiro não autorizado.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 303, "nível": "difícil", "texto": "Ciente do caráter reservado da informação adquirida no exercício funcional, o agente público a divulga a destinatário sem autorização.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 304, "nível": "fácil", "texto": "O servidor mostra dados de processo para quem não podia ver.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 305, "nível": "médio", "texto": "O agente divulga dados restritos de procedimento administrativo a pessoa não autorizada.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 306, "nível": "difícil", "texto": "Valendo-se do conhecimento funcional, o funcionário torna acessível a terceiro conteúdo protegido de processo administrativo.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 307, "nível": "fácil", "texto": "O servidor ajuda outra pessoa a ter acesso a informação secreta do trabalho.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 308, "nível": "médio", "texto": "O agente facilita a divulgação de informação sigilosa obtida no cargo.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 309, "nível": "difícil", "texto": "Mediante conduta facilitadora, o funcionário viabiliza a exposição indevida de conteúdo protegido sob sua esfera funcional.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 310, "nível": "fácil", "texto": "O servidor deixa alguém ver documento secreto do trabalho.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 311, "nível": "médio", "texto": "O funcionário permite acesso visual a documento sigiloso por pessoa não autorizada.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 312, "nível": "difícil", "texto": "Descumprindo dever de guarda, o agente público consente na fruição indevida de documento reservado por terceiro.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 313, "nível": "fácil", "texto": "O servidor passa sua senha do sistema para outra pessoa.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 314, "nível": "médio", "texto": "O funcionário fornece credencial de acesso a sistema público a terceiro, permitindo acesso indevido.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 315, "nível": "difícil", "texto": "Ao compartilhar elementos de autenticação institucional, o agente público possibilita ingresso indevido em base de dados administrativa.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 316, "nível": "fácil", "texto": "O servidor empresta login do trabalho para alguém acessar dados.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 317, "nível": "médio", "texto": "O agente disponibiliza suas credenciais institucionais a pessoa não autorizada.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 318, "nível": "difícil", "texto": "Mediante cessão de meios de autenticação, o funcionário viabiliza consulta indevida a informações protegidas do sistema público.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 319, "nível": "fácil", "texto": "O servidor usa o sistema para ver dados secretos sem precisar.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 320, "nível": "médio", "texto": "O funcionário acessa informações sigilosas sem justificativa funcional.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 321, "nível": "difícil", "texto": "Extrapolando os limites de sua competência, o agente utiliza acesso restrito para consultar dados protegidos sem finalidade legítima.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 322, "nível": "fácil", "texto": "O servidor entra no sistema e usa dados sigilosos para fins pessoais.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 323, "nível": "médio", "texto": "O agente acessa banco de dados sigiloso e utiliza informações para finalidade indevida.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 324, "nível": "difícil", "texto": "Valendo-se de acesso privilegiado, o funcionário manipula dados protegidos para finalidade alheia às atribuições funcionais.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 325, "nível": "fácil", "texto": "O servidor deixa outra pessoa acessar sistema protegido sem impedir.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 326, "nível": "médio", "texto": "O agente, por omissão, permite acesso indevido de terceiro a sistema com dados sigilosos.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 327, "nível": "difícil", "texto": "Ao se abster de impedir ingresso não autorizado, o funcionário concorre para violação de sistema protegido contendo informações restritas.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 328, "nível": "fácil", "texto": "O servidor compartilha segredo do trabalho com colega sem autorização.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 329, "nível": "médio", "texto": "O funcionário divulga informação sigilosa a outro servidor sem permissão e fora das atribuições.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 330, "nível": "difícil", "texto": "Em desvio das normas de sigilo institucional, o agente público transmite conteúdo reservado a colega sem competência para acessá-lo.", "classe_correta": "violacao_de_sigilo_funcional"}
+{"id": 331, "nível": "fácil", "texto": "O servidor esquece de responder e-mail do trabalho.", "classe_correta": "nao_se_enquadra"}
+{"id": 332, "nível": "médio", "texto": "O funcionário deixa de responder e-mail institucional no prazo por descuido.", "classe_correta": "nao_se_enquadra"}
+{"id": 333, "nível": "difícil", "texto": "Sem qualquer finalidade ilícita, o agente público omite resposta a comunicação oficial por falha organizacional.", "classe_correta": "nao_se_enquadra"}
+{"id": 334, "nível": "fácil", "texto": "O servidor atende devagar por desorganização.", "classe_correta": "nao_se_enquadra"}
+{"id": 335, "nível": "médio", "texto": "O funcionário presta atendimento lento ao público sem intenção de favorecer ou prejudicar.", "classe_correta": "nao_se_enquadra"}
+{"id": 336, "nível": "difícil", "texto": "Em razão de deficiência organizacional pessoal, o agente realiza atendimento administrativo sem eficiência, sem finalidade ilícita.", "classe_correta": "nao_se_enquadra"}
+{"id": 337, "nível": "fácil", "texto": "O servidor entende errado uma regra e decide assim.", "classe_correta": "nao_se_enquadra"}
+{"id": 338, "nível": "médio", "texto": "O funcionário interpreta equivocadamente norma administrativa ao decidir processo.", "classe_correta": "nao_se_enquadra"}
+{"id": 339, "nível": "difícil", "texto": "O agente público, por erro interpretativo, aplica incorretamente disposição normativa sem intenção de desvio funcional.", "classe_correta": "nao_se_enquadra"}
+{"id": 340, "nível": "fácil", "texto": "O servidor perde documento por descuido.", "classe_correta": "nao_se_enquadra"}
+{"id": 341, "nível": "médio", "texto": "O funcionário extravia documento administrativo sem intenção de ocultação.", "classe_correta": "nao_se_enquadra"}
+{"id": 342, "nível": "difícil", "texto": "Por falha de cautela, o agente público perde documento sob sua guarda, sem propósito de vantagem ou prejuízo deliberado.", "classe_correta": "nao_se_enquadra"}
+{"id": 343, "nível": "fácil", "texto": "O servidor fala de forma inadequada com o público.", "classe_correta": "nao_se_enquadra"}
+{"id": 344, "nível": "médio", "texto": "O funcionário utiliza linguagem imprópria em atendimento, sem finalidade ilícita.", "classe_correta": "nao_se_enquadra"}
+{"id": 345, "nível": "difícil", "texto": "No exercício funcional, o agente adota postura comunicativa inadequada, sem qualquer vínculo com obtenção de vantagem ou favorecimento indevido.", "classe_correta": "nao_se_enquadra"}
+{"id": 346, "nível": "fácil", "texto": "O servidor perde prazo por excesso de trabalho.", "classe_correta": "nao_se_enquadra"}
+{"id": 347, "nível": "médio", "texto": "O funcionário deixa de cumprir prazo administrativo por sobrecarga.", "classe_correta": "nao_se_enquadra"}
+{"id": 348, "nível": "difícil", "texto": "Em razão de acúmulo de demandas, o agente público não observa prazo procedimental, sem motivação pessoal ilícita.", "classe_correta": "nao_se_enquadra"}
+{"id": 349, "nível": "fácil", "texto": "O servidor manda processo para setor errado.", "classe_correta": "nao_se_enquadra"}
+{"id": 350, "nível": "médio", "texto": "O funcionário encaminha processo administrativo incorretamente por erro material.", "classe_correta": "nao_se_enquadra"}
+{"id": 351, "nível": "difícil", "texto": "Por equívoco operacional, o agente público direciona procedimento à unidade inadequada, sem intenção de interferir no resultado.", "classe_correta": "nao_se_enquadra"}
+{"id": 352, "nível": "fácil", "texto": "O servidor esquece reunião importante.", "classe_correta": "nao_se_enquadra"}
+{"id": 353, "nível": "médio", "texto": "O funcionário não comparece a reunião institucional por esquecimento.", "classe_correta": "nao_se_enquadra"}
+{"id": 354, "nível": "difícil", "texto": "Sem qualquer finalidade ilícita, o agente público deixa de participar de compromisso funcional por falha de memória.", "classe_correta": "nao_se_enquadra"}
+{"id": 355, "nível": "fácil", "texto": "O servidor trabalha de forma ineficiente.", "classe_correta": "nao_se_enquadra"}
+{"id": 356, "nível": "médio", "texto": "O funcionário executa tarefa administrativa com baixa eficiência, sem violar normas intencionalmente.", "classe_correta": "nao_se_enquadra"}
+{"id": 357, "nível": "difícil", "texto": "O agente público realiza atividade funcional com desempenho aquém do esperado, sem intenção de descumprimento deliberado de dever legal.", "classe_correta": "nao_se_enquadra"}
+{"id": 358, "nível": "fácil", "texto": "O servidor demora a atualizar sistema por dificuldade.", "classe_correta": "nao_se_enquadra"}
+{"id": 359, "nível": "médio", "texto": "O funcionário atrasa atualização de sistema interno por limitação técnica.", "classe_correta": "nao_se_enquadra"}
+{"id": 360, "nível": "difícil", "texto": "Diante de limitações operacionais, o agente público posterga atualização de sistema institucional sem finalidade de prejuízo ou vantagem indevida.", "classe_correta": "nao_se_enquadra"}

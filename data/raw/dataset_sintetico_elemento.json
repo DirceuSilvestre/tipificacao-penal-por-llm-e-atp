@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "conduta": "Apropriar-se de dinheiro público, tendo posse em razão do cargo, em proveito próprio.",
+    "versoes": {
+     "facil": "O servidor pega para si dinheiro público que estava sob sua responsabilidade no trabalho.",
+     "medio": "O funcionário público utiliza para si recursos financeiros públicos que estavam sob sua guarda funcional.",
+     "dificil": "O agente estatal incorpora ao seu patrimônio valores públicos cuja disponibilidade decorria diretamente das atribuições do cargo."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  }, 
+  {
+    "id": 2,
+    "conduta": "Apropriar-se de valor particular sob guarda funcional, em proveito alheio.",
+    "versoes": {
+     "facil": "O servidor entrega a outra pessoa um valor de um particular que estava sob sua guarda.",
+     "medio": "O funcionário público destina a terceiro quantia pertencente a particular que estava sob sua responsabilidade funcional.",
+     "dificil": "O agente, investido em função pública, transfere a outrem valores privados cuja custódia lhe fora confiada institucionalmente."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_alheio"
+    }
+  },
+  {
+    "id": 3,
+    "conduta": "Desviar dinheiro público sob sua posse funcional, em proveito próprio.",
+    "versoes": {
+     "facil": "O servidor usa dinheiro público para outra finalidade para se beneficiar.",
+     "medio": "O funcionário altera a destinação de recursos públicos sob sua posse para obter vantagem pessoal.",
+     "dificil": "O agente público redireciona valores estatais sob sua administração para finalidade diversa, com intuito de benefício próprio."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "desviar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 4,
+    "conduta": "Desviar bem móvel particular sob posse do cargo, em proveito alheio.",
+    "versoes": {
+     "facil": "O servidor desvia um bem de outra pessoa que estava sob sua responsabilidade no cargo para beneficiar alguém.",
+     "medio": "O funcionário modifica a destinação de um bem particular sob sua guarda funcional em favor de terceiro.",
+     "dificil": "O agente público altera a finalidade de uso de bem móvel privado sob sua custódia institucional para favorecer terceiro."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "desviar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_alheio"
+    }
+  },
+  {
+    "id": 5,
+    "conduta": "Subtrair dinheiro público, sem posse direta, valendo-se da facilidade do cargo, em proveito próprio.",
+    "versoes": {
+     "facil": "O servidor pega dinheiro público sem ter acesso direto, usando sua função.",
+     "medio": "O funcionário público retira valores públicos sem posse prévia, aproveitando-se das facilidades do cargo.",
+     "dificil": "O agente, embora destituído de posse imediata, obtém valores públicos mediante exploração das prerrogativas inerentes à função."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "subtrair",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 6,
+    "conduta": "Subtrair valor particular, sem posse, utilizando facilidade funcional, em proveito alheio.",
+    "versoes": {
+     "facil": "O servidor ajuda a retirar dinheiro de alguém usando seu cargo.",
+     "medio": "O funcionário subtrai valores privados sem posse direta, utilizando-se de vantagens da função, em favor de terceiro.",
+     "dificil": "O agente público, sem detenção prévia do bem, promove sua retirada indevida valendo-se das facilidades institucionais, beneficiando outrem."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "subtrair",
+     "relacao": "interacao_acordo",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_alheio"
+    }
+  },
+  {
+    "id": 7,
+    "conduta": "Concorrer para subtração de dinheiro público, utilizando facilidade do cargo, em proveito próprio.",
+    "versoes": {
+     "facil": "O servidor ajuda alguém a pegar dinheiro público para benefício próprio.",
+     "medio": "O funcionário colabora para a retirada de recursos públicos, usando sua função para obter vantagem pessoal.",
+     "dificil": "O agente estatal atua em cooperação para viabilizar a subtração de valores públicos, explorando as condições funcionais para proveito próprio."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "interacao_acordo",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 8,
+    "conduta": "Concorrer para subtração de bem móvel particular, valendo-se da função, em proveito alheio.",
+    "versoes": {
+     "facil": "O servidor ajuda alguém a pegar um bem de outra pessoa.",
+     "medio": "O funcionário público contribui para a subtração de bem privado utilizando sua posição funcional.",
+     "dificil": "O agente concorre para a retirada indevida de bem móvel de particular, valendo-se das prerrogativas inerentes ao cargo para beneficiar terceiro."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "interacao_acordo",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_alheio"
+    }
+  },
+  {
+    "id": 9,
+    "conduta": "Desviar valor público sob posse funcional, em proveito alheio.",
+    "versoes": {
+     "facil": "O servidor usa dinheiro público para beneficiar outra pessoa.",
+     "medio": "O funcionário direciona recursos públicos sob sua posse para favorecer terceiros.",
+     "dificil": "O agente público altera a destinação de valores estatais sob sua guarda institucional com intuito de beneficiar outrem."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "desviar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_alheio"
+    }
+  },
+  {
+    "id": 10,
+    "conduta": "Apropriar-se de bem móvel particular sob guarda do cargo, em proveito próprio.",
+    "versoes": {
+     "facil": "O servidor fica com um bem de outra pessoa que estava sob sua responsabilidade.",
+     "medio": "O funcionário público toma para si bem privado sob sua custódia funcional.",
+     "dificil": "O agente estatal incorpora ao próprio patrimônio bem móvel de titularidade privada cuja guarda decorria de atribuição do cargo."
+    },
+    "classe_correta": "peculato",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 11,
+    "conduta": "Permitir, por negligência, o acesso indevido de terceiro a valores públicos sob sua guarda funcional, possibilitando sua subtração, sem intenção de favorecer o resultado.",
+    "versoes": {
+     "facil": "O servidor, por descuido, deixa outra pessoa acessar dinheiro público e essa pessoa pega o dinheiro.",
+     "medio": "O funcionário público, por negligência, permite que terceiros tenham acesso indevido a valores sob sua guarda, possibilitando sua subtração.",
+     "dificil": "O agente estatal, por omissão negligente no dever de vigilância, viabiliza o acesso indevido de terceiros a valores públicos, contribuindo culposamente para sua subtração."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "permitir",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 12,
+    "conduta": "Deixar, por negligência, de proteger bens públicos sob sua responsabilidade, facilitando sua apropriação por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor não cuida corretamente de bens públicos e outra pessoa se apropria deles.",
+     "medio": "O funcionário, por negligência na proteção de bens públicos, facilita sua apropriação por terceiros.",
+     "dificil": "O agente público, ao descumprir deveres de guarda por negligência, possibilita que terceiros incorporem bens públicos indevidamente."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "deixar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 13,
+    "conduta": "Omitir, por negligência, medidas de controle sobre valores públicos, permitindo que terceiro os desvie, sem intenção.",
+    "versoes": {
+     "facil": "O servidor deixa de controlar dinheiro público e outra pessoa desvia esse dinheiro.",
+     "medio": "O funcionário omite medidas de controle sobre valores públicos, permitindo desvio por terceiros.",
+     "dificil": "O agente, por inércia negligente nos mecanismos de controle, concorre para o desvio de valores públicos por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "omitir",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 14,
+    "conduta": "Agir com imprudência ao expor dinheiro público a risco, possibilitando sua subtração por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor expõe dinheiro público ao risco e outra pessoa pega esse dinheiro.",
+     "medio": "O funcionário age de forma imprudente ao expor valores públicos, possibilitando sua subtração por terceiros.",
+     "dificil": "O agente estatal, mediante conduta imprudente, cria situação de risco que viabiliza a subtração de valores públicos por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 15,
+    "conduta": "Permitir, imprudentemente, o manuseio de bens públicos por pessoa não autorizada, facilitando sua apropriação, sem intenção.",
+    "versoes": {
+     "facil": "O servidor deixa alguém não autorizado mexer em bens públicos e essa pessoa fica com eles.",
+     "medio": "O funcionário permite, imprudentemente, o acesso de pessoa não autorizada a bens públicos, facilitando sua apropriação.",
+     "dificil": "O agente público, ao admitir indevidamente o manuseio de bens por terceiros, concorre culposamente para sua apropriação."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "permitir",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 16,
+    "conduta": "Adotar conduta arriscada na gestão de valores públicos, permitindo desvio por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor age de forma arriscada com dinheiro público e outra pessoa desvia esse dinheiro.",
+     "medio": "O funcionário adota conduta imprudente na gestão de valores públicos, permitindo desvio por terceiros.",
+     "dificil": "O agente estatal, por gestão temerária de recursos públicos, cria condições para seu desvio por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "adotar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 17,
+    "conduta": "Atuar com imperícia na administração de bens públicos, possibilitando sua subtração por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor não sabe administrar corretamente bens públicos e outra pessoa os pega.",
+     "medio": "O funcionário, por falta de capacidade técnica, permite que terceiros subtraiam bens públicos.",
+     "dificil": "O agente público, por imperícia na administração patrimonial, contribui para a subtração de bens por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "atuar",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 18,
+    "conduta": "Demonstrar incapacidade técnica no controle de valores públicos, facilitando desvio por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor não sabe controlar dinheiro público e outra pessoa desvia esse dinheiro.",
+     "medio": "O funcionário demonstra imperícia no controle de valores públicos, facilitando desvio por terceiros.",
+     "dificil": "A deficiência técnica do agente no controle financeiro público viabiliza o desvio de valores por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 19,
+    "conduta": "Deixar, por negligência funcional, de impedir acesso indevido a bem público, possibilitando sua subtração por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor deixa alguém acessar um bem público e essa pessoa o pega.",
+     "medio": "O funcionário, por negligência, não impede acesso indevido a bem público, facilitando sua subtração.",
+     "dificil": "O agente público, ao falhar no dever de impedir acessos indevidos, concorre culposamente para a subtração de bem público."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 20,
+    "conduta": "Agir com imprudência na guarda de valores públicos, permitindo sua apropriação por terceiro, sem intenção.",
+    "versoes": {
+     "facil": "O servidor guarda mal dinheiro público e outra pessoa fica com ele.",
+     "medio": "O funcionário, por imprudência na guarda de valores públicos, permite sua apropriação por terceiros.",
+     "dificil": "O agente estatal, mediante falha imprudente na custódia de valores públicos, possibilita sua apropriação por terceiros."
+    },
+    "classe_correta": "peculato_culposo",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "concorrer",
+     "relacao": "sem_interacao_direta",
+     "elemento_subjetivo": "culpa",
+     "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 21,
+    "conduta": "Funcionário público, no exercício do cargo, recebe quantia em dinheiro entregue por cidadão que se enganou no pagamento e, percebendo o erro, apropria-se do valor.",
+    "versoes": {
+     "facil": "A pessoa entrega dinheiro por engano ao servidor, e ele fica com o valor sabendo do erro.",
+     "medio": "O funcionário recebe pagamento equivocado de cidadão durante o trabalho e decide se apropriar da quantia.",
+     "dificil": "O agente estatal, percebendo entrega pecuniária indevida decorrente de equívoco de administrado no contexto funcional, incorpora conscientemente o numerário ao patrimônio próprio."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 22,
+    "conduta": "Servidor público, durante atendimento funcional, recebe documento com vale financeiro entregue por equívoco de terceiro e decide ficar com a utilidade recebida.",
+    "versoes": {
+     "facil": "O servidor recebe por engano um vale com valor e resolve ficar com ele.",
+     "medio": "Durante atendimento público, o agente recebe utilidade financeira entregue por erro de terceiro e a retém para si.",
+     "dificil": "No desempenho das atribuições administrativas, o funcionário obtém título patrimonial repassado equivocadamente por particular e voluntariamente o incorpora ao seu acervo."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 23,
+    "conduta": "Agente público, em razão do cargo, recebe depósito bancário realizado por erro de particular em conta oficial sob sua gestão e se apropria da quantia.",
+    "versoes": {
+     "facil": "Um cidadão deposita dinheiro por engano, e o servidor fica com a quantia.",
+     "medio": "O agente público recebe depósito equivocado relacionado ao cargo e se apropria dos valores recebidos.",
+     "dificil": "Recebida transferência monetária indevida por erro material de particular em contexto funcional, o servidor, ciente da irregularidade, retém o numerário."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 24,
+    "conduta": "Funcionário público recebe, durante expediente, objeto de valor entregue por engano por usuário do serviço e incorpora o bem ao próprio patrimônio.",
+    "versoes": {
+     "facil": "Uma pessoa entrega objeto valioso por engano ao funcionário, e ele fica com o item.",
+     "medio": "O servidor recebe bem de valor entregue equivocadamente por usuário do serviço e o toma para si.",
+     "dificil": "O agente administrativo, ao receber utilidade patrimonial entregue indevidamente por administrado, decide incorporá-la ao patrimônio particular."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 25,
+    "conduta": "Servidor, no exercício funcional, recebe pagamento em duplicidade realizado por erro de terceiro e retém conscientemente a quantia excedente.",
+    "versoes": {
+     "facil": "O cidadão paga duas vezes sem querer, e o servidor guarda o valor extra.",
+     "medio": "O funcionário recebe pagamento duplicado por erro de terceiro e retém conscientemente a diferença.",
+     "dificil": "Em razão de pagamento excedente decorrente de equívoco do administrado, o agente público apropria-se dolosamente da parcela indevida."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 26,
+    "conduta": "Agente público recebe benefício econômico encaminhado equivocadamente por administrado e, sabendo do erro, apropria-se da vantagem.",
+    "versoes": {
+     "facil": "O servidor recebe benefício enviado por engano e fica com ele.",
+     "medio": "O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.",
+     "dificil": "Obtida utilidade econômica por erro de terceiro no exercício funcional, o funcionário opta por incorporá-la indevidamente ao patrimônio próprio."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 27,
+    "conduta": "Funcionário público recebe envelope com valores entregue por equívoco durante atividade administrativa e decide permanecer com o conteúdo.",
+    "versoes": {
+     "facil": "Entregam um envelope com dinheiro por engano ao servidor, e ele fica com tudo.",
+     "medio": "O funcionário recebe valores entregues equivocadamente durante atividade pública e resolve retê-los.O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.",
+     "dificil": "Recebido invólucro contendo numerário por equívoco de administrado no curso do expediente, o agente estatal apropria-se conscientemente do conteúdo."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 28,
+    "conduta": "Servidor recebe utilidade patrimonial enviada por erro de terceiro ao setor em que atua e se apropria do item recebido.",
+    "versoes": {
+     "facil": "O setor recebe item valioso por engano, e o servidor pega para si.",
+     "medio": "O agente público recebe utilidade enviada por erro de terceiro ao local de trabalho e se apropria do bem.",
+     "dificil": "Encaminhada vantagem patrimonial por erro material ao órgão em que atua, o servidor a subtrai da esfera administrativa para incorporação pessoal."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 29,
+    "conduta": "Agente público, no exercício do cargo, recebe transferência monetária equivocada de particular e, ciente do engano, retém os valores.",
+    "versoes": {
+     "facil": "Uma pessoa transfere dinheiro errado ao servidor, e ele fica com a quantia.",
+     "medio": "O funcionário recebe transferência equivocada de particular e mantém os valores para si.",
+     "dificil": "Ciente do equívoco de particular que lhe remeteu valores no contexto funcional, o agente público decide reter indevidamente o montante."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 30,
+    "conduta": "Funcionário público recebe quantia entregue indevidamente por erro de cidadão em contexto funcional e a incorpora ao patrimônio próprio.",
+    "versoes": {
+     "facil": "O cidadão entrega dinheiro errado ao servidor, e ele coloca no próprio bolso.",
+     "medio": "O funcionário recebe quantia entregue indevidamente em razão do trabalho e a incorpora ao patrimônio.",
+     "dificil": "No exercício da função pública, ao receber numerário entregue por erro de administrado, o agente resolve integrá-lo ilicitamente ao acervo pessoal."
+    },
+    "classe_correta": "peculato_mediante_erro_de_outrem",
+    "elementos": {
+     "sujeito": "funcionario_publico",
+     "conduta": "apropriar",
+     "relacao": "sem_intencao_direta",
+     "elemento_subjetivo": "dolo",
+     "finalidade": "proveito_proprio"
+    }
+  },
+  {
+    "id": 31,
+    "conduta": "Funcionário público exige de cidadão quantia indevida para realizar ato de ofício, em benefício próprio.",
+    "versoes": {
+     "facil": "O servidor manda o cidadão pagar dinheiro extra para fazer seu serviço.",
+     "medio": "O funcionário exige quantia indevida para praticar ato que deveria realizar.",
+     "dificil": "O agente estatal impõe ao administrado pagamento ilícito como condição para execução de ato funcional, visando proveito próprio."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 32,
+    "conduta": "Servidor público exige pagamento indevido de particular para liberar documento administrativo, em favor de terceiro.",
+    "versoes": {
+     "facil": "O servidor obriga a pessoa a pagar para liberar um documento.",
+     "medio": "O agente público exige valor indevido de particular para liberar documento administrativo.",
+     "dificil": "Valendo-se da autoridade pública, o funcionário condiciona a entrega de documento estatal ao pagamento de vantagem indevida destinada a terceiro."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 33,
+    "conduta": "Agente público determina que comerciante entregue vantagem econômica indevida para evitar fiscalização, em proveito próprio.",
+    "versoes": {
+     "facil": "O fiscal manda comerciante pagar para não ser fiscalizado.",
+     "medio": "O agente exige vantagem econômica para deixar de fiscalizar estabelecimento.",
+     "dificil": "Mediante abuso da função fiscalizatória, o servidor impõe prestação patrimonial indevida ao comerciante para omitir controle administrativo."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 34,
+    "conduta": "Funcionário público exige bem de valor de administrado para acelerar procedimento estatal, beneficiando terceiro.",
+    "versoes": {
+     "facil": "O funcionário exige um bem valioso para acelerar o processo.",
+     "medio": "O servidor condiciona a rapidez do procedimento à entrega de bem de valor.",
+     "dificil": "O agente público, explorando sua posição funcional, exige utilidade patrimonial como requisito para priorização indevida de trâmite administrativo."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 35,
+    "conduta": "Servidor, fora do expediente, exige quantia indevida alegando influência funcional para favorecer pedido administrativo.",
+    "versoes": {
+     "facil": "Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.",
+     "medio": "Fora do expediente, o agente exige quantia indevida invocando a função pública.",
+     "dificil": "Ainda ausente do exercício imediato das atividades, o funcionário utiliza a autoridade do cargo para impor pagamento ilícito ao particular."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 36,
+    "conduta": "Pessoa nomeada para cargo público, antes da posse, exige vantagem indevida para futura prática funcional.",
+    "versoes": {
+     "facil": "Antes de tomar posse, a pessoa exige dinheiro para agir no futuro cargo.Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.",
+     "medio": "Nomeado para cargo público, o agente exige vantagem indevida antes da posse.",
+     "dificil": "Mesmo antes da investidura formal, o futuro servidor condiciona atuação funcional futura ao recebimento de benefício patrimonial ilícito."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 37,
+    "conduta": "Agente público exige pagamento mensal indevido de empresário para permitir continuidade regular de atividade econômica.",
+    "versoes": {
+     "facil": "O servidor manda empresário pagar todo mês para continuar funcionando.",
+     "medio": "O agente exige pagamentos periódicos indevidos para permitir atividade econômica regular.",
+     "dificil": "Mediante coerção derivada da autoridade estatal, o funcionário impõe prestações mensais ilícitas como condição para continuidade empresarial."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 38,
+    "conduta": "Funcionário exige entrega de utilidade patrimonial para não aplicar sanção administrativa, em benefício próprio.",
+    "versoes": {
+     "facil": "O servidor exige algo de valor para não aplicar multa.",
+     "medio": "O funcionário exige vantagem patrimonial para deixar de aplicar sanção administrativa.",
+     "dificil": "Abusando do poder sancionador, o agente público impõe entrega de utilidade econômica como preço para omissão punitiva."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 39,
+    "conduta": "Servidor público, por intermédio de terceiro, exige valor indevido de cidadão para prestar serviço público já devido.",
+    "versoes": {
+     "facil": "O servidor manda outra pessoa cobrar dinheiro para fazer serviço público.",
+     "medio": "Por meio de intermediário, o agente exige valor indevido para prestar serviço estatal devido.",
+     "dificil": "Utilizando interposta pessoa, o funcionário formula exigência patrimonial ilícita como condição para execução de serviço público obrigatório."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 40,
+    "conduta": "Agente estatal exige vantagem econômica de particular para encaminhar processo administrativo, em favor de outra pessoa.",
+    "versoes": {
+     "facil": "O agente exige dinheiro para encaminhar processo e beneficiar outra pessoa.",
+     "medio": "O servidor exige vantagem econômica para dar andamento a processo administrativo em favor de terceiro.",
+     "dificil": "Valendo-se da capacidade decisória no âmbito administrativo, o agente condiciona o impulso processual ao pagamento indevido destinado a outrem."
+    },
+    "classe_correta": "concussao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "exigir",
+      "relacao": "imposicao",
+      "elemento_subjetivo": "culpa",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 41,
+    "conduta": "Funcionário público solicita quantia indevida de cidadão para praticar ato relacionado ao cargo, em benefício próprio.",
+    "versoes": {
+     "facil": "O servidor pede dinheiro extra para fazer algo do trabalho.",
+     "medio": "O funcionário solicita quantia indevida para realizar ato ligado ao cargo.",
+     "dificil": "O agente estatal formula pedido patrimonial ilícito como condição informal para desempenho de atribuição funcional, visando proveito próprio."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 42,
+    "conduta": "Servidor público recebe vantagem econômica indevida de particular para favorecer processo administrativo, em favor próprio.",
+    "versoes": {
+     "facil": "O servidor recebe dinheiro para ajudar em processo administrativo.",
+     "medio": "O agente público recebe vantagem indevida de particular para favorecer procedimento administrativo.",
+     "dificil": "Mediante recebimento de prestação econômica ilícita, o funcionário compromete a imparcialidade no trato de processo submetido à esfera pública."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 43,
+    "conduta": "Agente público aceita promessa de pagamento indevido para beneficiar terceiro em procedimento funcional.",
+    "versoes": {
+     "facil": "O servidor aceita promessa de pagamento para ajudar outra pessoa.",
+     "medio": "O funcionário aceita futura vantagem indevida para beneficiar terceiro em ato funcional.",
+     "dificil": "O agente público anui ao oferecimento futuro de utilidade patrimonial ilícita em troca de favorecimento administrativo destinado a outrem."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 44,
+    "conduta": "Funcionário público solicita bem de valor para agilizar atendimento estatal, em benefício de terceiro.",
+    "versoes": {
+     "facil": "O funcionário pede um bem valioso para acelerar atendimento.",
+     "medio": "O servidor solicita bem de valor para dar rapidez a serviço público.",
+     "dificil": "Valendo-se da posição funcional, o agente requer utilidade patrimonial como preço indevido para priorização de atendimento estatal."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 45,
+    "conduta": "Servidor, fora do expediente, recebe quantia indevida em razão da função pública anteriormente exercida no dia.",
+    "versoes": {
+     "facil": "Mesmo fora do trabalho, o servidor recebe dinheiro por causa do cargo.",
+     "medio": "Fora do expediente, o agente recebe vantagem indevida em razão da função pública.",
+     "dificil": "Embora ausente do exercício imediato das atividades, o funcionário percebe benefício ilícito decorrente da autoridade inerente ao cargo."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 46,
+    "conduta": "Pessoa nomeada para cargo público aceita promessa de vantagem indevida antes da posse, em razão da futura função.",
+    "versoes": {
+     "facil": "Antes de assumir o cargo, a pessoa aceita promessa de dinheiro pelo futuro trabalho.",
+     "medio": "Nomeado para função pública, o agente aceita promessa de vantagem indevida antes da posse.Fora do expediente, o agente recebe vantagem indevida em razão da função pública.",
+     "dificil": "Ainda não investido formalmente, o futuro servidor consente em receber benefício patrimonial ilícito vinculado à atuação funcional futura."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 47,
+    "conduta": "Agente público solicita pagamentos mensais indevidos para manter tratamento administrativo favorável.",
+    "versoes": {
+     "facil": "O servidor pede pagamentos todo mês para continuar ajudando alguém.",
+     "medio": "O agente solicita prestações periódicas indevidas para manter favorecimento administrativo.",
+     "dificil": "O funcionário estabelece exigências patrimoniais reiteradas, sob forma de solicitações sucessivas, para preservar tratamento estatal privilegiado."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 48,
+    "conduta": "Funcionário recebe utilidade patrimonial indireta por intermédio de terceiro em troca de favorecimento funcional.",
+    "versoes": {
+     "facil": "O servidor recebe vantagem por outra pessoa para favorecer alguém.",
+     "medio": "O agente recebe utilidade indevida por intermediário em troca de favorecimento funcional.",
+     "dificil": "Por meio de interposta pessoa, o funcionário percebe benefício econômico ilícito correlacionado ao exercício de atribuições públicas."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 49,
+    "conduta": "Servidor solicita valor indevido para retardar fiscalização oficial.",
+    "versoes": {
+     "facil": "O servidor pede dinheiro para atrasar uma fiscalização.",
+     "medio": "O agente solicita valor indevido para retardar ato oficial de fiscalização.",
+     "dificil": "O funcionário condiciona a tempestividade da atividade fiscalizatória ao recebimento de vantagem patrimonial ilícita."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 50,
+    "conduta": "Agente estatal recebe vantagem indevida para praticar ato funcional contrariando dever do cargo.",
+    "versoes": {
+     "facil": "O servidor recebe dinheiro para fazer algo proibido no cargo.",
+     "medio": "O agente público recebe vantagem indevida para praticar ato funcional contra dever legal.",
+     "dificil": "Mediante percepção de utilidade econômica ilícita, o funcionário executa conduta administrativa incompatível com os deveres inerentes ao cargo."
+    },
+    "classe_correta": "corrupcao_passiva",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 51,
+    "conduta": "Funcionário público retarda indevidamente emissão de documento oficial para favorecer amigo pessoal.",
+    "versoes": {
+     "facil": "O servidor atrasa documento para ajudar um amigo.",
+     "medio": "O funcionário demora indevidamente a emitir documento oficial para favorecer pessoa próxima.",
+     "dificil": "O agente estatal posterga injustificadamente ato administrativo vinculado, buscando satisfazer interesse pessoal relacionado a terceiro próximo."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 52,
+    "conduta": "Servidor deixa de praticar ato de ofício obrigatório para prejudicar desafeto pessoal.",
+    "versoes": {
+     "facil": "O servidor não faz obrigação do cargo para prejudicar alguém de quem não gosta.",
+     "medio": "O funcionário deixa de cumprir ato obrigatório para atingir desafeto pessoal.",
+     "dificil": "Movido por animosidade subjetiva, o agente público omite indevidamente providência funcional legalmente exigida."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 53,
+    "conduta": "Agente público pratica ato administrativo contra disposição expressa de lei para beneficiar parente.",
+    "versoes": {
+     "facil": "O servidor faz algo proibido pela lei para ajudar parente.",
+     "medio": "O agente pratica ato administrativo contrário à lei para beneficiar familiar.",
+     "dificil": "Em desvio de finalidade, o funcionário executa providência vedada por norma expressa visando favorecimento de vínculo familiar."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 54,
+    "conduta": "Funcionário retarda análise de requerimento oficial por vingança pessoal contra o interessado.",
+    "versoes": {
+     "facil": "O servidor atrasa pedido oficial por vingança.",
+     "medio": "O funcionário retarda análise administrativa por sentimento pessoal contra o interessado.",
+     "dificil": "Impulsionado por ressentimento subjetivo, o agente posterga indevidamente deliberação funcional devida ao administrado."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 55,
+    "conduta": "Servidor deixa de instaurar procedimento obrigatório para preservar interesse econômico próprio.",
+    "versoes": {
+     "facil": "O servidor não abre procedimento obrigatório para proteger seu próprio interesse financeiro.",
+     "medio": "O funcionário deixa de instaurar processo exigido para preservar vantagem econômica pessoal.",
+     "dificil": "Com finalidade de resguardar benefício patrimonial próprio, o agente omite providência funcional legalmente imposta."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 56,
+    "conduta": "Agente público concede providência vedada em lei para satisfazer preferência pessoal.",
+    "versoes": {
+     "facil": "O servidor autoriza algo proibido porque queria favorecer alguém de sua preferência.",
+     "medio": "O agente concede medida vedada em lei para atender interesse pessoal.",
+     "dificil": "Desconsiderando proibição normativa expressa, o funcionário pratica ato administrativo ilícito para satisfação de conveniência subjetiva."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 57,
+    "conduta": "Diretor de penitenciária deixa de impedir que preso mantenha aparelho telefônico apto à comunicação externa.",
+    "versoes": {
+     "facil": "O diretor do presídio deixa preso ficar com telefone para falar com fora da prisão.",
+     "medio": "O diretor penitenciário não impede que preso mantenha aparelho telefônico apto à comunicação externa.",
+     "dificil": "Descumprindo dever legal de vigilância carcerária, o gestor prisional tolera posse de equipamento comunicador por custodiado."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 58,
+    "conduta": "Agente penitenciário permite, por omissão funcional, que preso utilize rádio comunicador proibido.",
+    "versoes": {
+     "facil": "O agente penitenciário deixa preso usar rádio comunicador proibido.",
+     "medio": "O servidor penitenciário se omite e permite uso de rádio capaz de comunicação pelo preso.",
+     "dificil": "Por omissão funcional relevante, o agente encarregado da custódia admite utilização de dispositivo comunicacional vedado no cárcere."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 59,
+    "conduta": "Servidor responsável por unidade prisional deixa de recolher celular encontrado com preso.",
+    "versoes": {
+     "facil": "O servidor encontra celular com preso e não recolhe o aparelho.",
+     "medio": "O responsável pela unidade prisional deixa de retirar telefone encontrado em posse de preso.",
+     "dificil": "Mesmo ciente da posse irregular de aparelho telefônico por interno, o agente público abstém-se de adotar a medida repressiva devida."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 60,
+    "conduta": "Diretor de estabelecimento penal omite dever funcional e permite acesso contínuo de preso a aparelho telefônico.",
+    "versoes": {
+     "facil": "O diretor do presídio deixa preso continuar usando telefone.",
+     "medio": "O diretor penal omite dever funcional e permite acesso contínuo de preso a aparelho telefônico.",
+     "dificil": "Violando obrigação institucional de impedir meios de comunicação indevidos, o gestor carcerário tolera uso reiterado de telefone por custodiado."
+    },
+    "classe_correta": "prevaricacao",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "solicitar",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 61,
+    "conduta": "Chefe de setor deixa de instaurar procedimento disciplinar contra subordinado que faltou ilicitamente ao dever funcional, por amizade pessoal.",
+    "versoes": {
+     "facil": "O chefe não pune subordinado que errou no cargo porque era amigo dele.",
+     "medio": "O superior deixa de abrir procedimento contra subordinado infrator por amizade pessoal.",
+     "dificil": "Detendo atribuição correicional, o agente público abstém-se de responsabilizar subordinado faltoso movido por indulgência decorrente de vínculo pessoal."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 62,
+    "conduta": "Supervisor público, tendo competência, deixa de aplicar sanção a subordinado que fraudou registro oficial, por complacência.",
+    "versoes": {
+     "facil": "O supervisor não aplica punição a servidor que fraudou registro porque quis relevar.",
+     "medio": "Tendo competência, o chefe deixa de sancionar subordinado que alterou registro oficial por complacência.",
+     "dificil": "Mesmo investido de poder disciplinar, o superior hierárquico omite reprimenda funcional a subordinado infrator por leniência voluntária."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 63,
+    "conduta": "Diretor administrativo não responsabiliza servidor subordinado que desviou material público, por indulgência.",
+    "versoes": {
+     "facil": "O diretor não responsabiliza servidor que desviou material público por pena dele.",
+     "medio": "O diretor administrativo deixa de responsabilizar subordinado por desvio de bens, por indulgência.",
+     "dificil": "Conhecendo irregular apropriação de recursos públicos por subordinado, o gestor abstém-se de adotar responsabilização em razão de benevolência pessoal."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 64,
+    "conduta": "Coordenador funcional deixa de punir subordinado que abandonou posto de trabalho em serviço, por benevolência pessoal.",
+    "versoes": {
+     "facil": "O coordenador não pune funcionário que abandonou o trabalho porque quis ajudar.",
+     "medio": "O superior deixa de punir subordinado que abandonou posto de serviço por benevolência.",
+     "dificil": "Embora ciente de abandono funcional praticado por subordinado, o agente competente renuncia à medida disciplinar motivado por tolerância subjetiva."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 65,
+    "conduta": "Gerente público, podendo agir, não adota providências contra subordinado que adulterou documento interno, por tolerância indevida.",
+    "versoes": {
+     "facil": "O gerente podia agir, mas não tomou medida contra subordinado que mexeu em documento errado.",
+     "medio": "Podendo agir, o chefe não responsabiliza subordinado que adulterou documento interno por tolerância indevida.",
+     "dificil": "Investido de atribuição sancionatória, o superior hierárquico deixa de reagir à falsificação documental interna praticada por subordinado em razão de indulgência."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 66,
+    "conduta": "Funcionário sem competência disciplinar deixa de comunicar à autoridade superior que subordinado recebeu vantagem indevida, por indulgência.",
+    "versoes": {
+     "facil": "O chefe que não podia punir também não contou ao superior que subordinado recebeu vantagem indevida.",
+     "medio": "Sem competência disciplinar, o funcionário deixa de comunicar à autoridade superior infração de subordinado por indulgência.",
+     "dificil": "Desprovido de poder sancionador direto, o agente omite ciência à autoridade competente acerca de falta funcional de subordinado por complacência deliberada."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 67,
+    "conduta": "Chefe imediato sem poder sancionador não informa superior sobre infração funcional cometida por subordinado, por amizade.",
+    "versoes": {
+     "facil": "O chefe imediato não avisou o superior sobre erro do subordinado porque era amigo dele.",
+     "medio": "Sem poder de punição, o chefe deixa de informar infração funcional praticada por subordinado por amizade.",
+     "dificil": "Por motivo de indulgência decorrente de relação pessoal, o superior imediato abstém-se de reportar ilícito funcional do subordinado à instância competente."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 68,
+    "conduta": "Servidor hierarquicamente superior omite comunicação de falta grave praticada por subordinado à autoridade competente, por complacência.",
+    "versoes": {
+     "facil": "O superior não comunica falta grave do subordinado porque quis relevar.",
+     "medio": "O servidor hierarquicamente superior omite comunicação de infração grave do subordinado por complacência.",
+     "dificil": "Ciente de transgressão relevante cometida por subordinado, o superior funcional deixa de acionar a autoridade competente movido por indulgência."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 69,
+    "conduta": "Coordenador sem competência para punir deixa de relatar desvio funcional de subordinado ao órgão competente, por benevolência.",
+    "versoes": {
+     "facil": "O coordenador não podia punir e também não contou o desvio do subordinado.",
+     "medio": "Sem competência sancionadora, o coordenador deixa de relatar desvio funcional do subordinado por benevolência.",
+     "dificil": "Mesmo impossibilitado de impor sanção direta, o agente hierárquico omite encaminhamento formal de irregularidade funcional à autoridade apta, por tolerância pessoal."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 70,
+    "conduta": "Responsável por equipe não noticia à autoridade competente infração praticada por subordinado no cargo, por indulgência pessoal.",
+    "versoes": {
+     "facil": "O responsável pela equipe não avisa a autoridade sobre erro do subordinado porque quis proteger.",
+     "medio": "O chefe de equipe deixa de noticiar infração funcional praticada por subordinado por indulgência pessoal.",
+     "dificil": "Movido por sentimento de proteção indevida, o superior responsável abstém-se de comunicar à autoridade competente ilícito cometido por subordinado no exercício do cargo."
+    },
+    "classe_correta": "condescendencia_criminosa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "deixar_de_responsabilizar",
+      "relacao": "omissao",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "interesse_pessoal"
+    }
+  },
+  {
+    "id": 71,
+    "conduta": "Funcionário público utiliza sua posição no órgão para defender pedido administrativo de amigo particular perante repartição pública.",
+    "versoes": {
+     "facil": "O servidor usa o cargo para ajudar pedido de um amigo no órgão público.",
+     "medio": "O funcionário utiliza sua posição pública para defender interesse particular perante repartição.",
+     "dificil": "Valendo-se da autoridade inerente ao cargo, o agente estatal patrocina pretensão privada de terceiro perante a Administração."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 72,
+    "conduta": "Servidor público intervém junto a colegas de setor para favorecer interesse privado de familiar em processo interno.",
+    "versoes": {
+     "facil": "O servidor fala com colegas para ajudar processo de um familiar.",
+     "medio": "O agente intervém junto ao setor para favorecer interesse privado de parente.",
+     "dificil": "Mediante influência funcional interna, o funcionário mobiliza agentes administrativos em prol de demanda privada familiar."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 73,
+    "conduta": "Agente público encaminha demanda de empresa privada dentro do órgão valendo-se da autoridade do cargo.",
+    "versoes": {
+     "facil": "O servidor usa o cargo para encaminhar pedido de empresa privada.",
+     "medio": "O funcionário promove internamente demanda empresarial particular aproveitando-se da função.",
+     "dificil": "Explorando prerrogativas institucionais, o agente impulsiona interesse corporativo privado perante a estrutura administrativa."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 74,
+    "conduta": "Funcionário usa influência funcional para acelerar requerimento particular perante a administração pública.",
+    "versoes": {
+     "facil": "O servidor usa sua influência para acelerar pedido de particular.",
+     "medio": "O funcionário emprega prestígio funcional para dar rapidez a requerimento privado.",
+     "dificil": "Com abuso da posição administrativa, o agente interfere no fluxo burocrático para priorizar pretensão particular."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 75,
+    "conduta": "Servidor atua informalmente para beneficiar comerciante em licenciamento administrativo, valendo-se da função pública.",
+    "versoes": {
+     "facil": "O servidor ajuda comerciante em licença pública usando o cargo.",
+     "medio": "O agente atua informalmente para beneficiar comerciante em procedimento de licenciamento.",
+     "dificil": "Valendo-se da condição funcional, o funcionário patrocina interesse econômico privado em trâmite autorizativo estatal."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 76,
+    "conduta": "Agente público patrocina interesse privado ilegítimo de terceiro visando liberação documental indevida.",
+    "versoes": {
+     "facil": "O servidor usa o cargo para conseguir documento indevido para outra pessoa.",
+     "medio": "O agente patrocina interesse privado ilegítimo buscando liberação documental irregular.",
+     "dificil": "Utilizando ascendência institucional, o funcionário sustenta pretensão privada manifestamente ilegítima perante a Administração."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 77,
+    "conduta": "Funcionário intercede internamente para anular multa regular aplicada a conhecido particular.",
+    "versoes": {
+     "facil": "O servidor tenta cancelar multa de conhecido usando o cargo.",
+     "medio": "O funcionário intercede internamente para afastar penalidade administrativa aplicada a particular conhecido.",
+     "dificil": "Em favor de terceiro relacionado, o agente público maneja influência funcional visando desconstituir sanção regularmente imposta."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 78,
+    "conduta": "Servidor usa acesso institucional para impulsionar contratação pública em favor de empresa amiga.",
+    "versoes": {
+     "facil": "O servidor usa acesso do trabalho para ajudar empresa amiga em contratação pública.",
+     "medio": "O funcionário emprega acesso institucional para favorecer empresa privada em contratação estatal.",
+     "dificil": "Aproveitando-se das prerrogativas do cargo, o agente patrocina interesse empresarial particular em procedimento contratual público."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 79,
+    "conduta": "Agente público solicita prioridade interna para processo administrativo de interesse privado de vizinho.",
+    "versoes": {
+     "facil": "O servidor pede prioridade para processo de interesse do vizinho.",
+     "medio": "O agente solicita tratamento prioritário interno para demanda administrativa privada de terceiro.",
+     "dificil": "Valendo-se da qualidade funcional, o funcionário busca alterar a ordem procedimental em benefício de interesse particular alheio."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 80,
+    "conduta": "Funcionário vale-se do cargo para sustentar pretensão privada perante órgão estatal em benefício de terceiro.",
+    "versoes": {
+     "facil": "O servidor usa o cargo para defender pedido privado de outra pessoa no órgão público.",
+     "medio": "O funcionário vale-se da função para sustentar pretensão particular perante órgão estatal.",
+     "dificil": "Com fundamento no prestígio institucional do cargo, o agente público patrocina demanda privada submetida à apreciação administrativa."
+    },
+    "classe_correta": "advocacia_administrativa",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "patrocinar_interesse_privado",
+      "relacao": "interacao_acordo",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "vantagem_indevida"
+    }
+  },
+  {
+    "id": 81,
+    "conduta": "Funcionário público revela a terceiro informação sigilosa obtida em razão do cargo, ciente do dever de sigilo.",
+    "versoes": {
+     "facil": "O servidor conta um segredo do trabalho para outra pessoa.",
+     "medio": "O funcionário revela informação sigilosa obtida no cargo a terceiro não autorizado.",
+     "dificil": "Ciente do caráter reservado da informação adquirida no exercício funcional, o agente público a divulga a destinatário sem autorização."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 82,
+    "conduta": "Servidor divulga dado restrito de processo administrativo a pessoa não autorizada, utilizando conhecimento funcional.",
+    "versoes": {
+     "facil": "O servidor mostra dados de processo para quem não podia ver.",
+     "medio": "O agente divulga dados restritos de procedimento administrativo a pessoa não autorizada.",
+     "dificil": "Valendo-se do conhecimento funcional, o funcionário torna acessível a terceiro conteúdo protegido de processo administrativo."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 83,
+    "conduta": "Agente público facilita acesso de terceiro a informação sigilosa ao compartilhar conteúdo obtido no exercício do cargo.",
+    "versoes": {
+     "facil": "O servidor ajuda outra pessoa a ter acesso a informação secreta do trabalho.",
+     "medio": "O agente facilita a divulgação de informação sigilosa obtida no cargo.",
+     "dificil": "Mediante conduta facilitadora, o funcionário viabiliza a exposição indevida de conteúdo protegido sob sua esfera funcional."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 84,
+    "conduta": "Funcionário permite que pessoa não autorizada visualize documento sigiloso sob sua responsabilidade funcional.",
+    "versoes": {
+     "facil": "O servidor deixa alguém ver documento secreto do trabalho.",
+     "medio": "O funcionário permite acesso visual a documento sigiloso por pessoa não autorizada.",
+     "dificil": "Descumprindo dever de guarda, o agente público consente na fruição indevida de documento reservado por terceiro."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 85,
+    "conduta": "Servidor fornece senha de sistema interno a terceiro, possibilitando acesso indevido a banco de dados público.",
+    "versoes": {
+     "facil": "O servidor passa sua senha do sistema para outra pessoa.",
+     "medio": "O funcionário fornece credencial de acesso a sistema público a terceiro, permitindo acesso indevido.",
+     "dificil": "Ao compartilhar elementos de autenticação institucional, o agente público possibilita ingresso indevido em base de dados administrativa."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 86,
+    "conduta": "Agente público empresta credenciais institucionais a pessoa não autorizada, permitindo consulta a informações restritas.",
+    "versoes": {
+     "facil": "O servidor empresta login do trabalho para alguém acessar dados.",
+     "medio": "O agente disponibiliza suas credenciais institucionais a pessoa não autorizada.",
+     "dificil": "Mediante cessão de meios de autenticação, o funcionário viabiliza consulta indevida a informações protegidas do sistema público."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 87,
+    "conduta": "Funcionário utiliza acesso restrito do sistema público para consultar dados sigilosos sem justificativa funcional.",
+    "versoes": {
+     "facil": "O servidor usa o sistema para ver dados secretos sem precisar.",
+     "medio": "O funcionário acessa informações sigilosas sem justificativa funcional.",
+     "dificil": "Extrapolando os limites de sua competência, o agente utiliza acesso restrito para consultar dados protegidos sem finalidade legítima."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 88,
+    "conduta": "Servidor acessa indevidamente banco de dados sigiloso e utiliza as informações para fins não autorizados.",
+    "versoes": {
+     "facil": "O servidor entra no sistema e usa dados sigilosos para fins pessoais.",
+     "medio": "O agente acessa banco de dados sigiloso e utiliza informações para finalidade indevida.",
+     "dificil": "Valendo-se de acesso privilegiado, o funcionário manipula dados protegidos para finalidade alheia às atribuições funcionais."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 89,
+    "conduta": "Agente público facilita, por omissão, que terceiro tenha acesso a sistema protegido contendo dados sigilosos.",
+    "versoes": {
+     "facil": "O servidor deixa outra pessoa acessar sistema protegido sem impedir.",
+     "medio": "O agente, por omissão, permite acesso indevido de terceiro a sistema com dados sigilosos.",
+     "dificil": "Ao se abster de impedir ingresso não autorizado, o funcionário concorre para violação de sistema protegido contendo informações restritas."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 90,
+    "conduta": "Funcionário compartilha internamente informação sigilosa com colega sem autorização e fora das atribuições funcionais.",
+    "versoes": {
+     "facil": "O servidor compartilha segredo do trabalho com colega sem autorização.",
+     "medio": "O funcionário divulga informação sigilosa a outro servidor sem permissão e fora das atribuições.",
+     "dificil": "Em desvio das normas de sigilo institucional, o agente público transmite conteúdo reservado a colega sem competência para acessá-lo."
+    },
+    "classe_correta": "violacao_de_sigilo_funcional",
+    "elementos": {
+      "sujeito": "funcionario_publico",
+      "conduta": "revelar_informacao_sigilosa",
+      "relacao": "sem_interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 91,
+    "conduta": "Funcionário público esquece de responder e-mail institucional dentro do prazo, sem intenção de obter vantagem ou prejudicar terceiro.",
+    "versoes": {
+     "facil": "O servidor esquece de responder e-mail do trabalho.",
+     "medio": "O funcionário deixa de responder e-mail institucional no prazo por descuido.",
+     "dificil": "Sem qualquer finalidade ilícita, o agente público omite resposta a comunicação oficial por falha organizacional."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 92,
+    "conduta": "Servidor realiza atendimento lento ao público por desorganização pessoal, sem finalidade de beneficiar ou prejudicar alguém.",
+    "versoes": {
+     "facil": "O servidor atende devagar por desorganização.",
+     "medio": "O funcionário presta atendimento lento ao público sem intenção de favorecer ou prejudicar.",
+     "dificil": "Em razão de deficiência organizacional pessoal, o agente realiza atendimento administrativo sem eficiência, sem finalidade ilícita."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 93,
+    "conduta": "Agente público interpreta equivocadamente norma administrativa ao decidir processo, sem intenção de violar dever funcional.",
+    "versoes": {
+     "facil": "O servidor entende errado uma regra e decide assim.",
+     "medio": "O funcionário interpreta equivocadamente norma administrativa ao decidir processo.",
+     "dificil": "O agente público, por erro interpretativo, aplica incorretamente disposição normativa sem intenção de desvio funcional."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 94,
+    "conduta": "Funcionário perde documento administrativo por descuido, sem intenção de ocultar informação ou obter vantagem.",
+    "versoes": {
+     "facil": "O servidor perde documento por descuido.",
+     "medio": "O funcionário extravia documento administrativo sem intenção de ocultação.",
+     "dificil": "Por falha de cautela, o agente público perde documento sob sua guarda, sem propósito de vantagem ou prejuízo deliberado."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 95,
+    "conduta": "Servidor utiliza linguagem inadequada em atendimento, sem envolvimento com qualquer vantagem indevida ou favorecimento.",
+    "versoes": {
+     "facil": "O servidor fala de forma inadequada com o público.",
+     "medio": "O funcionário utiliza linguagem imprópria em atendimento, sem finalidade ilícita.",
+     "dificil": "No exercício funcional, o agente adota postura comunicativa inadequada, sem qualquer vínculo com obtenção de vantagem ou favorecimento indevido."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 96,
+    "conduta": "Agente público deixa de cumprir prazo administrativo por excesso de trabalho, sem interesse pessoal envolvido.",
+    "versoes": {
+     "facil": "O servidor perde prazo por excesso de trabalho.",
+     "medio": "O funcionário deixa de cumprir prazo administrativo por sobrecarga.",
+     "dificil": "Em razão de acúmulo de demandas, o agente público não observa prazo procedimental, sem motivação pessoal ilícita."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 97,
+    "conduta": "Funcionário encaminha processo ao setor errado por erro material, sem intenção de interferir no resultado.",
+    "versoes": {
+     "facil": "O servidor manda processo para setor errado.",
+     "medio": "O funcionário encaminha processo administrativo incorretamente por erro material.",
+     "dificil": "Por equívoco operacional, o agente público direciona procedimento à unidade inadequada, sem intenção de interferir no resultado."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 98,
+    "conduta": "Servidor esquece reunião institucional relevante, sem qualquer finalidade de benefício próprio ou prejuízo a terceiros.",
+    "versoes": {
+     "facil": "O servidor esquece reunião importante.",
+     "medio": "O funcionário não comparece a reunião institucional por esquecimento.",
+     "dificil": "Sem qualquer finalidade ilícita, o agente público deixa de participar de compromisso funcional por falha de memória."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 99,
+    "conduta": "Agente público realiza tarefa administrativa de forma ineficiente, sem violar norma deliberadamente.",
+    "versoes": {
+     "facil": "O servidor trabalha de forma ineficiente.",
+     "medio": "O funcionário executa tarefa administrativa com baixa eficiência, sem violar normas intencionalmente.",
+     "dificil": "O agente público realiza atividade funcional com desempenho aquém do esperado, sem intenção de descumprimento deliberado de dever legal."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  },
+  {
+    "id": 100,
+    "conduta": "Funcionário demora a atualizar sistema interno por dificuldade técnica, sem intenção de causar prejuízo ou obter vantagem.",
+    "versoes": {
+     "facil": "O servidor demora a atualizar sistema por dificuldade.",
+     "medio": "O funcionário atrasa atualização de sistema interno por limitação técnica.",
+     "dificil": "Diante de limitações operacionais, o agente público posterga atualização de sistema institucional sem finalidade de prejuízo ou vantagem indevida."
+    },
+    "classe_correta": "nao_se_enquadra",
+    "elementos": {
+      "sujeito": "particular",
+      "conduta": "matar",
+      "relacao": "interacao_direta",
+      "elemento_subjetivo": "dolo",
+      "finalidade": "nenhuma"
+    }
+  }
+]

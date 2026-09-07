@@ -1,0 +1,21 @@
+{
+  "grupos_semanticos": {
+    "peculato": [
+      "peculato",
+      "peculato_culposo",
+      "peculato_mediante_erro_de_outrem"
+    ],
+    "corrupcao": [
+      "corrupcao_passiva",
+      "concussao"
+    ],
+    "funcionais": [
+      "prevaricacao",
+      "condescendencia_criminosa"
+    ],
+    "outros": [
+      "advocacia_administrativa",
+      "violacao_de_sigilo_funcional"
+    ]
+  }
+}

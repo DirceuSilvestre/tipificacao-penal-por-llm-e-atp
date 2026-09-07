@@ -1,0 +1,85 @@
+# config.yaml
+# Arquivo de configuração global do projeto.
+# Mantém caminhos de dados, parâmetros de avaliação e modelos LLM.
+
+paths:
+  # Diretório base do projeto.
+  # Pode ser usado como raiz para resolver todos os caminhos em código.
+  data: "data"
+
+  # Pastas de trabalho do fluxo de dados.
+  organized: "data/organized"
+  classified: "data/classified"
+  results: "data/results"
+
+  # Arquivo de taxonomia/vade mecum usado no projeto.
+  taxonomy: "data/vade_mecum_taxonomy.json"
+
+metrics:
+  # Peso da Acurácia Taxonômica Ponderada (ATP).
+  # Esse valor é usado pela lógica de avaliação da métrica.
+  atp_alpha_weight: 0.5
+
+llm:
+  # Define qual modelo está ativo no momento para execução do pipeline.
+  # Os modelos abaixo servem como base para futura troca/expansão.
+  active_model: "gemini_flash"  # Opções: "gemini_flash", "modelo_2", "modelo_3"
+
+  # Delay padronizado para envio de prompts.
+  # Todos os modelos devem respeitar este mesmo valor para manter consistência.
+  delays:
+    request_delay_seconds: 60
+
+  # Mapeamento dos provedores e modelos disponíveis no projeto.
+  # "modelo_2" e "modelo_3" ficam como exemplos de substituição futura.
+  models:
+    gemini_flash:
+      provider: "google"
+      model_name: "gemini-3-flash-preview"
+
+    modelo_2:
+      provider: "openai"
+      model_name: "gpt-4o-mini"
+
+    modelo_3:
+      provider: "anthropic"
+      model_name: "claude-3-5-sonnet-20241022"
+
+logging:
+  # Configuração do sistema de logs do projeto.
+  # Mantém saída no console e em arquivo para rastreio de execução e diagnóstico.
+  version: 1
+  disable_existing_loggers: false
+
+  formatters:
+    standard:
+      format: "%(asctime)s | %(levelname)s | %(name)s | %(module)s | %(funcName)s | %(message)s"
+      datefmt: "%Y-%m-%d %H:%M:%S"
+
+  handlers:
+    console:
+      class: "logging.StreamHandler"
+      level: "INFO"
+      formatter: "standard"
+      stream: "ext://sys.stdout"
+
+    file:
+      class: "logging.handlers.RotatingFileHandler"
+      level: "DEBUG"
+      formatter: "standard"
+      filename: "logs/application.log"
+      maxBytes: 10485760
+      backupCount: 5
+
+  loggers:
+    app:
+      level: "INFO"
+      handlers:
+        - "console"
+        - "file"
+      propagate: false
+
+  root:
+    level: "INFO"
+    handlers:
+      - "console"

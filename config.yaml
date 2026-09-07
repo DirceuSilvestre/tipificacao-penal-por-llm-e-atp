@@ -15,6 +15,12 @@ paths:
   # Arquivo de taxonomia/vade mecum usado no projeto.
   taxonomy: "data/vade_mecum_taxonomy.json"
 
+datasets:
+  active_dataset: "dataset_curado_organizado.jsonl"
+  available:
+    curado: "data/organized/dataset_curado_organizado.jsonl"
+    sintetico: "data/organized/dataset_sintetico_organizado.jsonl"
+
 metrics:
   # Peso da Acurácia Taxonômica Ponderada (ATP).
   # Esse valor é usado pela lógica de avaliação da métrica.

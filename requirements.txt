@@ -1,2 +1,4 @@
 PyYAML
 python-dotenv
+
+pytest

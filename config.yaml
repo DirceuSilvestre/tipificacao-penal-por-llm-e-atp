@@ -34,7 +34,7 @@ llm:
   # Delay padronizado para envio de prompts.
   # Todos os modelos devem respeitar este mesmo valor para manter consistência.
   delays:
-    request_delay_seconds: 75
+    request_delay_seconds: 30
 
   # Mapeamento dos provedores e modelos disponíveis no projeto.
   # "modelo_2" e "modelo_3" ficam como exemplos de substituição futura.
@@ -45,7 +45,7 @@ llm:
 
     modelo_2:
       provider: "openai"
-      model_name: "gpt-4o-mini"
+      model_name: "gpt-5.6-luna"
 
     modelo_3:
       provider: "anthropic"

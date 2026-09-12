@@ -1,7 +1,7 @@
 {
     "dataset_curado_organizado.jsonl": {
-        "ultimo_id_processado": 0,
-        "ultima_linha_processada": 0,
+        "ultimo_id_processado": 12,
+        "ultima_linha_processada": 12,
         "status": "em_andamento"
     },
     "dataset_sintetico_organizado.jsonl": {

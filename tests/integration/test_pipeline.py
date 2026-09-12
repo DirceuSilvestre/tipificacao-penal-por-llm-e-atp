@@ -251,8 +251,8 @@ def test_deve_retomar_processamento_apos_interrupcao(
         )
 
     caminho_resultados = (
-        configuracao.paths.results
-        / "resultados_dataset_integracao.jsonl"
+        configuracao.paths.classified
+        / "resultados_classificados_modelo_teste_dataset_integracao.jsonl"
     )
     resultados_apos_falha = caminho_resultados.read_text(
         encoding="utf-8"

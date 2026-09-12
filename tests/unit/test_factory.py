@@ -42,12 +42,9 @@ def test_deve_rejeitar_provedor_nao_suportado() -> None:
         criar_provedor_llm(configuracao)
 
 
-def test_deve_informar_quando_provedor_google_ainda_nao_foi_implementado() -> None:
-    """Verifica o erro antes da implementação do GoogleProvider."""
+def test_deve_rejeitar_google_sem_chave_de_api() -> None:
+    """Verifica a rejeição de configuração Google sem chave."""
     configuracao = _criar_configuracao_com_provedor("google")
 
-    with pytest.raises(
-        ErroFabricaLLM,
-        match="ainda não foi implementado",
-    ):
+    with pytest.raises(ValueError, match="api_key"):
         criar_provedor_llm(configuracao)

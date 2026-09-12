@@ -115,8 +115,8 @@ def test_deve_processar_registro_e_atualizar_progresso(
     )
 
     caminho_resultados = (
-        configuracao.paths.results
-        / "resultados_dataset_teste.jsonl"
+        configuracao.paths.classified
+        / "resultados_classificados_modelo_teste_dataset_teste.jsonl"
     )
     linhas_resultados = caminho_resultados.read_text(
         encoding="utf-8"

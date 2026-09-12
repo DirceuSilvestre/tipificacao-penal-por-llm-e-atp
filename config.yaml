@@ -41,7 +41,7 @@ llm:
   models:
     gemini_flash:
       provider: "google"
-      model_name: "gemini-3-flash-preview"
+      model_name: "gemini-3.6-flash"
 
     modelo_2:
       provider: "openai"

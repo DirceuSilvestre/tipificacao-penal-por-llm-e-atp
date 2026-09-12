@@ -45,6 +45,7 @@ def _criar_provedor_google(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
     return GoogleProvider(
         model_name=modelo.model_name,
         api_key=modelo.api_key,
+        request_delay_seconds=configuracao.delays.request_delay_seconds,
     )
 
 

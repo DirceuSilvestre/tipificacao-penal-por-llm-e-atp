@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import time
+
 
 class ErroGoogleProvider(RuntimeError):
     """Representa uma falha na configuração ou comunicação com o Google."""
@@ -17,21 +19,24 @@ class GoogleProvider:
     Args:
         model_name: Nome do modelo Gemini utilizado na requisição.
         api_key: Chave de autenticação da API Google.
+        request_delay_seconds: Intervalo em segundos entre requisições.
     """
 
     def __init__(
         self,
         model_name: str,
         api_key: str | None,
+        request_delay_seconds: float = 0.0,
     ) -> None:
         """Inicializa o provedor Google.
 
         Args:
             model_name: Nome do modelo Gemini.
             api_key: Chave de autenticação da API Google.
+            request_delay_seconds: Intervalo em segundos entre requisições.
 
         Raises:
-            ValueError: Se o nome do modelo ou a chave forem inválidos.
+            ValueError: Se o nome do modelo, a chave ou o atraso forem inválidos.
             ErroGoogleProvider: Se o SDK Google não estiver instalado.
         """
         if not isinstance(model_name, str) or not model_name.strip():
@@ -44,6 +49,15 @@ class GoogleProvider:
                 "api_key deve ser uma string não vazia."
             )
 
+        if (
+            isinstance(request_delay_seconds, bool)
+            or not isinstance(request_delay_seconds, (int, float))
+            or request_delay_seconds < 0
+        ):
+            raise ValueError(
+                "request_delay_seconds deve ser um número não negativo."
+            )
+
         try:
             from google import genai
         except ModuleNotFoundError as erro:
@@ -52,10 +66,14 @@ class GoogleProvider:
             ) from erro
 
         self._model_name = model_name.strip()
+        self._request_delay_seconds = float(request_delay_seconds)
         self._cliente = genai.Client(api_key=api_key.strip())
 
     def gerar_conteudo(self, prompt: str) -> str:
         """Envia um prompt ao Gemini e retorna a resposta textual.
+
+        Respeita o intervalo de tempo configurado em `request_delay_seconds`
+        aguardando o tempo determinado antes de realizar a chamada à API.
 
         Args:
             prompt: Texto completo da instrução para o modelo.
@@ -72,6 +90,9 @@ class GoogleProvider:
             raise ValueError(
                 "prompt deve ser uma string não vazia."
             )
+
+        if self._request_delay_seconds > 0:
+            time.sleep(self._request_delay_seconds)
 
         try:
             resposta = self._cliente.models.generate_content(

@@ -43,7 +43,7 @@ def _obter_caminho_progresso(configuracao: ConfiguracaoAplicacao) -> Path:
 def _obter_caminho_resultados(
     configuracao: ConfiguracaoAplicacao,
 ) -> Path:
-    """Obtém o arquivo JSONL de resultados do dataset ativo.
+    """Obtém o arquivo JSONL classificado do dataset ativo.
 
     Args:
         configuracao: Configuração carregada da aplicação.
@@ -52,9 +52,16 @@ def _obter_caminho_resultados(
         Caminho absoluto do arquivo de resultados.
     """
     nome_dataset = configuracao.datasets.active_dataset
-    nome_resultado = f"resultados_{nome_dataset}"
+    nome_dataset = nome_dataset.removesuffix(".jsonl")
+    nome_dataset = nome_dataset.removesuffix("_organizado")
+    nome_dataset = nome_dataset.removeprefix("dataset_")
+    nome_modelo = configuracao.llm.active_model
+    nome_resultado = (
+        f"resultados_classificados_{nome_modelo}_"
+        f"dataset_{nome_dataset}.jsonl"
+    )
 
-    return configuracao.paths.results / nome_resultado
+    return configuracao.paths.classified / nome_resultado
 
 
 def _criar_progresso_atualizado(
@@ -134,7 +141,7 @@ def _processar_registro(
         and resultado_ja_salvo(caminho_resultados, id_registro)
     ):
         logger.info(
-            "Resultado do registro %s já existe; chamada à LLM ignorada.",
+            "Resultado do registro %s ja existe; chamada a LLM ignorada.",
             id_registro,
         )
         progresso_atualizado = _criar_progresso_atualizado(
@@ -225,6 +232,6 @@ def executar_pipeline(
         )
 
     logger.info(
-        "Processamento do dataset %s concluído.",
+        "Processamento do dataset %s concluido.",
         nome_dataset,
     )

@@ -34,7 +34,7 @@ llm:
   # Delay padronizado para envio de prompts.
   # Todos os modelos devem respeitar este mesmo valor para manter consistência.
   delays:
-    request_delay_seconds: 60
+    request_delay_seconds: 75
 
   # Mapeamento dos provedores e modelos disponíveis no projeto.
   # "modelo_2" e "modelo_3" ficam como exemplos de substituição futura.

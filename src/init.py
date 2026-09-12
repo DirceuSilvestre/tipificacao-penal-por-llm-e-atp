@@ -75,7 +75,7 @@ def inicializar_aplicacao() -> int:
         executar_pipeline()
     except Exception:
         logger.exception(
-            "Falha fatal durante a execução da aplicação."
+            "Falha fatal durante a execucao da aplicacao."
         )
         return 1
 

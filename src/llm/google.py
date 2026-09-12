@@ -48,7 +48,7 @@ class GoogleProvider:
             from google import genai
         except ModuleNotFoundError as erro:
             raise ErroGoogleProvider(
-                "A dependência 'google-genai' não está instalada."
+                "A dependencia 'google-genai' nao esta instalada."
             ) from erro
 
         self._model_name = model_name.strip()
@@ -81,7 +81,7 @@ class GoogleProvider:
             )
         except Exception as erro:
             raise ErroGoogleProvider(
-                "Falha ao solicitar conteúdo ao provedor Google."
+                "Falha ao solicitar conteudo ao provedor Google."
             ) from erro
 
         texto = getattr(resposta, "text", None)

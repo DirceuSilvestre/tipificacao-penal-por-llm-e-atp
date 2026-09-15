@@ -10,9 +10,9 @@
         "status": "em_andamento"
     },
     "modelo_2:dataset_curado_organizado.jsonl": {
-        "ultimo_id_processado": 0,
-        "ultima_linha_processada": 0,
-        "status": "pendente"
+        "ultimo_id_processado": 30,
+        "ultima_linha_processada": 30,
+        "status": "concluido"
     },
     "modelo_2:dataset_sintetico_organizado.jsonl": {
         "ultimo_id_processado": 0,

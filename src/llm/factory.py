@@ -10,9 +10,10 @@ from src.llm.base import ProvedorLLM
 
 PROVEDOR_GOOGLE: Final[str] = "google"
 PROVEDOR_OPENAI: Final[str] = "openai"
+PROVEDOR_GROQ: Final[str] = "groq"
 
 PROVEDORES_SUPORTADOS: Final[frozenset[str]] = frozenset(
-    {PROVEDOR_GOOGLE, PROVEDOR_OPENAI}
+    {PROVEDOR_GOOGLE, PROVEDOR_OPENAI, PROVEDOR_GROQ}
 )
 
 
@@ -56,6 +57,25 @@ def _criar_provedor_openai(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
     )
 
 
+def _criar_provedor_groq(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
+    """Cria o provedor Groq utilizando o cliente compatível da OpenAI."""
+    modelo = configuracao.modelo_ativo
+
+    try:
+        from src.llm.openai import OpenAIProvider
+    except ModuleNotFoundError as erro:
+        raise ErroFabricaLLM(
+            "O provedor OpenAI necessário para o Groq não está disponível."
+        ) from erro
+
+    return OpenAIProvider(
+        model_name=modelo.model_name,
+        api_key=modelo.api_key,
+        request_delay_seconds=configuracao.delays.request_delay_seconds,
+        base_url="https://api.groq.com/openai/v1",
+    )
+
+
 def criar_provedor_llm(
     configuracao: ConfiguracaoLLM = CONFIG.llm,
 ) -> ProvedorLLM:
@@ -79,6 +99,9 @@ def criar_provedor_llm(
 
     if provedor == PROVEDOR_OPENAI:
         return _criar_provedor_openai(configuracao)
+
+    if provedor == PROVEDOR_GROQ:
+        return _criar_provedor_groq(configuracao)
 
     raise ErroFabricaLLM(
         f"Provedor LLM não suportado: {modelo.provider!r}. "

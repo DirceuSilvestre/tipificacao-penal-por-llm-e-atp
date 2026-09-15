@@ -29,7 +29,7 @@ metrics:
 llm:
   # Define qual modelo está ativo no momento para execução do pipeline.
   # Os modelos abaixo servem como base para futura troca/expansão.
-  active_model: "gemini_flash"  # Opções: "gemini_flash", "modelo_2", "modelo_3"
+  active_model: "modelo_2"  # Opções: "gemini_flash", "modelo_2", "modelo_3"
 
   # Delay padronizado para envio de prompts.
   # Todos os modelos devem respeitar este mesmo valor para manter consistência.
@@ -44,8 +44,8 @@ llm:
       model_name: "gemini-3.6-flash"
 
     modelo_2:
-      provider: "openai"
-      model_name: "gpt-5.6-luna"
+      provider: "groq"
+      model_name: "openai/gpt-oss-120b"
 
     modelo_3:
       provider: "anthropic"

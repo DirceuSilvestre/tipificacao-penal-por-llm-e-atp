@@ -40,6 +40,20 @@ def _obter_caminho_progresso(configuracao: ConfiguracaoAplicacao) -> Path:
     return configuracao.paths.data / "progresso_processamento.json"
 
 
+def _obter_chave_progresso(configuracao: ConfiguracaoAplicacao) -> str:
+    """Gera a chave de identificação do progresso combinando modelo e dataset.
+
+    Args:
+        configuracao: Configuração carregada da aplicação.
+
+    Returns:
+        Chave no formato 'nome_modelo:nome_dataset'.
+    """
+    nome_modelo = configuracao.llm.active_model
+    nome_dataset = configuracao.datasets.active_dataset
+    return f"{nome_modelo}:{nome_dataset}"
+
+
 def _obter_caminho_resultados(
     configuracao: ConfiguracaoAplicacao,
 ) -> Path:
@@ -70,10 +84,6 @@ def _criar_progresso_atualizado(
     status: str = "em_andamento",
 ) -> ProgressoProcessamento:
     """Cria uma nova versão imutável do progresso.
-
-    A leitura atual não expõe o número físico da linha. Por isso, o campo
-    `ultima_linha_processada` representa a quantidade de registros processados
-    com sucesso nesta etapa do pipeline.
 
     Args:
         progresso: Progresso anterior do dataset.
@@ -116,7 +126,7 @@ def _processar_registro(
     provedor: ProvedorLLM,
     caminho_resultados: Path,
     caminho_progresso: Path,
-    nome_dataset: str,
+    chave_progresso: str,
 ) -> ProgressoProcessamento:
     """Processa um registro e atualiza o progresso após sua persistência.
 
@@ -126,7 +136,7 @@ def _processar_registro(
         provedor: Provedor de LLM configurado.
         caminho_resultados: Arquivo JSONL de resultados.
         caminho_progresso: Arquivo JSON de progresso.
-        nome_dataset: Nome do dataset processado.
+        chave_progresso: Chave única do progresso (modelo:dataset).
 
     Returns:
         Progresso atualizado após o processamento.
@@ -150,7 +160,7 @@ def _processar_registro(
         )
         salvar_progresso_atomico(
             caminho_progresso,
-            nome_dataset,
+            chave_progresso,
             progresso_atualizado,
         )
         return progresso_atualizado
@@ -166,7 +176,7 @@ def _processar_registro(
     )
     salvar_progresso_atomico(
         caminho_progresso,
-        nome_dataset,
+        chave_progresso,
         progresso_atualizado,
     )
 
@@ -182,7 +192,7 @@ def executar_pipeline(
     configuracao: ConfiguracaoAplicacao = CONFIG,
     provedor: ProvedorLLM | None = None,
 ) -> None:
-    """Executa o processamento incremental do dataset ativo.
+    """Executa o processamento incremental do dataset ativo para o modelo ativo.
 
     Args:
         configuracao: Configuração da aplicação.
@@ -190,17 +200,17 @@ def executar_pipeline(
             será criado pela factory configurada.
 
     Raises:
-        FileNotFoundError: Se o progresso ou dataset não existir.
+        FileNotFoundError: Se o dataset não existir.
         Exception: Se alguma etapa do processamento falhar.
     """
     caminho_dataset = configuracao.datasets.active_dataset_path
-    nome_dataset = configuracao.datasets.active_dataset
+    chave_progresso = _obter_chave_progresso(configuracao)
     caminho_progresso = _obter_caminho_progresso(configuracao)
     caminho_resultados = _obter_caminho_resultados(configuracao)
 
     progresso = carregar_progresso(
         caminho_progresso,
-        nome_dataset,
+        chave_progresso,
     )
     provedor_configurado = provedor or criar_provedor_llm(
         configuracao.llm
@@ -216,7 +226,7 @@ def executar_pipeline(
             provedor=provedor_configurado,
             caminho_resultados=caminho_resultados,
             caminho_progresso=caminho_progresso,
-            nome_dataset=nome_dataset,
+            chave_progresso=chave_progresso,
         )
 
     if progresso.status != "concluido":
@@ -227,11 +237,12 @@ def executar_pipeline(
         )
         salvar_progresso_atomico(
             caminho_progresso,
-            nome_dataset,
+            chave_progresso,
             progresso_final,
         )
 
     logger.info(
-        "Processamento do dataset %s concluido.",
-        nome_dataset,
+        "Processamento do modelo %s no dataset %s concluido.",
+        configuracao.llm.active_model,
+        configuracao.datasets.active_dataset,
     )

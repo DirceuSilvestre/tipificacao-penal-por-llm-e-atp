@@ -19,7 +19,7 @@ class ErroProgresso(ValueError):
 
 @dataclass(frozen=True)
 class ProgressoProcessamento:
-    """Representa o progresso de um dataset.
+    """Representa o progresso de um dataset por modelo.
 
     Args:
         ultimo_id_processado: Maior ID processado com sucesso.
@@ -132,23 +132,32 @@ def _converter_progresso(
 
 def carregar_progresso(
     caminho: Path,
-    nome_dataset: str,
+    chave_progresso: str,
 ) -> ProgressoProcessamento:
-    """Carrega o progresso de um dataset.
+    """Carrega o progresso de uma combinação modelo:dataset.
+
+    Se a chave informada não for encontrada no arquivo JSON, inicializa
+    automaticamente um estado padrão "pendente".
 
     Args:
         caminho: Caminho do arquivo de progresso.
-        nome_dataset: Nome do dataset cujo progresso será carregado.
+        chave_progresso: Chave do progresso (ex: 'gemini_flash:dataset_curado.jsonl').
 
     Returns:
-        Progresso do dataset informado.
+        Progresso do modelo e dataset informados.
 
     Raises:
-        FileNotFoundError: Se o arquivo de progresso não existir.
-        ErroProgresso: Se o JSON ou seus campos forem inválidos.
+        ErroProgresso: Se o caminho for inválido ou o JSON estiver corrompido.
     """
-    if not nome_dataset.strip():
-        raise ErroProgresso("nome_dataset não pode ser vazio.")
+    if not chave_progresso.strip():
+        raise ErroProgresso("chave_progresso não pode ser vazia.")
+
+    if not caminho.exists():
+        return ProgressoProcessamento(
+            ultimo_id_processado=0,
+            ultima_linha_processada=0,
+            status="pendente",
+        )
 
     try:
         with caminho.open("r", encoding="utf-8") as arquivo:
@@ -158,27 +167,29 @@ def carregar_progresso(
             f"Arquivo de progresso inválido: {caminho}"
         ) from erro
 
-    dados_por_dataset = _validar_mapeamento(dados, "raiz")
+    dados_por_chave = _validar_mapeamento(dados, "raiz")
 
-    if nome_dataset not in dados_por_dataset:
-        raise ErroProgresso(
-            f"Dataset não encontrado no progresso: {nome_dataset}"
+    if chave_progresso not in dados_por_chave:
+        return ProgressoProcessamento(
+            ultimo_id_processado=0,
+            ultima_linha_processada=0,
+            status="pendente",
         )
 
-    dados_dataset = _validar_mapeamento(
-        dados_por_dataset[nome_dataset],
-        f"progresso de {nome_dataset}",
+    dados_progresso = _validar_mapeamento(
+        dados_por_chave[chave_progresso],
+        f"progresso de {chave_progresso}",
     )
 
-    return _converter_progresso(dados_dataset)
+    return _converter_progresso(dados_progresso)
 
 
 def salvar_progresso_atomico(
     caminho: Path,
-    nome_dataset: str,
+    chave_progresso: str,
     progresso: ProgressoProcessamento,
 ) -> None:
-    """Atualiza o progresso de um dataset de forma atômica.
+    """Atualiza o progresso de um modelo e dataset de forma atômica.
 
     O conteúdo é escrito em arquivo temporário no mesmo diretório do arquivo
     original. Após a sincronização física dos dados, o arquivo temporário
@@ -186,15 +197,15 @@ def salvar_progresso_atomico(
 
     Args:
         caminho: Caminho do arquivo de progresso.
-        nome_dataset: Nome do dataset atualizado.
-        progresso: Novo progresso validado do dataset.
+        chave_progresso: Chave única do progresso (ex: 'modelo:dataset.jsonl').
+        progresso: Novo progresso validado.
 
     Raises:
-        ErroProgresso: Se o nome do dataset for vazio.
+        ErroProgresso: Se a chave for vazia.
         OSError: Se o arquivo não puder ser escrito ou substituído.
     """
-    if not nome_dataset.strip():
-        raise ErroProgresso("nome_dataset não pode ser vazio.")
+    if not chave_progresso.strip():
+        raise ErroProgresso("chave_progresso não pode ser vazia.")
 
     caminho.parent.mkdir(parents=True, exist_ok=True)
 
@@ -208,7 +219,7 @@ def salvar_progresso_atomico(
             _validar_mapeamento(dados_carregados, "raiz")
         )
 
-    dados_existentes[nome_dataset] = asdict(progresso)
+    dados_existentes[chave_progresso] = asdict(progresso)
 
     arquivo_temporario: str | None = None
 

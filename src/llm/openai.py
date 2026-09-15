@@ -1,4 +1,4 @@
-"""Provedor OpenAI para comunicação com modelos GPT."""
+"""Provedor OpenAI para comunicação com modelos GPT e compatíveis."""
 
 from __future__ import annotations
 
@@ -10,16 +10,17 @@ class ErroOpenAIProvider(RuntimeError):
 
 
 class OpenAIProvider:
-    """Implementa o contrato de comunicação com modelos OpenAI (GPT).
+    """Implementa o contrato de comunicação com modelos OpenAI (GPT) e compatíveis.
 
     Esta classe conhece somente o SDK OpenAI e os parâmetros necessários para
     enviar prompts. Não acessa `config.yaml`, `.env`, datasets, progresso,
     parser ou construtor de prompts.
 
     Args:
-        model_name: Nome do modelo OpenAI utilizado na requisição (ex: "gpt-4o-mini").
-        api_key: Chave de autenticação da API OpenAI.
+        model_name: Nome do modelo utilizado na requisição (ex: "gpt-4o-mini" ou "openai/gpt-oss-120b").
+        api_key: Chave de autenticação da API.
         request_delay_seconds: Intervalo em segundos entre requisições.
+        base_url: URL base opcional para APIs compatíveis com a OpenAI (ex: Groq).
     """
 
     def __init__(
@@ -27,16 +28,18 @@ class OpenAIProvider:
         model_name: str,
         api_key: str | None,
         request_delay_seconds: float = 0.0,
+        base_url: str | None = None,
     ) -> None:
-        """Inicializa o provedor OpenAI.
+        """Inicializa o provedor OpenAI / compatível.
 
         Args:
-            model_name: Nome do modelo OpenAI.
-            api_key: Chave de autenticação da API OpenAI.
+            model_name: Nome do modelo.
+            api_key: Chave de autenticação da API.
             request_delay_seconds: Intervalo em segundos entre requisições.
+            base_url: URL base opcional para chamadas customizadas.
 
         Raises:
-            ValueError: Se o nome do modelo, a chave ou o atraso forem inválidos.
+            ValueError: Se o nome do modelo, a chave, o atraso ou base_url forem inválidos.
             ErroOpenAIProvider: Se o SDK OpenAI não estiver instalado.
         """
         if not isinstance(model_name, str) or not model_name.strip():
@@ -58,6 +61,13 @@ class OpenAIProvider:
                 "request_delay_seconds deve ser um número não negativo."
             )
 
+        if base_url is not None and (
+            not isinstance(base_url, str) or not base_url.strip()
+        ):
+            raise ValueError(
+                "base_url, quando informado, deve ser uma string não vazia."
+            )
+
         try:
             from openai import OpenAI
         except ModuleNotFoundError as erro:
@@ -67,10 +77,15 @@ class OpenAIProvider:
 
         self._model_name = model_name.strip()
         self._request_delay_seconds = float(request_delay_seconds)
-        self._cliente = OpenAI(api_key=api_key.strip())
+
+        parametros_cliente = {"api_key": api_key.strip()}
+        if base_url is not None:
+            parametros_cliente["base_url"] = base_url.strip()
+
+        self._cliente = OpenAI(**parametros_cliente)
 
     def gerar_conteudo(self, prompt: str) -> str:
-        """Envia um prompt à OpenAI e retorna a resposta textual.
+        """Envia um prompt à API e retorna a resposta textual.
 
         Respeita o intervalo de tempo configurado em `request_delay_seconds`
         aguardando o tempo determinado antes de realizar a chamada à API.
@@ -79,12 +94,12 @@ class OpenAIProvider:
             prompt: Texto completo da instrução para o modelo.
 
         Returns:
-            Texto bruto retornado pela OpenAI.
+            Texto bruto retornado pela API.
 
         Raises:
             ValueError: Se o prompt for vazio ou inválido.
             ErroOpenAIProvider: Se a API retornar uma resposta sem texto
-                ou ocorrer uma falha na comunicação.
+                ocorrer uma falha na comunicação.
         """
         if not isinstance(prompt, str) or not prompt.strip():
             raise ValueError(

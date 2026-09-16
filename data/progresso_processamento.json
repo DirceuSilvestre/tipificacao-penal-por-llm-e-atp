@@ -5,8 +5,8 @@
         "status": "concluido"
     },
     "gemini_flash:dataset_sintetico_organizado.jsonl": {
-        "ultimo_id_processado": 0,
-        "ultima_linha_processada": 0,
+        "ultimo_id_processado": 14,
+        "ultima_linha_processada": 14,
         "status": "em_andamento"
     },
     "modelo_2:dataset_curado_organizado.jsonl": {

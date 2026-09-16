@@ -16,7 +16,7 @@ paths:
   taxonomy: "data/vade_mecum_taxonomy.json"
 
 datasets:
-  active_dataset: "dataset_curado_organizado.jsonl"
+  active_dataset: "dataset_sintetico_organizado.jsonl"
   available:
     curado: "data/organized/dataset_curado_organizado.jsonl"
     sintetico: "data/organized/dataset_sintetico_organizado.jsonl"
@@ -29,7 +29,7 @@ metrics:
 llm:
   # Define qual modelo está ativo no momento para execução do pipeline.
   # Os modelos abaixo servem como base para futura troca/expansão.
-  active_model: "modelo_2"  # Opções: "gemini_flash", "modelo_2", "modelo_3"
+  active_model: "gemini_flash"  # Opções: "gemini_flash", "modelo_2", "modelo_3"
 
   # Delay padronizado para envio de prompts.
   # Todos os modelos devem respeitar este mesmo valor para manter consistência.

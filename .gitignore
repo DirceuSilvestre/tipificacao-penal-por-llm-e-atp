@@ -2,6 +2,9 @@
 
 logs/
 
+impact/
+.impact/
+
 venv/
 __pycache__/
 .pytest_cache/

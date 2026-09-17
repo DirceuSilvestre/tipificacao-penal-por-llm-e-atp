@@ -4,3 +4,7 @@ python-dotenv
 pytest
 
 google-genai
+
+scikit-learn
+matplotlib
+reportlab

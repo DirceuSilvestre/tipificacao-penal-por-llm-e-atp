@@ -15,9 +15,9 @@
         "status": "concluido"
     },
     "modelo_2:dataset_sintetico_organizado.jsonl": {
-        "ultimo_id_processado": 0,
-        "ultima_linha_processada": 0,
-        "status": "pendente"
+        "ultimo_id_processado": 360,
+        "ultima_linha_processada": 360,
+        "status": "concluido"
     },
     "modelo_3:dataset_curado_organizado.jsonl": {
         "ultimo_id_processado": 0,

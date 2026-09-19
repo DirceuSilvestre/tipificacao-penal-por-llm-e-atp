@@ -31,13 +31,19 @@ class PDFReportGenerator:
         self._story.append(Paragraph(texto, self._styles["Normal"]))
         self._story.append(Spacer(1, 0.2 * cm))
 
-    def adicionar_imagem(self, caminho_imagem: Path, largura: float = 16, altura: float = 10) -> None:
+    def adicionar_imagem(
+        self, caminho_imagem: Path, largura: float = 16, altura: float = 10
+    ) -> None:
         """Adiciona gráfico/imagem se o arquivo existir no disco."""
         if caminho_imagem.exists():
-            self._story.append(Image(str(caminho_imagem), width=largura * cm, height=altura * cm))
+            self._story.append(
+                Image(str(caminho_imagem), width=largura * cm, height=altura * cm)
+            )
             self._story.append(Spacer(1, 0.4 * cm))
         else:
-            self.adicionar_texto(f"<b>Aviso:</b> Imagem não encontrada: {caminho_imagem.name}")
+            self.adicionar_texto(
+                f"<b>Aviso:</b> Imagem não encontrada: {caminho_imagem.name}"
+            )
 
     def salvar(self, caminho_pdf: Path) -> Path:
         """Gera o arquivo PDF final."""
@@ -75,14 +81,36 @@ def gerar_relatorio_pdf(
         "Tipificação Penal por LLMs - Relatório de Desempenho",
     )
 
-    gerador.adicionar_texto(f"<b>Modelo Evaluado:</b> {resumo.modelo}")
+    gerador.adicionar_texto(f"<b>Modelo Avaliado:</b> {resumo.modelo}")
     gerador.adicionar_texto(f"<b>Dataset Analisado:</b> {resumo.dataset}")
     gerador.adicionar_texto(f"<b>Total de Casos:</b> {resumo.total_exemplos}")
-    gerador.adicionar_texto(f"<b>Acurácia Simples:</b> {resumo.acuracia_simples:.4f}")
-    gerador.adicionar_texto(f"<b>Acurácia Semântica:</b> {resumo.acuracia_semantica:.4f}")
-    gerador.adicionar_texto(f"<b>Precisão Macro:</b> {resumo.precisao_macro:.4f}")
-    gerador.adicionar_texto(f"<b>Recall Macro:</b> {resumo.recall_macro:.4f}")
-    gerador.adicionar_texto(f"<b>F1-Score Macro:</b> {resumo.f1_macro:.4f}")
+    gerador.adicionar_texto(
+        f"<b>Acurácia Simples Global:</b> {resumo.acuracia_simples:.2f}"
+    )
+    gerador.adicionar_texto(
+        f"<b>Acurácia Semântica Global:</b> {resumo.acuracia_semantica:.2f}"
+    )
+
+    # Exibição formatada das acurácias por nível (duas casas decimais)
+    ac_nivel_str = ", ".join(
+        f"{nivel.capitalize()}: {valor:.2f}"
+        for nivel, valor in resumo.acuracia_por_nivel.items()
+    )
+    gerador.adicionar_texto(
+        f"<b>Acurácia Simples por Nível:</b> {ac_nivel_str or 'N/A'}"
+    )
+
+    sem_nivel_str = ", ".join(
+        f"{nivel.capitalize()}: {valor:.2f}"
+        for nivel, valor in resumo.acuracia_semantica_por_nivel.items()
+    )
+    gerador.adicionar_texto(
+        f"<b>Acurácia Semântica por Nível:</b> {sem_nivel_str or 'N/A'}"
+    )
+
+    gerador.adicionar_texto(f"<b>Precisão Macro:</b> {resumo.precisao_macro:.2f}")
+    gerador.adicionar_texto(f"<b>Recall Macro:</b> {resumo.recall_macro:.2f}")
+    gerador.adicionar_texto(f"<b>F1-Score Macro:</b> {resumo.f1_macro:.2f}")
 
     gerador.adicionar_imagem(caminho_matriz)
     return gerador.salvar(caminho_pdf)

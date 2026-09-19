@@ -22,10 +22,23 @@ def avaliar_dataset_classificado(
     caminho_jsonl: Path,
     configuracao: ConfiguracaoAplicacao = CONFIG,
 ) -> ResumoAvaliacao:
-    """Executa a avaliação estatística completa sobre um arquivo JSONL classificado."""
+    """Executa a avaliação estatística completa sobre um arquivo JSONL classificado.
+
+    Args:
+        caminho_jsonl: Caminho do arquivo JSONL contendo os resultados classificados.
+        configuracao: Objeto de configuração da aplicação.
+
+    Returns:
+        Instância de ResumoAvaliacao contendo todas as métricas calculadas.
+
+    Raises:
+        ValueError: Se o arquivo JSONL estiver vazio ou não contiver registros válidos.
+    """
     itens = list(ler_resultados_jsonl(caminho_jsonl))
     if not itens:
-        raise ValueError(f"O arquivo {caminho_jsonl} não contém registros para avaliação.")
+        raise ValueError(
+            f"O arquivo {caminho_jsonl} não contém registros para avaliação."
+        )
 
     reais = [item.classe_real for item in itens]
     preditos = [item.classe_predita for item in itens]
@@ -43,7 +56,9 @@ def avaliar_dataset_classificado(
 
     # Cálculo segmentado por nível
     ac_nivel = calcular_acuracia_por_nivel(itens)
-    sem_nivel = calcular_acuracia_semantica_por_nivel(itens, configuracao=configuracao)
+    sem_nivel = calcular_acuracia_semantica_por_nivel(
+        itens, configuracao=configuracao
+    )
 
     resumo = ResumoAvaliacao(
         modelo=configuracao.llm.active_model,
@@ -58,18 +73,20 @@ def avaliar_dataset_classificado(
         f1_macro=f1,
     )
 
-    # Persistência usando o caminho 'results' correto
+    # Persistência usando nomes dinâmicos contendo o modelo e dataset
     pasta_saida = configuracao.paths.results
     pasta_saida.mkdir(parents=True, exist_ok=True)
 
-    caminho_json_saida = pasta_saida / "resultado_avaliacao.json"
+    caminho_json_saida = (
+        pasta_saida / f"resultado_avaliacao_{configuracao.datasets.active_dataset}.json"
+    )
     with caminho_json_saida.open("w", encoding="utf-8") as f:
         json.dump(asdict(resumo), f, ensure_ascii=False, indent=2)
 
-    caminho_matriz = pasta_saida / "matriz_confusao.png"
+    caminho_matriz = pasta_saida / f"matriz_confusao_{configuracao.datasets.active_dataset}.png"
     gerar_matriz_confusao(reais, preditos, caminho_matriz)
 
-    caminho_pdf = pasta_saida / "Relatorio_Avaliacao_TCC.pdf"
+    caminho_pdf = pasta_saida / f"relatorio_avaliacao_{configuracao.datasets.active_dataset}.pdf"
     gerar_relatorio_pdf(resumo, caminho_matriz, caminho_pdf)
 
     return resumo

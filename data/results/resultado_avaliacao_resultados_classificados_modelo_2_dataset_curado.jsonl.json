@@ -1,0 +1,20 @@
+{
+  "modelo": "modelo_2",
+  "dataset": "resultados_classificados_modelo_2_dataset_curado.jsonl",
+  "total_exemplos": 30,
+  "acuracia_simples": 0.6666666666666666,
+  "acuracia_semantica": 0.7666666666666667,
+  "acuracia_por_nivel": {
+    "fácil": 0.9,
+    "médio": 0.7,
+    "difícil": 0.4
+  },
+  "acuracia_semantica_por_nivel": {
+    "fácil": 0.9,
+    "médio": 0.8,
+    "difícil": 0.6
+  },
+  "precisao_macro": 0.6866666666666668,
+  "recall_macro": 0.6666666666666666,
+  "f1_macro": 0.6397619047619048
+}

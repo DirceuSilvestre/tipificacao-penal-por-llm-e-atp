@@ -1,0 +1,20 @@
+{
+  "modelo": "modelo_2",
+  "dataset": "resultados_classificados_modelo_2_dataset_sintetico.jsonl",
+  "total_exemplos": 360,
+  "acuracia_simples": 0.7694444444444445,
+  "acuracia_semantica": 0.8194444444444444,
+  "acuracia_por_nivel": {
+    "fácil": 0.7833333333333333,
+    "médio": 0.775,
+    "difícil": 0.75
+  },
+  "acuracia_semantica_por_nivel": {
+    "fácil": 0.8291666666666667,
+    "médio": 0.8208333333333333,
+    "difícil": 0.8083333333333333
+  },
+  "precisao_macro": 0.8013913966208678,
+  "recall_macro": 0.7416666666666666,
+  "f1_macro": 0.7317634020593282
+}

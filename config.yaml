@@ -16,7 +16,7 @@ paths:
   taxonomy: "data/vade_mecum_taxonomy.json"
 
 datasets:
-  active_dataset: "dataset_sintetico_organizado.jsonl"
+  active_dataset: "resultados_classificados_gemini_flash_dataset_sintetico.jsonl"
   available:
     curado: "data/organized/dataset_curado_organizado.jsonl"
     sintetico: "data/organized/dataset_sintetico_organizado.jsonl"

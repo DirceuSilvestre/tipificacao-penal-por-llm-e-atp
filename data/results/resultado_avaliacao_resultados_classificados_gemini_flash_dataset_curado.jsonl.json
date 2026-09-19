@@ -1,0 +1,20 @@
+{
+  "modelo": "gemini_flash",
+  "dataset": "resultados_classificados_gemini_flash_dataset_curado.jsonl",
+  "total_exemplos": 30,
+  "acuracia_simples": 0.6333333333333333,
+  "acuracia_semantica": 0.75,
+  "acuracia_por_nivel": {
+    "fácil": 0.9,
+    "médio": 0.6,
+    "difícil": 0.4
+  },
+  "acuracia_semantica_por_nivel": {
+    "fácil": 0.9,
+    "médio": 0.75,
+    "difícil": 0.6
+  },
+  "precisao_macro": 0.6716666666666666,
+  "recall_macro": 0.6333333333333333,
+  "f1_macro": 0.599047619047619
+}

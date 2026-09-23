@@ -1,0 +1,361 @@
+id;nível;texto;classe_correta
+1;fácil;O servidor pega para si dinheiro público que estava sob sua responsabilidade no trabalho.;peculato
+2;médio;O funcionário público utiliza para si recursos financeiros públicos que estavam sob sua guarda funcional.;peculato
+3;difícil;O agente estatal incorpora ao seu patrimônio valores públicos cuja disponibilidade decorria diretamente das atribuições do cargo.;peculato
+4;fácil;O servidor entrega a outra pessoa um valor de um particular que estava sob sua guarda.;peculato
+5;médio;O funcionário público destina a terceiro quantia pertencente a particular que estava sob sua responsabilidade funcional.;peculato
+6;difícil;O agente, investido em função pública, transfere a outrem valores privados cuja custódia lhe fora confiada institucionalmente.;peculato
+7;fácil;O servidor usa dinheiro público para outra finalidade para se beneficiar.;peculato
+8;médio;O funcionário altera a destinação de recursos públicos sob sua posse para obter vantagem pessoal.;peculato
+9;difícil;O agente público redireciona valores estatais sob sua administração para finalidade diversa, com intuito de benefício próprio.;peculato
+10;fácil;O servidor desvia um bem de outra pessoa que estava sob sua responsabilidade no cargo para beneficiar alguém.;peculato
+11;médio;O funcionário modifica a destinação de um bem particular sob sua guarda funcional em favor de terceiro.;peculato
+12;difícil;O agente público altera a finalidade de uso de bem móvel privado sob sua custódia institucional para favorecer terceiro.;peculato
+13;fácil;O servidor pega dinheiro público sem ter acesso direto, usando sua função.;peculato
+14;médio;O funcionário público retira valores públicos sem posse prévia, aproveitando-se das facilidades do cargo.;peculato
+15;difícil;O agente, embora destituído de posse imediata, obtém valores públicos mediante exploração das prerrogativas inerentes à função.;peculato
+16;fácil;O servidor ajuda a retirar dinheiro de alguém usando seu cargo.;peculato
+17;médio;O funcionário subtrai valores privados sem posse direta, utilizando-se de vantagens da função, em favor de terceiro.;peculato
+18;difícil;O agente público, sem detenção prévia do bem, promove sua retirada indevida valendo-se das facilidades institucionais, beneficiando outrem.;peculato
+19;fácil;O servidor ajuda alguém a pegar dinheiro público para benefício próprio.;peculato
+20;médio;O funcionário colabora para a retirada de recursos públicos, usando sua função para obter vantagem pessoal.;peculato
+21;difícil;O agente estatal atua em cooperação para viabilizar a subtração de valores públicos, explorando as condições funcionais para proveito próprio.;peculato
+22;fácil;O servidor ajuda alguém a pegar um bem de outra pessoa.;peculato
+23;médio;O funcionário público contribui para a subtração de bem privado utilizando sua posição funcional.;peculato
+24;difícil;O agente concorre para a retirada indevida de bem móvel de particular, valendo-se das prerrogativas inerentes ao cargo para beneficiar terceiro.;peculato
+25;fácil;O servidor usa dinheiro público para beneficiar outra pessoa.;peculato
+26;médio;O funcionário direciona recursos públicos sob sua posse para favorecer terceiros.;peculato
+27;difícil;O agente público altera a destinação de valores estatais sob sua guarda institucional com intuito de beneficiar outrem.;peculato
+28;fácil;O servidor fica com um bem de outra pessoa que estava sob sua responsabilidade.;peculato
+29;médio;O funcionário público toma para si bem privado sob sua custódia funcional.;peculato
+30;difícil;O agente estatal incorpora ao próprio patrimônio bem móvel de titularidade privada cuja guarda decorria de atribuição do cargo.;peculato
+31;fácil;O servidor, por descuido, deixa outra pessoa acessar dinheiro público e essa pessoa pega o dinheiro.;peculato_culposo
+32;médio;O funcionário público, por negligência, permite que terceiros tenham acesso indevido a valores sob sua guarda, possibilitando sua subtração.;peculato_culposo
+33;difícil;O agente estatal, por omissão negligente no dever de vigilância, viabiliza o acesso indevido de terceiros a valores públicos, contribuindo culposamente para sua subtração.;peculato_culposo
+34;fácil;O servidor não cuida corretamente de bens públicos e outra pessoa se apropria deles.;peculato_culposo
+35;médio;O funcionário, por negligência na proteção de bens públicos, facilita sua apropriação por terceiros.;peculato_culposo
+36;difícil;O agente público, ao descumprir deveres de guarda por negligência, possibilita que terceiros incorporem bens públicos indevidamente.;peculato_culposo
+37;fácil;O servidor deixa de controlar dinheiro público e outra pessoa desvia esse dinheiro.;peculato_culposo
+38;médio;O funcionário omite medidas de controle sobre valores públicos, permitindo desvio por terceiros.;peculato_culposo
+39;difícil;O agente, por inércia negligente nos mecanismos de controle, concorre para o desvio de valores públicos por terceiros.;peculato_culposo
+40;fácil;O servidor expõe dinheiro público ao risco e outra pessoa pega esse dinheiro.;peculato_culposo
+41;médio;O funcionário age de forma imprudente ao expor valores públicos, possibilitando sua subtração por terceiros.;peculato_culposo
+42;difícil;O agente estatal, mediante conduta imprudente, cria situação de risco que viabiliza a subtração de valores públicos por terceiros.;peculato_culposo
+43;fácil;O servidor deixa alguém não autorizado mexer em bens públicos e essa pessoa fica com eles.;peculato_culposo
+44;médio;O funcionário permite, imprudentemente, o acesso de pessoa não autorizada a bens públicos, facilitando sua apropriação.;peculato_culposo
+45;difícil;O agente público, ao admitir indevidamente o manuseio de bens por terceiros, concorre culposamente para sua apropriação.;peculato_culposo
+46;fácil;O servidor age de forma arriscada com dinheiro público e outra pessoa desvia esse dinheiro.;peculato_culposo
+47;médio;O funcionário adota conduta imprudente na gestão de valores públicos, permitindo desvio por terceiros.;peculato_culposo
+48;difícil;O agente estatal, por gestão temerária de recursos públicos, cria condições para seu desvio por terceiros.;peculato_culposo
+49;fácil;O servidor não sabe administrar corretamente bens públicos e outra pessoa os pega.;peculato_culposo
+50;médio;O funcionário, por falta de capacidade técnica, permite que terceiros subtraiam bens públicos.;peculato_culposo
+51;difícil;O agente público, por imperícia na administração patrimonial, contribui para a subtração de bens por terceiros.;peculato_culposo
+52;fácil;O servidor não sabe controlar dinheiro público e outra pessoa desvia esse dinheiro.;peculato_culposo
+53;médio;O funcionário demonstra imperícia no controle de valores públicos, facilitando desvio por terceiros.;peculato_culposo
+54;difícil;A deficiência técnica do agente no controle financeiro público viabiliza o desvio de valores por terceiros.;peculato_culposo
+55;fácil;O servidor deixa alguém acessar um bem público e essa pessoa o pega.;peculato_culposo
+56;médio;O funcionário, por negligência, não impede acesso indevido a bem público, facilitando sua subtração.;peculato_culposo
+57;difícil;O agente público, ao falhar no dever de impedir acessos indevidos, concorre culposamente para a subtração de bem público.;peculato_culposo
+58;fácil;O servidor guarda mal dinheiro público e outra pessoa fica com ele.;peculato_culposo
+59;médio;O funcionário, por imprudência na guarda de valores públicos, permite sua apropriação por terceiros.;peculato_culposo
+60;difícil;O agente estatal, mediante falha imprudente na custódia de valores públicos, possibilita sua apropriação por terceiros.;peculato_culposo
+61;fácil;O servidor pega para si dinheiro público que estava sob sua responsabilidade no trabalho.;peculato
+62;médio;O funcionário público utiliza para si recursos financeiros públicos que estavam sob sua guarda funcional.;peculato
+63;difícil;O agente estatal incorpora ao seu patrimônio valores públicos cuja disponibilidade decorria diretamente das atribuições do cargo.;peculato
+64;fácil;O servidor entrega a outra pessoa um valor de um particular que estava sob sua guarda.;peculato
+65;médio;O funcionário público destina a terceiro quantia pertencente a particular que estava sob sua responsabilidade funcional.;peculato
+66;difícil;O agente, investido em função pública, transfere a outrem valores privados cuja custódia lhe fora confiada institucionalmente.;peculato
+67;fácil;O servidor usa dinheiro público para outra finalidade para se beneficiar.;peculato
+68;médio;O funcionário altera a destinação de recursos públicos sob sua posse para obter vantagem pessoal.;peculato
+69;difícil;O agente público redireciona valores estatais sob sua administração para finalidade diversa, com intuito de benefício próprio.;peculato
+70;fácil;O servidor desvia um bem de outra pessoa que estava sob sua responsabilidade no cargo para beneficiar alguém.;peculato
+71;médio;O funcionário modifica a destinação de um bem particular sob sua guarda funcional em favor de terceiro.;peculato
+72;difícil;O agente público altera a finalidade de uso de bem móvel privado sob sua custódia institucional para favorecer terceiro.;peculato
+73;fácil;O servidor pega dinheiro público sem ter acesso direto, usando sua função.;peculato
+74;médio;O funcionário público retira valores públicos sem posse prévia, aproveitando-se das facilidades do cargo.;peculato
+75;difícil;O agente, embora destituído de posse imediata, obtém valores públicos mediante exploração das prerrogativas inerentes à função.;peculato
+76;fácil;O servidor ajuda a retirar dinheiro de alguém usando seu cargo.;peculato
+77;médio;O funcionário subtrai valores privados sem posse direta, utilizando-se de vantagens da função, em favor de terceiro.;peculato
+78;difícil;O agente público, sem detenção prévia do bem, promove sua retirada indevida valendo-se das facilidades institucionais, beneficiando outrem.;peculato
+79;fácil;O servidor ajuda alguém a pegar dinheiro público para benefício próprio.;peculato
+80;médio;O funcionário colabora para a retirada de recursos públicos, usando sua função para obter vantagem pessoal.;peculato
+81;difícil;O agente estatal atua em cooperação para viabilizar a subtração de valores públicos, explorando as condições funcionais para proveito próprio.;peculato
+82;fácil;O servidor ajuda alguém a pegar um bem de outra pessoa.;peculato
+83;médio;O funcionário público contribui para a subtração de bem privado utilizando sua posição funcional.;peculato
+84;difícil;O agente concorre para a retirada indevida de bem móvel de particular, valendo-se das prerrogativas inerentes ao cargo para beneficiar terceiro.;peculato
+85;fácil;O servidor usa dinheiro público para beneficiar outra pessoa.;peculato
+86;médio;O funcionário direciona recursos públicos sob sua posse para favorecer terceiros.;peculato
+87;difícil;O agente público altera a destinação de valores estatais sob sua guarda institucional com intuito de beneficiar outrem.;peculato
+88;fácil;O servidor fica com um bem de outra pessoa que estava sob sua responsabilidade.;peculato
+89;médio;O funcionário público toma para si bem privado sob sua custódia funcional.;peculato
+90;difícil;O agente estatal incorpora ao próprio patrimônio bem móvel de titularidade privada cuja guarda decorria de atribuição do cargo.;peculato
+91;fácil;O servidor, por descuido, deixa outra pessoa acessar dinheiro público e essa pessoa pega o dinheiro.;peculato_culposo
+92;médio;O funcionário público, por negligência, permite que terceiros tenham acesso indevido a valores sob sua guarda, possibilitando sua subtração.;peculato_culposo
+93;difícil;O agente estatal, por omissão negligente no dever de vigilância, viabiliza o acesso indevido de terceiros a valores públicos, contribuindo culposamente para sua subtração.;peculato_culposo
+94;fácil;O servidor não cuida corretamente de bens públicos e outra pessoa se apropria deles.;peculato_culposo
+95;médio;O funcionário, por negligência na proteção de bens públicos, facilita sua apropriação por terceiros.;peculato_culposo
+96;difícil;O agente público, ao descumprir deveres de guarda por negligência, possibilita que terceiros incorporem bens públicos indevidamente.;peculato_culposo
+97;fácil;O servidor deixa de controlar dinheiro público e outra pessoa desvia esse dinheiro.;peculato_culposo
+98;médio;O funcionário omite medidas de controle sobre valores públicos, permitindo desvio por terceiros.;peculato_culposo
+99;difícil;O agente, por inércia negligente nos mecanismos de controle, concorre para o desvio de valores públicos por terceiros.;peculato_culposo
+100;fácil;O servidor expõe dinheiro público ao risco e outra pessoa pega esse dinheiro.;peculato_culposo
+101;médio;O funcionário age de forma imprudente ao expor valores públicos, possibilitando sua subtração por terceiros.;peculato_culposo
+102;difícil;O agente estatal, mediante conduta imprudente, cria situação de risco que viabiliza a subtração de valores públicos por terceiros.;peculato_culposo
+103;fácil;O servidor deixa alguém não autorizado mexer em bens públicos e essa pessoa fica com eles.;peculato_culposo
+104;médio;O funcionário permite, imprudentemente, o acesso de pessoa não autorizada a bens públicos, facilitando sua apropriação.;peculato_culposo
+105;difícil;O agente público, ao admitir indevidamente o manuseio de bens por terceiros, concorre culposamente para sua apropriação.;peculato_culposo
+106;fácil;O servidor age de forma arriscada com dinheiro público e outra pessoa desvia esse dinheiro.;peculato_culposo
+107;médio;O funcionário adota conduta imprudente na gestão de valores públicos, permitindo desvio por terceiros.;peculato_culposo
+108;difícil;O agente estatal, por gestão temerária de recursos públicos, cria condições para seu desvio por terceiros.;peculato_culposo
+109;fácil;O servidor não sabe administrar corretamente bens públicos e outra pessoa os pega.;peculato_culposo
+110;médio;O funcionário, por falta de capacidade técnica, permite que terceiros subtraiam bens públicos.;peculato_culposo
+111;difícil;O agente público, por imperícia na administração patrimonial, contribui para a subtração de bens por terceiros.;peculato_culposo
+112;fácil;O servidor não sabe controlar dinheiro público e outra pessoa desvia esse dinheiro.;peculato_culposo
+113;médio;O funcionário demonstra imperícia no controle de valores públicos, facilitando desvio por terceiros.;peculato_culposo
+114;difícil;A deficiência técnica do agente no controle financeiro público viabiliza o desvio de valores por terceiros.;peculato_culposo
+115;fácil;O servidor deixa alguém acessar um bem público e essa pessoa o pega.;peculato_culposo
+116;médio;O funcionário, por negligência, não impede acesso indevido a bem público, facilitando sua subtração.;peculato_culposo
+117;difícil;O agente público, ao falhar no dever de impedir acessos indevidos, concorre culposamente para a subtração de bem público.;peculato_culposo
+118;fácil;O servidor guarda mal dinheiro público e outra pessoa fica com ele.;peculato_culposo
+119;médio;O funcionário, por imprudência na guarda de valores públicos, permite sua apropriação por terceiros.;peculato_culposo
+120;difícil;O agente estatal, mediante falha imprudente na custódia de valores públicos, possibilita sua apropriação por terceiros.;peculato_culposo
+121;fácil;A pessoa entrega dinheiro por engano ao servidor, e ele fica com o valor sabendo do erro.;peculato_mediante_erro_de_outrem
+122;médio;O funcionário recebe pagamento equivocado de cidadão durante o trabalho e decide se apropriar da quantia.;peculato_mediante_erro_de_outrem
+123;difícil;O agente estatal, percebendo entrega pecuniária indevida decorrente de equívoco de administrado no contexto funcional, incorpora conscientemente o numerário ao patrimônio próprio.;peculato_mediante_erro_de_outrem
+124;fácil;O servidor recebe por engano um vale com valor e resolve ficar com ele.;peculato_mediante_erro_de_outrem
+125;médio;Durante atendimento público, o agente recebe utilidade financeira entregue por erro de terceiro e a retém para si.;peculato_mediante_erro_de_outrem
+126;difícil;No desempenho das atribuições administrativas, o funcionário obtém título patrimonial repassado equivocadamente por particular e voluntariamente o incorpora ao seu acervo.;peculato_mediante_erro_de_outrem
+127;fácil;Um cidadão deposita dinheiro por engano, e o servidor fica com a quantia.;peculato_mediante_erro_de_outrem
+128;médio;O agente público recebe depósito equivocado relacionado ao cargo e se apropria dos valores recebidos.;peculato_mediante_erro_de_outrem
+129;difícil;Recebida transferência monetária indevida por erro material de particular em contexto funcional, o servidor, ciente da irregularidade, retém o numerário.;peculato_mediante_erro_de_outrem
+130;fácil;Uma pessoa entrega objeto valioso por engano ao funcionário, e ele fica com o item.;peculato_mediante_erro_de_outrem
+131;médio;O servidor recebe bem de valor entregue equivocadamente por usuário do serviço e o toma para si.;peculato_mediante_erro_de_outrem
+132;difícil;O agente administrativo, ao receber utilidade patrimonial entregue indevidamente por administrado, decide incorporá-la ao patrimônio particular.;peculato_mediante_erro_de_outrem
+133;fácil;O cidadão paga duas vezes sem querer, e o servidor guarda o valor extra.;peculato_mediante_erro_de_outrem
+134;médio;O funcionário recebe pagamento duplicado por erro de terceiro e retém conscientemente a diferença.;peculato_mediante_erro_de_outrem
+135;difícil;Em razão de pagamento excedente decorrente de equívoco do administrado, o agente público apropria-se dolosamente da parcela indevida.;peculato_mediante_erro_de_outrem
+136;fácil;O servidor recebe benefício enviado por engano e fica com ele.;peculato_mediante_erro_de_outrem
+137;médio;O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.;peculato_mediante_erro_de_outrem
+138;difícil;Obtida utilidade econômica por erro de terceiro no exercício funcional, o funcionário opta por incorporá-la indevidamente ao patrimônio próprio.;peculato_mediante_erro_de_outrem
+139;fácil;Entregam um envelope com dinheiro por engano ao servidor, e ele fica com tudo.;peculato_mediante_erro_de_outrem
+140;médio;O funcionário recebe valores entregues equivocadamente durante atividade pública e resolve retê-los.O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.;peculato_mediante_erro_de_outrem
+141;difícil;Recebido invólucro contendo numerário por equívoco de administrado no curso do expediente, o agente estatal apropria-se conscientemente do conteúdo.;peculato_mediante_erro_de_outrem
+142;fácil;O setor recebe item valioso por engano, e o servidor pega para si.;peculato_mediante_erro_de_outrem
+143;médio;O agente público recebe utilidade enviada por erro de terceiro ao local de trabalho e se apropria do bem.;peculato_mediante_erro_de_outrem
+144;difícil;Encaminhada vantagem patrimonial por erro material ao órgão em que atua, o servidor a subtrai da esfera administrativa para incorporação pessoal.;peculato_mediante_erro_de_outrem
+145;fácil;Uma pessoa transfere dinheiro errado ao servidor, e ele fica com a quantia.;peculato_mediante_erro_de_outrem
+146;médio;O funcionário recebe transferência equivocada de particular e mantém os valores para si.;peculato_mediante_erro_de_outrem
+147;difícil;Ciente do equívoco de particular que lhe remeteu valores no contexto funcional, o agente público decide reter indevidamente o montante.;peculato_mediante_erro_de_outrem
+148;fácil;O cidadão entrega dinheiro errado ao servidor, e ele coloca no próprio bolso.;peculato_mediante_erro_de_outrem
+149;médio;O funcionário recebe quantia entregue indevidamente em razão do trabalho e a incorpora ao patrimônio.;peculato_mediante_erro_de_outrem
+150;difícil;No exercício da função pública, ao receber numerário entregue por erro de administrado, o agente resolve integrá-lo ilicitamente ao acervo pessoal.;peculato_mediante_erro_de_outrem
+151;fácil;O servidor manda o cidadão pagar dinheiro extra para fazer seu serviço.;concussao
+152;médio;O funcionário exige quantia indevida para praticar ato que deveria realizar.;concussao
+153;difícil;O agente estatal impõe ao administrado pagamento ilícito como condição para execução de ato funcional, visando proveito próprio.;concussao
+154;fácil;O servidor obriga a pessoa a pagar para liberar um documento.;concussao
+155;médio;O agente público exige valor indevido de particular para liberar documento administrativo.;concussao
+156;difícil;Valendo-se da autoridade pública, o funcionário condiciona a entrega de documento estatal ao pagamento de vantagem indevida destinada a terceiro.;concussao
+157;fácil;O fiscal manda comerciante pagar para não ser fiscalizado.;concussao
+158;médio;O agente exige vantagem econômica para deixar de fiscalizar estabelecimento.;concussao
+159;difícil;Mediante abuso da função fiscalizatória, o servidor impõe prestação patrimonial indevida ao comerciante para omitir controle administrativo.;concussao
+160;fácil;O funcionário exige um bem valioso para acelerar o processo.;concussao
+161;médio;O servidor condiciona a rapidez do procedimento à entrega de bem de valor.;concussao
+162;difícil;O agente público, explorando sua posição funcional, exige utilidade patrimonial como requisito para priorização indevida de trâmite administrativo.;concussao
+163;fácil;Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.;concussao
+164;médio;Fora do expediente, o agente exige quantia indevida invocando a função pública.;concussao
+165;difícil;Ainda ausente do exercício imediato das atividades, o funcionário utiliza a autoridade do cargo para impor pagamento ilícito ao particular.;concussao
+166;fácil;Antes de tomar posse, a pessoa exige dinheiro para agir no futuro cargo.Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.;concussao
+167;médio;Nomeado para cargo público, o agente exige vantagem indevida antes da posse.;concussao
+168;difícil;Mesmo antes da investidura formal, o futuro servidor condiciona atuação funcional futura ao recebimento de benefício patrimonial ilícito.;concussao
+169;fácil;O servidor manda empresário pagar todo mês para continuar funcionando.;concussao
+170;médio;O agente exige pagamentos periódicos indevidos para permitir atividade econômica regular.;concussao
+171;difícil;Mediante coerção derivada da autoridade estatal, o funcionário impõe prestações mensais ilícitas como condição para continuidade empresarial.;concussao
+172;fácil;O servidor exige algo de valor para não aplicar multa.;concussao
+173;médio;O funcionário exige vantagem patrimonial para deixar de aplicar sanção administrativa.;concussao
+174;difícil;Abusando do poder sancionador, o agente público impõe entrega de utilidade econômica como preço para omissão punitiva.;concussao
+175;fácil;O servidor manda outra pessoa cobrar dinheiro para fazer serviço público.;concussao
+176;médio;Por meio de intermediário, o agente exige valor indevido para prestar serviço estatal devido.;concussao
+177;difícil;Utilizando interposta pessoa, o funcionário formula exigência patrimonial ilícita como condição para execução de serviço público obrigatório.;concussao
+178;fácil;O agente exige dinheiro para encaminhar processo e beneficiar outra pessoa.;concussao
+179;médio;O servidor exige vantagem econômica para dar andamento a processo administrativo em favor de terceiro.;concussao
+180;difícil;Valendo-se da capacidade decisória no âmbito administrativo, o agente condiciona o impulso processual ao pagamento indevido destinado a outrem.;concussao
+181;fácil;O servidor pede dinheiro extra para fazer algo do trabalho.;corrupcao_passiva
+182;médio;O funcionário solicita quantia indevida para realizar ato ligado ao cargo.;corrupcao_passiva
+183;difícil;O agente estatal formula pedido patrimonial ilícito como condição informal para desempenho de atribuição funcional, visando proveito próprio.;corrupcao_passiva
+184;fácil;O servidor recebe dinheiro para ajudar em processo administrativo.;corrupcao_passiva
+185;médio;O agente público recebe vantagem indevida de particular para favorecer procedimento administrativo.;corrupcao_passiva
+186;difícil;Mediante recebimento de prestação econômica ilícita, o funcionário compromete a imparcialidade no trato de processo submetido à esfera pública.;corrupcao_passiva
+187;fácil;O servidor aceita promessa de pagamento para ajudar outra pessoa.;corrupcao_passiva
+188;médio;O funcionário aceita futura vantagem indevida para beneficiar terceiro em ato funcional.;corrupcao_passiva
+189;difícil;O agente público anui ao oferecimento futuro de utilidade patrimonial ilícita em troca de favorecimento administrativo destinado a outrem.;corrupcao_passiva
+190;fácil;O funcionário pede um bem valioso para acelerar atendimento.;corrupcao_passiva
+191;médio;O servidor solicita bem de valor para dar rapidez a serviço público.;corrupcao_passiva
+192;difícil;Valendo-se da posição funcional, o agente requer utilidade patrimonial como preço indevido para priorização de atendimento estatal.;corrupcao_passiva
+193;fácil;Mesmo fora do trabalho, o servidor recebe dinheiro por causa do cargo.;corrupcao_passiva
+194;médio;Fora do expediente, o agente recebe vantagem indevida em razão da função pública.;corrupcao_passiva
+195;difícil;Embora ausente do exercício imediato das atividades, o funcionário percebe benefício ilícito decorrente da autoridade inerente ao cargo.;corrupcao_passiva
+196;fácil;Antes de assumir o cargo, a pessoa aceita promessa de dinheiro pelo futuro trabalho.;corrupcao_passiva
+197;médio;Nomeado para função pública, o agente aceita promessa de vantagem indevida antes da posse.Fora do expediente, o agente recebe vantagem indevida em razão da função pública.;corrupcao_passiva
+198;difícil;Ainda não investido formalmente, o futuro servidor consente em receber benefício patrimonial ilícito vinculado à atuação funcional futura.;corrupcao_passiva
+199;fácil;O servidor pede pagamentos todo mês para continuar ajudando alguém.;corrupcao_passiva
+200;médio;O agente solicita prestações periódicas indevidas para manter favorecimento administrativo.;corrupcao_passiva
+201;difícil;O funcionário estabelece exigências patrimoniais reiteradas, sob forma de solicitações sucessivas, para preservar tratamento estatal privilegiado.;corrupcao_passiva
+202;fácil;O servidor recebe vantagem por outra pessoa para favorecer alguém.;corrupcao_passiva
+203;médio;O agente recebe utilidade indevida por intermediário em troca de favorecimento funcional.;corrupcao_passiva
+204;difícil;Por meio de interposta pessoa, o funcionário percebe benefício econômico ilícito correlacionado ao exercício de atribuições públicas.;corrupcao_passiva
+205;fácil;O servidor pede dinheiro para atrasar uma fiscalização.;corrupcao_passiva
+206;médio;O agente solicita valor indevido para retardar ato oficial de fiscalização.;corrupcao_passiva
+207;difícil;O funcionário condiciona a tempestividade da atividade fiscalizatória ao recebimento de vantagem patrimonial ilícita.;corrupcao_passiva
+208;fácil;O servidor recebe dinheiro para fazer algo proibido no cargo.;corrupcao_passiva
+209;médio;O agente público recebe vantagem indevida para praticar ato funcional contra dever legal.;corrupcao_passiva
+210;difícil;Mediante percepção de utilidade econômica ilícita, o funcionário executa conduta administrativa incompatível com os deveres inerentes ao cargo.;corrupcao_passiva
+211;fácil;O servidor atrasa documento para ajudar um amigo.;prevaricacao
+212;médio;O funcionário demora indevidamente a emitir documento oficial para favorecer pessoa próxima.;prevaricacao
+213;difícil;O agente estatal posterga injustificadamente ato administrativo vinculado, buscando satisfazer interesse pessoal relacionado a terceiro próximo.;prevaricacao
+214;fácil;O servidor não faz obrigação do cargo para prejudicar alguém de quem não gosta.;prevaricacao
+215;médio;O funcionário deixa de cumprir ato obrigatório para atingir desafeto pessoal.;prevaricacao
+216;difícil;Movido por animosidade subjetiva, o agente público omite indevidamente providência funcional legalmente exigida.;prevaricacao
+217;fácil;O servidor faz algo proibido pela lei para ajudar parente.;prevaricacao
+218;médio;O agente pratica ato administrativo contrário à lei para beneficiar familiar.;prevaricacao
+219;difícil;Em desvio de finalidade, o funcionário executa providência vedada por norma expressa visando favorecimento de vínculo familiar.;prevaricacao
+220;fácil;O servidor atrasa pedido oficial por vingança.;prevaricacao
+221;médio;O funcionário retarda análise administrativa por sentimento pessoal contra o interessado.;prevaricacao
+222;difícil;Impulsionado por ressentimento subjetivo, o agente posterga indevidamente deliberação funcional devida ao administrado.;prevaricacao
+223;fácil;O servidor não abre procedimento obrigatório para proteger seu próprio interesse financeiro.;prevaricacao
+224;médio;O funcionário deixa de instaurar processo exigido para preservar vantagem econômica pessoal.;prevaricacao
+225;difícil;Com finalidade de resguardar benefício patrimonial próprio, o agente omite providência funcional legalmente imposta.;prevaricacao
+226;fácil;O servidor autoriza algo proibido porque queria favorecer alguém de sua preferência.;prevaricacao
+227;médio;O agente concede medida vedada em lei para atender interesse pessoal.;prevaricacao
+228;difícil;Desconsiderando proibição normativa expressa, o funcionário pratica ato administrativo ilícito para satisfação de conveniência subjetiva.;prevaricacao
+229;fácil;O diretor do presídio deixa preso ficar com telefone para falar com fora da prisão.;prevaricacao
+230;médio;O diretor penitenciário não impede que preso mantenha aparelho telefônico apto à comunicação externa.;prevaricacao
+231;difícil;Descumprindo dever legal de vigilância carcerária, o gestor prisional tolera posse de equipamento comunicador por custodiado.;prevaricacao
+232;fácil;O agente penitenciário deixa preso usar rádio comunicador proibido.;prevaricacao
+233;médio;O servidor penitenciário se omite e permite uso de rádio capaz de comunicação pelo preso.;prevaricacao
+234;difícil;Por omissão funcional relevante, o agente encarregado da custódia admite utilização de dispositivo comunicacional vedado no cárcere.;prevaricacao
+235;fácil;O servidor encontra celular com preso e não recolhe o aparelho.;prevaricacao
+236;médio;O responsável pela unidade prisional deixa de retirar telefone encontrado em posse de preso.;prevaricacao
+237;difícil;Mesmo ciente da posse irregular de aparelho telefônico por interno, o agente público abstém-se de adotar a medida repressiva devida.;prevaricacao
+238;fácil;O diretor do presídio deixa preso continuar usando telefone.;prevaricacao
+239;médio;O diretor penal omite dever funcional e permite acesso contínuo de preso a aparelho telefônico.;prevaricacao
+240;difícil;Violando obrigação institucional de impedir meios de comunicação indevidos, o gestor carcerário tolera uso reiterado de telefone por custodiado.;prevaricacao
+241;fácil;O chefe não pune subordinado que errou no cargo porque era amigo dele.;condescendencia_criminosa
+242;médio;O superior deixa de abrir procedimento contra subordinado infrator por amizade pessoal.;condescendencia_criminosa
+243;difícil;Detendo atribuição correicional, o agente público abstém-se de responsabilizar subordinado faltoso movido por indulgência decorrente de vínculo pessoal.;condescendencia_criminosa
+244;fácil;O supervisor não aplica punição a servidor que fraudou registro porque quis relevar.;condescendencia_criminosa
+245;médio;Tendo competência, o chefe deixa de sancionar subordinado que alterou registro oficial por complacência.;condescendencia_criminosa
+246;difícil;Mesmo investido de poder disciplinar, o superior hierárquico omite reprimenda funcional a subordinado infrator por leniência voluntária.;condescendencia_criminosa
+247;fácil;O diretor não responsabiliza servidor que desviou material público por pena dele.;condescendencia_criminosa
+248;médio;O diretor administrativo deixa de responsabilizar subordinado por desvio de bens, por indulgência.;condescendencia_criminosa
+249;difícil;Conhecendo irregular apropriação de recursos públicos por subordinado, o gestor abstém-se de adotar responsabilização em razão de benevolência pessoal.;condescendencia_criminosa
+250;fácil;O coordenador não pune funcionário que abandonou o trabalho porque quis ajudar.;condescendencia_criminosa
+251;médio;O superior deixa de punir subordinado que abandonou posto de serviço por benevolência.;condescendencia_criminosa
+252;difícil;Embora ciente de abandono funcional praticado por subordinado, o agente competente renuncia à medida disciplinar motivado por tolerância subjetiva.;condescendencia_criminosa
+253;fácil;O gerente podia agir, mas não tomou medida contra subordinado que mexeu em documento errado.;condescendencia_criminosa
+254;médio;Podendo agir, o chefe não responsabiliza subordinado que adulterou documento interno por tolerância indevida.;condescendencia_criminosa
+255;difícil;Investido de atribuição sancionatória, o superior hierárquico deixa de reagir à falsificação documental interna praticada por subordinado em razão de indulgência.;condescendencia_criminosa
+256;fácil;O chefe que não podia punir também não contou ao superior que subordinado recebeu vantagem indevida.;condescendencia_criminosa
+257;médio;Sem competência disciplinar, o funcionário deixa de comunicar à autoridade superior infração de subordinado por indulgência.;condescendencia_criminosa
+258;difícil;Desprovido de poder sancionador direto, o agente omite ciência à autoridade competente acerca de falta funcional de subordinado por complacência deliberada.;condescendencia_criminosa
+259;fácil;O chefe imediato não avisou o superior sobre erro do subordinado porque era amigo dele.;condescendencia_criminosa
+260;médio;Sem poder de punição, o chefe deixa de informar infração funcional praticada por subordinado por amizade.;condescendencia_criminosa
+261;difícil;Por motivo de indulgência decorrente de relação pessoal, o superior imediato abstém-se de reportar ilícito funcional do subordinado à instância competente.;condescendencia_criminosa
+262;fácil;O superior não comunica falta grave do subordinado porque quis relevar.;condescendencia_criminosa
+263;médio;O servidor hierarquicamente superior omite comunicação de infração grave do subordinado por complacência.;condescendencia_criminosa
+264;difícil;Ciente de transgressão relevante cometida por subordinado, o superior funcional deixa de acionar a autoridade competente movido por indulgência.;condescendencia_criminosa
+265;fácil;O coordenador não podia punir e também não contou o desvio do subordinado.;condescendencia_criminosa
+266;médio;Sem competência sancionadora, o coordenador deixa de relatar desvio funcional do subordinado por benevolência.;condescendencia_criminosa
+267;difícil;Mesmo impossibilitado de impor sanção direta, o agente hierárquico omite encaminhamento formal de irregularidade funcional à autoridade apta, por tolerância pessoal.;condescendencia_criminosa
+268;fácil;O responsável pela equipe não avisa a autoridade sobre erro do subordinado porque quis proteger.;condescendencia_criminosa
+269;médio;O chefe de equipe deixa de noticiar infração funcional praticada por subordinado por indulgência pessoal.;condescendencia_criminosa
+270;difícil;Movido por sentimento de proteção indevida, o superior responsável abstém-se de comunicar à autoridade competente ilícito cometido por subordinado no exercício do cargo.;condescendencia_criminosa
+271;fácil;O servidor usa o cargo para ajudar pedido de um amigo no órgão público.;advocacia_administrativa
+272;médio;O funcionário utiliza sua posição pública para defender interesse particular perante repartição.;advocacia_administrativa
+273;difícil;Valendo-se da autoridade inerente ao cargo, o agente estatal patrocina pretensão privada de terceiro perante a Administração.;advocacia_administrativa
+274;fácil;O servidor fala com colegas para ajudar processo de um familiar.;advocacia_administrativa
+275;médio;O agente intervém junto ao setor para favorecer interesse privado de parente.;advocacia_administrativa
+276;difícil;Mediante influência funcional interna, o funcionário mobiliza agentes administrativos em prol de demanda privada familiar.;advocacia_administrativa
+277;fácil;O servidor usa o cargo para encaminhar pedido de empresa privada.;advocacia_administrativa
+278;médio;O funcionário promove internamente demanda empresarial particular aproveitando-se da função.;advocacia_administrativa
+279;difícil;Explorando prerrogativas institucionais, o agente impulsiona interesse corporativo privado perante a estrutura administrativa.;advocacia_administrativa
+280;fácil;O servidor usa sua influência para acelerar pedido de particular.;advocacia_administrativa
+281;médio;O funcionário emprega prestígio funcional para dar rapidez a requerimento privado.;advocacia_administrativa
+282;difícil;Com abuso da posição administrativa, o agente interfere no fluxo burocrático para priorizar pretensão particular.;advocacia_administrativa
+283;fácil;O servidor ajuda comerciante em licença pública usando o cargo.;advocacia_administrativa
+284;médio;O agente atua informalmente para beneficiar comerciante em procedimento de licenciamento.;advocacia_administrativa
+285;difícil;Valendo-se da condição funcional, o funcionário patrocina interesse econômico privado em trâmite autorizativo estatal.;advocacia_administrativa
+286;fácil;O servidor usa o cargo para conseguir documento indevido para outra pessoa.;advocacia_administrativa
+287;médio;O agente patrocina interesse privado ilegítimo buscando liberação documental irregular.;advocacia_administrativa
+288;difícil;Utilizando ascendência institucional, o funcionário sustenta pretensão privada manifestamente ilegítima perante a Administração.;advocacia_administrativa
+289;fácil;O servidor tenta cancelar multa de conhecido usando o cargo.;advocacia_administrativa
+290;médio;O funcionário intercede internamente para afastar penalidade administrativa aplicada a particular conhecido.;advocacia_administrativa
+291;difícil;Em favor de terceiro relacionado, o agente público maneja influência funcional visando desconstituir sanção regularmente imposta.;advocacia_administrativa
+292;fácil;O servidor usa acesso do trabalho para ajudar empresa amiga em contratação pública.;advocacia_administrativa
+293;médio;O funcionário emprega acesso institucional para favorecer empresa privada em contratação estatal.;advocacia_administrativa
+294;difícil;Aproveitando-se das prerrogativas do cargo, o agente patrocina interesse empresarial particular em procedimento contratual público.;advocacia_administrativa
+295;fácil;O servidor pede prioridade para processo de interesse do vizinho.;advocacia_administrativa
+296;médio;O agente solicita tratamento prioritário interno para demanda administrativa privada de terceiro.;advocacia_administrativa
+297;difícil;Valendo-se da qualidade funcional, o funcionário busca alterar a ordem procedimental em benefício de interesse particular alheio.;advocacia_administrativa
+298;fácil;O servidor usa o cargo para defender pedido privado de outra pessoa no órgão público.;advocacia_administrativa
+299;médio;O funcionário vale-se da função para sustentar pretensão particular perante órgão estatal.;advocacia_administrativa
+300;difícil;Com fundamento no prestígio institucional do cargo, o agente público patrocina demanda privada submetida à apreciação administrativa.;advocacia_administrativa
+301;fácil;O servidor conta um segredo do trabalho para outra pessoa.;violacao_de_sigilo_funcional
+302;médio;O funcionário revela informação sigilosa obtida no cargo a terceiro não autorizado.;violacao_de_sigilo_funcional
+303;difícil;Ciente do caráter reservado da informação adquirida no exercício funcional, o agente público a divulga a destinatário sem autorização.;violacao_de_sigilo_funcional
+304;fácil;O servidor mostra dados de processo para quem não podia ver.;violacao_de_sigilo_funcional
+305;médio;O agente divulga dados restritos de procedimento administrativo a pessoa não autorizada.;violacao_de_sigilo_funcional
+306;difícil;Valendo-se do conhecimento funcional, o funcionário torna acessível a terceiro conteúdo protegido de processo administrativo.;violacao_de_sigilo_funcional
+307;fácil;O servidor ajuda outra pessoa a ter acesso a informação secreta do trabalho.;violacao_de_sigilo_funcional
+308;médio;O agente facilita a divulgação de informação sigilosa obtida no cargo.;violacao_de_sigilo_funcional
+309;difícil;Mediante conduta facilitadora, o funcionário viabiliza a exposição indevida de conteúdo protegido sob sua esfera funcional.;violacao_de_sigilo_funcional
+310;fácil;O servidor deixa alguém ver documento secreto do trabalho.;violacao_de_sigilo_funcional
+311;médio;O funcionário permite acesso visual a documento sigiloso por pessoa não autorizada.;violacao_de_sigilo_funcional
+312;difícil;Descumprindo dever de guarda, o agente público consente na fruição indevida de documento reservado por terceiro.;violacao_de_sigilo_funcional
+313;fácil;O servidor passa sua senha do sistema para outra pessoa.;violacao_de_sigilo_funcional
+314;médio;O funcionário fornece credencial de acesso a sistema público a terceiro, permitindo acesso indevido.;violacao_de_sigilo_funcional
+315;difícil;Ao compartilhar elementos de autenticação institucional, o agente público possibilita ingresso indevido em base de dados administrativa.;violacao_de_sigilo_funcional
+316;fácil;O servidor empresta login do trabalho para alguém acessar dados.;violacao_de_sigilo_funcional
+317;médio;O agente disponibiliza suas credenciais institucionais a pessoa não autorizada.;violacao_de_sigilo_funcional
+318;difícil;Mediante cessão de meios de autenticação, o funcionário viabiliza consulta indevida a informações protegidas do sistema público.;violacao_de_sigilo_funcional
+319;fácil;O servidor usa o sistema para ver dados secretos sem precisar.;violacao_de_sigilo_funcional
+320;médio;O funcionário acessa informações sigilosas sem justificativa funcional.;violacao_de_sigilo_funcional
+321;difícil;Extrapolando os limites de sua competência, o agente utiliza acesso restrito para consultar dados protegidos sem finalidade legítima.;violacao_de_sigilo_funcional
+322;fácil;O servidor entra no sistema e usa dados sigilosos para fins pessoais.;violacao_de_sigilo_funcional
+323;médio;O agente acessa banco de dados sigiloso e utiliza informações para finalidade indevida.;violacao_de_sigilo_funcional
+324;difícil;Valendo-se de acesso privilegiado, o funcionário manipula dados protegidos para finalidade alheia às atribuições funcionais.;violacao_de_sigilo_funcional
+325;fácil;O servidor deixa outra pessoa acessar sistema protegido sem impedir.;violacao_de_sigilo_funcional
+326;médio;O agente, por omissão, permite acesso indevido de terceiro a sistema com dados sigilosos.;violacao_de_sigilo_funcional
+327;difícil;Ao se abster de impedir ingresso não autorizado, o funcionário concorre para violação de sistema protegido contendo informações restritas.;violacao_de_sigilo_funcional
+328;fácil;O servidor compartilha segredo do trabalho com colega sem autorização.;violacao_de_sigilo_funcional
+329;médio;O funcionário divulga informação sigilosa a outro servidor sem permissão e fora das atribuições.;violacao_de_sigilo_funcional
+330;difícil;Em desvio das normas de sigilo institucional, o agente público transmite conteúdo reservado a colega sem competência para acessá-lo.;violacao_de_sigilo_funcional
+331;fácil;O servidor esquece de responder e-mail do trabalho.;nao_se_enquadra
+332;médio;O funcionário deixa de responder e-mail institucional no prazo por descuido.;nao_se_enquadra
+333;difícil;Sem qualquer finalidade ilícita, o agente público omite resposta a comunicação oficial por falha organizacional.;nao_se_enquadra
+334;fácil;O servidor atende devagar por desorganização.;nao_se_enquadra
+335;médio;O funcionário presta atendimento lento ao público sem intenção de favorecer ou prejudicar.;nao_se_enquadra
+336;difícil;Em razão de deficiência organizacional pessoal, o agente realiza atendimento administrativo sem eficiência, sem finalidade ilícita.;nao_se_enquadra
+337;fácil;O servidor entende errado uma regra e decide assim.;nao_se_enquadra
+338;médio;O funcionário interpreta equivocadamente norma administrativa ao decidir processo.;nao_se_enquadra
+339;difícil;O agente público, por erro interpretativo, aplica incorretamente disposição normativa sem intenção de desvio funcional.;nao_se_enquadra
+340;fácil;O servidor perde documento por descuido.;nao_se_enquadra
+341;médio;O funcionário extravia documento administrativo sem intenção de ocultação.;nao_se_enquadra
+342;difícil;Por falha de cautela, o agente público perde documento sob sua guarda, sem propósito de vantagem ou prejuízo deliberado.;nao_se_enquadra
+343;fácil;O servidor fala de forma inadequada com o público.;nao_se_enquadra
+344;médio;O funcionário utiliza linguagem imprópria em atendimento, sem finalidade ilícita.;nao_se_enquadra
+345;difícil;No exercício funcional, o agente adota postura comunicativa inadequada, sem qualquer vínculo com obtenção de vantagem ou favorecimento indevido.;nao_se_enquadra
+346;fácil;O servidor perde prazo por excesso de trabalho.;nao_se_enquadra
+347;médio;O funcionário deixa de cumprir prazo administrativo por sobrecarga.;nao_se_enquadra
+348;difícil;Em razão de acúmulo de demandas, o agente público não observa prazo procedimental, sem motivação pessoal ilícita.;nao_se_enquadra
+349;fácil;O servidor manda processo para setor errado.;nao_se_enquadra
+350;médio;O funcionário encaminha processo administrativo incorretamente por erro material.;nao_se_enquadra
+351;difícil;Por equívoco operacional, o agente público direciona procedimento à unidade inadequada, sem intenção de interferir no resultado.;nao_se_enquadra
+352;fácil;O servidor esquece reunião importante.;nao_se_enquadra
+353;médio;O funcionário não comparece a reunião institucional por esquecimento.;nao_se_enquadra
+354;difícil;Sem qualquer finalidade ilícita, o agente público deixa de participar de compromisso funcional por falha de memória.;nao_se_enquadra
+355;fácil;O servidor trabalha de forma ineficiente.;nao_se_enquadra
+356;médio;O funcionário executa tarefa administrativa com baixa eficiência, sem violar normas intencionalmente.;nao_se_enquadra
+357;difícil;O agente público realiza atividade funcional com desempenho aquém do esperado, sem intenção de descumprimento deliberado de dever legal.;nao_se_enquadra
+358;fácil;O servidor demora a atualizar sistema por dificuldade.;nao_se_enquadra
+359;médio;O funcionário atrasa atualização de sistema interno por limitação técnica.;nao_se_enquadra
+360;difícil;Diante de limitações operacionais, o agente público posterga atualização de sistema institucional sem finalidade de prejuízo ou vantagem indevida.;nao_se_enquadra

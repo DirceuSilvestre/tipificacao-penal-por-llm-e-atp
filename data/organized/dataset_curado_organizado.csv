@@ -1,0 +1,31 @@
+id;nível;texto;classe_correta
+1;fácil;Vereadores receberam valores públicos sob a forma de diárias que não correspondiam a atividades realizadas.;peculato
+2;médio;Agentes públicos receberam valores sob a justificativa de diárias, embora não houvesse deslocamento ou atividade que justificasse o pagamento.;peculato
+3;difícil;Agentes públicos receberam valores previstos para custeio de atividades externas, sem a realização das atividades correspondentes.;peculato
+4;fácil;Servidoras públicas responsáveis pelo armazenamento de vacinas permitiram, por falta de cuidado, o desaparecimento de doses sob sua guarda.;peculato_culposo
+5;médio;Agentes públicas que tinham acesso ao local onde vacinas eram armazenadas não adotaram os cuidados necessários, resultando no desaparecimento das doses.;peculato_culposo
+6;difícil;Doses de vacina desapareceram de um local de armazenamento ao qual apenas determinadas agentes públicas possuíam acesso, sem indícios de subtração por terceiros.;peculato_culposo
+7;fácil;Funcionário público recebeu valores de usuários por engano e se apropriou desses valores sem realizar o devido repasse.;peculato_mediante_erro_de_outrem
+8;médio;Funcionário público passou a receber valores de usuários em situações irregulares e deixou de destiná-los ao fim correto.;peculato_mediante_erro_de_outrem
+9;difícil;Valores foram entregues por usuários a um agente público em circunstâncias atípicas de atendimento, sem que houvesse o devido registro ou encaminhamento formal desses pagamentos.;peculato_mediante_erro_de_outrem
+10;fácil;Policiais rodoviários exigiram pagamento de motoristas para liberar veículos durante fiscalização.;concussao
+11;médio;Policiais rodoviários condicionaram a liberação de veículos ao pagamento de valores por parte dos motoristas abordados.;concussao
+12;difícil;Motoristas abordados em fiscalização realizaram pagamentos a agentes públicos para conseguir a liberação de seus veículos e cargas.;concussao
+13;fácil;Parlamentares solicitaram pagamento de valores para destinar recursos públicos a determinado município.;corrupcao_passiva
+14;médio;Parlamentares condicionaram a destinação de recursos públicos ao recebimento de valores por parte de gestores municipais.;corrupcao_passiva
+15;difícil;Recursos públicos foram direcionados a um município após tratativas entre agentes públicos e gestores locais envolvendo repasses financeiros.;corrupcao_passiva
+16;fácil;Sargento deixou de registrar e comunicar uma infração disciplinar que presenciou, para atender a interesse pessoal.;prevaricacao
+17;médio;Sargento, mesmo ciente de irregularidade praticada por subordinado, optou por não adotar as providências que lhe cabiam em razão de circunstâncias pessoais.;prevaricacao
+18;difícil;Após identificar uma conduta irregular de subordinado, um agente público não tomou as medidas formais esperadas em sua função, mantendo a situação sem registro ou comunicação.;prevaricacao
+19;fácil;Um comandante militar, ciente de que seus subordinados cometeram irregularidades, deixou de adotar providências para responsabilizá-los por indulgência.;condescendencia_criminosa
+20;médio;Um superior hierárquico, após tomar conhecimento de infrações praticadas por subordinados, não adotou medidas para apuração e responsabilização dos envolvidos.;condescendencia_criminosa
+21;difícil;Um agente público, mesmo após ser informado sobre irregularidades praticadas por integrantes sob sua supervisão, deixou de agir para apurar os fatos e promover responsabilização.;condescendencia_criminosa
+22;fácil;Um servidor público utilizou seu cargo para patrocinar interesses privados perante a administração pública, acessando processos internos e repassando informações a uma advogada, recebendo valores em troca.;advocacia_administrativa
+23;médio;Um servidor público utilizou seu acesso ao sistema interno para consultar processos e obter documentos, repassando essas informações a uma advogada, que posteriormente lhe transferiu valores em dinheiro.;advocacia_administrativa
+24;difícil;Um servidor com acesso a sistemas internos realizou consultas processuais e compartilhou documentos com terceiros, que posteriormente efetuaram transferências financeiras para sua conta.;advocacia_administrativa
+25;fácil;Um funcionário público revelou informações sigilosas de uma investigação oficial a jornalistas, violando seu dever funcional e causando prejuízo à administração pública.;violacao_de_sigilo_funcional
+26;médio;Durante uma investigação em andamento, um agente público compartilhou com jornalistas detalhes sobre diligências que seriam realizadas pela polícia.;violacao_de_sigilo_funcional
+27;difícil;Durante uma operação em curso, informações sobre ações futuras foram divulgadas a terceiros por alguém com acesso interno à investigação.;violacao_de_sigilo_funcional
+28;fácil;Um homem matou uma mulher com golpes de faca após uma discussão, sendo posteriormente condenado por homicídio.;nao_se_enquadra
+29;médio;Após uma discussão em um estabelecimento comercial, um indivíduo agrediu uma mulher e utilizou um objeto perfurante, causando sua morte.;nao_se_enquadra
+30;difícil;Durante um conflito em um ambiente comercial, uma pessoa agrediu outra fisicamente e utilizou um objeto para causar lesões fatais.;nao_se_enquadra

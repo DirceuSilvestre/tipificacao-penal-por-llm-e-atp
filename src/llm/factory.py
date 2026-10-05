@@ -10,10 +10,10 @@ from src.llm.base import ProvedorLLM
 
 PROVEDOR_GOOGLE: Final[str] = "google"
 PROVEDOR_OPENAI: Final[str] = "openai"
-# PROVEDOR_LLAMA: Final[str] = "llama"
+PROVEDOR_OPENROUTER: Final[str] = "openrouter"
 
 PROVEDORES_SUPORTADOS: Final[frozenset[str]] = frozenset(
-    {PROVEDOR_GOOGLE, PROVEDOR_OPENAI}
+    {PROVEDOR_GOOGLE, PROVEDOR_OPENAI, PROVEDOR_OPENROUTER}
 )
 
 
@@ -58,25 +58,24 @@ def _criar_provedor_openai(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
     )
 
 
-"""def _criar_provedor_llama(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
-    ""Cria o provedor Llama a partir da configuração do modelo ativo.""
+def _criar_provedor_openrouter(
+    configuracao: ConfiguracaoLLM,
+) -> ProvedorLLM:
+    """Cria o provedor DeepSeek configurado para a API OpenRouter."""
     modelo = configuracao.modelo_ativo
 
     try:
-        from src.llm.llama import LlamaProvider
+        from src.llm.deepseek import DeepSeekProvider
     except ModuleNotFoundError as erro:
         raise ErroFabricaLLM(
-            "O provedor Llama ainda não foi implementado."
+            "O provedor DeepSeek via OpenRouter ainda não foi implementado."
         ) from erro
 
-    base_url = getattr(modelo, "base_url", None)
-
-    return LlamaProvider(
+    return DeepSeekProvider(
         model_name=modelo.model_name,
         api_key=modelo.api_key,
         request_delay_seconds=configuracao.delays.request_delay_seconds,
-        base_url="https://api.groq.com/openai/v1/",
-    )"""
+    )
 
 
 def criar_provedor_llm(
@@ -92,8 +91,8 @@ def criar_provedor_llm(
     if provedor == PROVEDOR_OPENAI:
         return _criar_provedor_openai(configuracao)
 
-    """if provedor == PROVEDOR_LLAMA:
-        return _criar_provedor_llama(configuracao)"""
+    if provedor == PROVEDOR_OPENROUTER:
+        return _criar_provedor_openrouter(configuracao)
 
     raise ErroFabricaLLM(
         f"Provedor LLM não suportado: {modelo.provider!r}. "

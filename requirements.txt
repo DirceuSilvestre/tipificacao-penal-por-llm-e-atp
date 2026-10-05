@@ -4,6 +4,7 @@ python-dotenv
 pytest
 
 google-genai
+openai
 
 scikit-learn
 matplotlib

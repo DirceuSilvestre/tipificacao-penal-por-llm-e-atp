@@ -17,9 +17,8 @@ CAMINHO_CONFIGURACAO = BASE_DIR / "config.yaml"
 
 CHAVES_API_POR_PROVEDOR = {
 	"google": "GOOGLE_API_KEY",
-	"openai": "OPENAI_API_KEY",
-	"anthropic": "ANTHROPIC_API_KEY",
-	"groq": "GROQ_API_KEY",
+	"openai": "OPEN_AI_API_KEY",
+	"llama": "LLAMA_API_KEY",
 }
 
 

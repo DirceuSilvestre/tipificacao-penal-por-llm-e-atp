@@ -10,10 +10,10 @@ from src.llm.base import ProvedorLLM
 
 PROVEDOR_GOOGLE: Final[str] = "google"
 PROVEDOR_OPENAI: Final[str] = "openai"
-PROVEDOR_GROQ: Final[str] = "groq"
+# PROVEDOR_LLAMA: Final[str] = "llama"
 
 PROVEDORES_SUPORTADOS: Final[frozenset[str]] = frozenset(
-    {PROVEDOR_GOOGLE, PROVEDOR_OPENAI, PROVEDOR_GROQ}
+    {PROVEDOR_GOOGLE, PROVEDOR_OPENAI}
 )
 
 
@@ -54,43 +54,35 @@ def _criar_provedor_openai(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
         model_name=modelo.model_name,
         api_key=modelo.api_key,
         request_delay_seconds=configuracao.delays.request_delay_seconds,
+        base_url="https://api.groq.com/openai/v1/"
     )
 
 
-def _criar_provedor_groq(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
-    """Cria o provedor Groq utilizando o cliente compatível da OpenAI."""
+"""def _criar_provedor_llama(configuracao: ConfiguracaoLLM) -> ProvedorLLM:
+    ""Cria o provedor Llama a partir da configuração do modelo ativo.""
     modelo = configuracao.modelo_ativo
 
     try:
-        from src.llm.openai import OpenAIProvider
+        from src.llm.llama import LlamaProvider
     except ModuleNotFoundError as erro:
         raise ErroFabricaLLM(
-            "O provedor OpenAI necessário para o Groq não está disponível."
+            "O provedor Llama ainda não foi implementado."
         ) from erro
 
-    return OpenAIProvider(
+    base_url = getattr(modelo, "base_url", None)
+
+    return LlamaProvider(
         model_name=modelo.model_name,
         api_key=modelo.api_key,
         request_delay_seconds=configuracao.delays.request_delay_seconds,
-        base_url="https://api.groq.com/openai/v1",
-    )
+        base_url="https://api.groq.com/openai/v1/",
+    )"""
 
 
 def criar_provedor_llm(
     configuracao: ConfiguracaoLLM = CONFIG.llm,
 ) -> ProvedorLLM:
-    """Cria o provedor correspondente ao modelo ativo.
-
-    Args:
-        configuracao: Configuração dos modelos de linguagem. Por padrão,
-            utiliza a configuração global carregada por `src.config`.
-
-    Returns:
-        Instância de um provedor compatível com `ProvedorLLM`.
-
-    Raises:
-        ErroFabricaLLM: Se o provedor não for suportado.
-    """
+    """Cria o provedor correspondente ao modelo ativo."""
     modelo = configuracao.modelo_ativo
     provedor = modelo.provider.strip().lower()
 
@@ -100,8 +92,8 @@ def criar_provedor_llm(
     if provedor == PROVEDOR_OPENAI:
         return _criar_provedor_openai(configuracao)
 
-    if provedor == PROVEDOR_GROQ:
-        return _criar_provedor_groq(configuracao)
+    """if provedor == PROVEDOR_LLAMA:
+        return _criar_provedor_llama(configuracao)"""
 
     raise ErroFabricaLLM(
         f"Provedor LLM não suportado: {modelo.provider!r}. "

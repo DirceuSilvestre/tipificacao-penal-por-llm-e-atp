@@ -16,7 +16,7 @@ paths:
   taxonomy: "data/vade_mecum_taxonomy.json"
 
 datasets:
-  active_dataset: "resultados_classificados_gemini_flash_dataset_sintetico.jsonl"
+  active_dataset: "dataset_sintetico_organizado.jsonl"
   available:
     curado: "data/organized/dataset_curado_organizado.jsonl"
     sintetico: "data/organized/dataset_sintetico_organizado.jsonl"
@@ -44,12 +44,12 @@ llm:
       model_name: "gemini-3.6-flash"
 
     modelo_2:
-      provider: "groq"
+      provider: "openai"
       model_name: "openai/gpt-oss-120b"
 
     modelo_3:
-      provider: "anthropic"
-      model_name: "claude-3-5-sonnet-20241022"
+      provider: "llama"
+      model_name: "allam-2-7b"
 
 logging:
   # Configuração do sistema de logs do projeto.

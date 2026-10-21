@@ -98,11 +98,13 @@ class ConfiguracaoModelo:
 	Args:
 		provider: Provedor responsável pelo modelo.
 		model_name: Nome do modelo no provedor.
+		max_tokens: Limite opcional de tokens por resposta.
 		api_key: Chave de autenticação do provedor, quando configurada.
 	"""
 
 	provider: str
 	model_name: str
+	max_tokens: int | None = None
 	api_key: str | None = field(default=None, repr=False)
 
 
@@ -338,12 +340,24 @@ def _carregar_llm(dados: Mapping[str, Any]) -> ConfiguracaoLLM:
 			f"{nome}.provider",
 		)
 		chave = _exigir_texto(identificador, nome)
+		max_tokens = modelo.get("max_tokens")
+
+		if max_tokens is not None and (
+			isinstance(max_tokens, bool)
+			or not isinstance(max_tokens, int)
+			or max_tokens <= 0
+		):
+			raise ErroConfiguracao(
+				f"{nome}.max_tokens deve ser um inteiro positivo."
+			)
+
 		modelos[chave] = ConfiguracaoModelo(
 			provider=provedor,
 			model_name=_exigir_texto(
 				modelo.get("model_name"),
 				f"{nome}.model_name",
 			),
+			max_tokens=max_tokens,
 			api_key=_obter_chave_api(provedor),
 		)
 

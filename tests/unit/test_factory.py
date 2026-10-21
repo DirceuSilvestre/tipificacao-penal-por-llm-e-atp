@@ -48,3 +48,11 @@ def test_deve_rejeitar_google_sem_chave_de_api() -> None:
 
     with pytest.raises(ValueError, match="api_key"):
         criar_provedor_llm(configuracao)
+
+
+def test_deve_rejeitar_openrouter_sem_limite_de_tokens() -> None:
+    """Rejeita OpenRouter sem max_tokens configurado."""
+    configuracao = _criar_configuracao_com_provedor("openrouter")
+
+    with pytest.raises(ErroFabricaLLM, match="max_tokens"):
+        criar_provedor_llm(configuracao)

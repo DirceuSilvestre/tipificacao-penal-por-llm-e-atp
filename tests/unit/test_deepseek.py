@@ -4,6 +4,7 @@ from types import SimpleNamespace
 from unittest.mock import Mock
 
 import openai
+import pytest
 
 from src.llm.deepseek import (
     OPENROUTER_BASE_URL,
@@ -29,6 +30,7 @@ def test_deve_enviar_prompt_com_esforco_maximo_ao_openrouter(
     provedor = DeepSeekProvider(
         model_name="~deepseek/deepseek-flash-latest",
         api_key="chave-de-teste",
+        max_tokens=4096,
     )
 
     resposta = provedor.gerar_conteudo("  prompt de teste  ")
@@ -47,9 +49,23 @@ def test_deve_enviar_prompt_com_esforco_maximo_ao_openrouter(
             }
         ],
         temperature=0.0,
+        max_tokens=4096,
         extra_body={
             "reasoning": {
                 "effort": "max",
             }
         },
     )
+
+
+@pytest.mark.parametrize("max_tokens", [0, -1, True])
+def test_deve_rejeitar_limite_de_tokens_invalido(
+    max_tokens: int,
+) -> None:
+    """Rejeita limites de resposta que não sejam inteiros positivos."""
+    with pytest.raises(ValueError, match="max_tokens"):
+        DeepSeekProvider(
+            model_name="~deepseek/deepseek-flash-latest",
+            api_key="chave-de-teste",
+            max_tokens=max_tokens,
+        )

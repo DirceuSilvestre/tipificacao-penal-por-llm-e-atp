@@ -20,6 +20,7 @@ class DeepSeekProvider:
         model_name: Identificador do modelo no OpenRouter.
         api_key: Chave de API do OpenRouter.
         request_delay_seconds: Intervalo em segundos entre as requisições.
+        max_tokens: Número máximo de tokens permitido na resposta.
     """
 
     def __init__(
@@ -27,6 +28,8 @@ class DeepSeekProvider:
         model_name: str,
         api_key: str | None,
         request_delay_seconds: float = 0.0,
+        *,
+        max_tokens: int,
     ) -> None:
         """Inicializa cliente OpenAI compatível configurado para OpenRouter.
 
@@ -34,6 +37,7 @@ class DeepSeekProvider:
             model_name: Identificador do modelo no OpenRouter.
             api_key: Chave de API do OpenRouter.
             request_delay_seconds: Intervalo entre chamadas à API.
+            max_tokens: Número máximo de tokens permitido na resposta.
 
         Raises:
             ValueError: Se os parâmetros informados forem inválidos.
@@ -54,6 +58,13 @@ class DeepSeekProvider:
                 "request_delay_seconds deve ser um número não negativo."
             )
 
+        if (
+            isinstance(max_tokens, bool)
+            or not isinstance(max_tokens, int)
+            or max_tokens <= 0
+        ):
+            raise ValueError("max_tokens deve ser um inteiro positivo.")
+
         try:
             from openai import OpenAI
         except ModuleNotFoundError as erro:
@@ -63,6 +74,7 @@ class DeepSeekProvider:
 
         self._model_name = model_name.strip()
         self._request_delay_seconds = float(request_delay_seconds)
+        self._max_tokens = max_tokens
         self._cliente = OpenAI(
             api_key=api_key.strip(),
             base_url=OPENROUTER_BASE_URL,
@@ -97,6 +109,7 @@ class DeepSeekProvider:
                     }
                 ],
                 temperature=0.0,
+                max_tokens=self._max_tokens,
                 extra_body={
                     "reasoning": {
                         "effort": NIVEL_RACIOCINIO,

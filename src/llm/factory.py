@@ -64,6 +64,11 @@ def _criar_provedor_openrouter(
     """Cria o provedor DeepSeek configurado para a API OpenRouter."""
     modelo = configuracao.modelo_ativo
 
+    if modelo.max_tokens is None:
+        raise ErroFabricaLLM(
+            "O modelo OpenRouter requer max_tokens positivo em config.yaml."
+        )
+
     try:
         from src.llm.deepseek import DeepSeekProvider
     except ModuleNotFoundError as erro:
@@ -75,6 +80,7 @@ def _criar_provedor_openrouter(
         model_name=modelo.model_name,
         api_key=modelo.api_key,
         request_delay_seconds=configuracao.delays.request_delay_seconds,
+        max_tokens=modelo.max_tokens,
     )
 
 

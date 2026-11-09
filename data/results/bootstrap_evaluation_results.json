@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "data_execucao": "2026-10-22T17:42:41.280838",
+    "n_iterations": 1000,
+    "ci_level": 95.0,
+    "total_experimentos": 24
+  },
+  "resultados": [
+    {
+      "modelo": "gemini_flash",
+      "dataset": "curado",
+      "nivel": "global",
+      "n_amostras": 30,
+      "acuracia_media": 0.6347,
+      "acuracia_media_percentual": 63.47,
+      "ic_95_inferior": 0.4333,
+      "ic_95_superior": 0.8,
+      "ic_95_formatado": "[43.33%, 80.00%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "curado",
+      "nivel": "fácil",
+      "n_amostras": 10,
+      "acuracia_media": 0.9005,
+      "acuracia_media_percentual": 90.05,
+      "ic_95_inferior": 0.7,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[70.00%, 100.00%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "curado",
+      "nivel": "médio",
+      "n_amostras": 10,
+      "acuracia_media": 0.5987,
+      "acuracia_media_percentual": 59.87,
+      "ic_95_inferior": 0.3,
+      "ic_95_superior": 0.9,
+      "ic_95_formatado": "[30.00%, 90.00%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "curado",
+      "nivel": "difícil",
+      "n_amostras": 10,
+      "acuracia_media": 0.3991,
+      "acuracia_media_percentual": 39.91,
+      "ic_95_inferior": 0.1,
+      "ic_95_superior": 0.7,
+      "ic_95_formatado": "[10.00%, 70.00%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "sintetico",
+      "nivel": "global",
+      "n_amostras": 360,
+      "acuracia_media": 0.9863,
+      "acuracia_media_percentual": 98.63,
+      "ic_95_inferior": 0.9722,
+      "ic_95_superior": 0.9972,
+      "ic_95_formatado": "[97.22%, 99.72%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "sintetico",
+      "nivel": "fácil",
+      "n_amostras": 120,
+      "acuracia_media": 0.9837,
+      "acuracia_media_percentual": 98.37,
+      "ic_95_inferior": 0.9583,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[95.83%, 100.00%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "sintetico",
+      "nivel": "médio",
+      "n_amostras": 120,
+      "acuracia_media": 0.9919,
+      "acuracia_media_percentual": 99.19,
+      "ic_95_inferior": 0.975,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[97.50%, 100.00%]"
+    },
+    {
+      "modelo": "gemini_flash",
+      "dataset": "sintetico",
+      "nivel": "difícil",
+      "n_amostras": 120,
+      "acuracia_media": 0.983,
+      "acuracia_media_percentual": 98.3,
+      "ic_95_inferior": 0.9583,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[95.83%, 100.00%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "curado",
+      "nivel": "global",
+      "n_amostras": 30,
+      "acuracia_media": 0.665,
+      "acuracia_media_percentual": 66.5,
+      "ic_95_inferior": 0.5,
+      "ic_95_superior": 0.8333,
+      "ic_95_formatado": "[50.00%, 83.33%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "curado",
+      "nivel": "fácil",
+      "n_amostras": 10,
+      "acuracia_media": 0.8986,
+      "acuracia_media_percentual": 89.86,
+      "ic_95_inferior": 0.7,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[70.00%, 100.00%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "curado",
+      "nivel": "médio",
+      "n_amostras": 10,
+      "acuracia_media": 0.6977,
+      "acuracia_media_percentual": 69.77,
+      "ic_95_inferior": 0.4,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[40.00%, 100.00%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "curado",
+      "nivel": "difícil",
+      "n_amostras": 10,
+      "acuracia_media": 0.3989,
+      "acuracia_media_percentual": 39.89,
+      "ic_95_inferior": 0.1,
+      "ic_95_superior": 0.7,
+      "ic_95_formatado": "[10.00%, 70.00%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "sintetico",
+      "nivel": "global",
+      "n_amostras": 360,
+      "acuracia_media": 0.7694,
+      "acuracia_media_percentual": 76.94,
+      "ic_95_inferior": 0.7222,
+      "ic_95_superior": 0.814,
+      "ic_95_formatado": "[72.22%, 81.40%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "sintetico",
+      "nivel": "fácil",
+      "n_amostras": 120,
+      "acuracia_media": 0.7833,
+      "acuracia_media_percentual": 78.33,
+      "ic_95_inferior": 0.7083,
+      "ic_95_superior": 0.8583,
+      "ic_95_formatado": "[70.83%, 85.83%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "sintetico",
+      "nivel": "médio",
+      "n_amostras": 120,
+      "acuracia_media": 0.7755,
+      "acuracia_media_percentual": 77.55,
+      "ic_95_inferior": 0.7,
+      "ic_95_superior": 0.85,
+      "ic_95_formatado": "[70.00%, 85.00%]"
+    },
+    {
+      "modelo": "modelo_2",
+      "dataset": "sintetico",
+      "nivel": "difícil",
+      "n_amostras": 120,
+      "acuracia_media": 0.7481,
+      "acuracia_media_percentual": 74.81,
+      "ic_95_inferior": 0.675,
+      "ic_95_superior": 0.8169,
+      "ic_95_formatado": "[67.50%, 81.69%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "curado",
+      "nivel": "global",
+      "n_amostras": 30,
+      "acuracia_media": 0.6319,
+      "acuracia_media_percentual": 63.19,
+      "ic_95_inferior": 0.4667,
+      "ic_95_superior": 0.8,
+      "ic_95_formatado": "[46.67%, 80.00%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "curado",
+      "nivel": "fácil",
+      "n_amostras": 10,
+      "acuracia_media": 0.9032,
+      "acuracia_media_percentual": 90.32,
+      "ic_95_inferior": 0.7,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[70.00%, 100.00%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "curado",
+      "nivel": "médio",
+      "n_amostras": 10,
+      "acuracia_media": 0.6033,
+      "acuracia_media_percentual": 60.33,
+      "ic_95_inferior": 0.3,
+      "ic_95_superior": 0.9,
+      "ic_95_formatado": "[30.00%, 90.00%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "curado",
+      "nivel": "difícil",
+      "n_amostras": 10,
+      "acuracia_media": 0.4042,
+      "acuracia_media_percentual": 40.42,
+      "ic_95_inferior": 0.1,
+      "ic_95_superior": 0.7,
+      "ic_95_formatado": "[10.00%, 70.00%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "sintetico",
+      "nivel": "global",
+      "n_amostras": 360,
+      "acuracia_media": 0.9784,
+      "acuracia_media_percentual": 97.84,
+      "ic_95_inferior": 0.9639,
+      "ic_95_superior": 0.9917,
+      "ic_95_formatado": "[96.39%, 99.17%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "sintetico",
+      "nivel": "fácil",
+      "n_amostras": 120,
+      "acuracia_media": 0.976,
+      "acuracia_media_percentual": 97.6,
+      "ic_95_inferior": 0.9417,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[94.17%, 100.00%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "sintetico",
+      "nivel": "médio",
+      "n_amostras": 120,
+      "acuracia_media": 1.0,
+      "acuracia_media_percentual": 100.0,
+      "ic_95_inferior": 1.0,
+      "ic_95_superior": 1.0,
+      "ic_95_formatado": "[100.00%, 100.00%]"
+    },
+    {
+      "modelo": "modelo_3",
+      "dataset": "sintetico",
+      "nivel": "difícil",
+      "n_amostras": 120,
+      "acuracia_media": 0.958,
+      "acuracia_media_percentual": 95.8,
+      "ic_95_inferior": 0.9248,
+      "ic_95_superior": 0.9917,
+      "ic_95_formatado": "[92.48%, 99.17%]"
+    }
+  ]
+}

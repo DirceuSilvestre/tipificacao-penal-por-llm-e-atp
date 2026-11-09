@@ -1,0 +1,20 @@
+{
+  "modelo": "deepseek-v4.1-flash",
+  "dataset": "resultados_classificados_modelo_3_dataset_sintetico.jsonl",
+  "total_exemplos": 360,
+  "acuracia_simples": 0.9777777777777777,
+  "acuracia_semantica": 0.9847222222222223,
+  "acuracia_por_nivel": {
+    "fácil": 0.975,
+    "médio": 1.0,
+    "difícil": 0.9583333333333334
+  },
+  "acuracia_semantica_por_nivel": {
+    "fácil": 0.9833333333333333,
+    "médio": 1.0,
+    "difícil": 0.9708333333333333
+  },
+  "precisao_macro": 0.978706605593057,
+  "recall_macro": 0.9783333333333333,
+  "f1_macro": 0.9776385056943686
+}

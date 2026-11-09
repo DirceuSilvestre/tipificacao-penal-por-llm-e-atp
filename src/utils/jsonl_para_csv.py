@@ -65,6 +65,6 @@ def converter_todos_jsonl_para_csv(
 if __name__ == "__main__":
     # Converte todos os .jsonl de 'data/classified' e salva os .csv na mesma pasta
     # arquivos = converter_todos_jsonl_para_csv("data/organized")
-    caminho_jsonl = "data/classified/resultados_classificados_modelo_2_dataset_curado.jsonl"
-    caminho_csv = "data/classified/resultados_classificados_modelo_2_dataset_curado.csv"
+    caminho_jsonl = "data/classified/resultados_classificados_modelo_3_dataset_curado.jsonl"
+    caminho_csv = "data/classified/resultados_classificados_modelo_3_dataset_curado.csv"
     jsonl_para_csv_nativo(caminho_jsonl, caminho_csv)

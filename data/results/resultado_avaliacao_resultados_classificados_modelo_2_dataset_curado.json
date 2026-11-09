@@ -1,5 +1,5 @@
 {
-  "modelo": "modelo_2",
+  "modelo": "gpt-oss-120b",
   "dataset": "resultados_classificados_modelo_2_dataset_curado.jsonl",
   "total_exemplos": 30,
   "acuracia_simples": 0.6666666666666666,

@@ -246,7 +246,7 @@ Os nomes e metadados desses relatórios usam valores da configuração ativa. Ao
 
 O módulo [`src/avaliacao/bootstrap_evaluator.py`](src/avaliacao/bootstrap_evaluator.py) implementa reamostragem bootstrap da acurácia exata, globalmente e por nível de explicitude, com 1.000 iterações, intervalo de confiança de 95% e semente fixa.
 
-Para executá-lo, além das dependências do manifesto, instale ou disponibilize `numpy` e `pandas`, atualmente não declaradas em `requirements.txt`:
+Para executá-lo utilize o comando:
 
 ```bash
 python -m src.avaliacao.bootstrap_evaluator

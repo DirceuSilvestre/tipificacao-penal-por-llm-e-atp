@@ -9,3 +9,5 @@ openai
 scikit-learn
 matplotlib
 reportlab
+numpy
+pandas

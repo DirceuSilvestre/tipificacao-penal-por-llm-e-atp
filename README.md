@@ -114,7 +114,6 @@ A camada de LLM segue um contrato comum (`ProvedorLLM`) e uma fábrica (`criar_p
 - Acesso à internet para chamadas aos provedores externos.
 - Dependências listadas em [`requirements.txt`](requirements.txt).
 
-O módulo de avaliação por bootstrap também importa `numpy` e `pandas`. Essas bibliotecas são usadas pelo código, mas atualmente não estão declaradas em `requirements.txt`; portanto, a instalação do manifesto, sozinha, não garante que esse módulo opcional possa ser executado.
 
 ## Instalação
 

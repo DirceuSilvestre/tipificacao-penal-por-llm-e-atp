@@ -60,10 +60,14 @@ def avaliar_dataset_classificado(
         itens, configuracao=configuracao
     )
 
+    peso_alpha = configuracao.metrics.atp_alpha_weight
+    sufixo_alpha = f"{peso_alpha:g}".replace(".", "_")
+
     resumo = ResumoAvaliacao(
         modelo=configuracao.llm.active_model,
         dataset=configuracao.datasets.active_dataset,
         total_exemplos=len(itens),
+        atp_alpha_weight=peso_alpha,
         acuracia_simples=acuracia,
         acuracia_semantica=semantica,
         acuracia_por_nivel=ac_nivel,
@@ -78,7 +82,11 @@ def avaliar_dataset_classificado(
     pasta_saida.mkdir(parents=True, exist_ok=True)
 
     caminho_json_saida = (
-        pasta_saida / f"resultado_avaliacao_{configuracao.datasets.active_dataset}.json"
+        pasta_saida
+        / (
+            f"resultado_avaliacao_{configuracao.datasets.active_dataset}"
+            f"_alpha_{sufixo_alpha}.json"
+        )
     )
     with caminho_json_saida.open("w", encoding="utf-8") as f:
         json.dump(asdict(resumo), f, ensure_ascii=False, indent=2)
@@ -86,7 +94,13 @@ def avaliar_dataset_classificado(
     caminho_matriz = pasta_saida / f"matriz_confusao_{configuracao.datasets.active_dataset}.png"
     gerar_matriz_confusao(reais, preditos, caminho_matriz)
 
-    caminho_pdf = pasta_saida / f"relatorio_avaliacao_{configuracao.datasets.active_dataset}.pdf"
+    caminho_pdf = (
+        pasta_saida
+        / (
+            f"relatorio_avaliacao_{configuracao.datasets.active_dataset}"
+            f"_alpha_{sufixo_alpha}.pdf"
+        )
+    )
     gerar_relatorio_pdf(resumo, caminho_matriz, caminho_pdf)
 
     return resumo

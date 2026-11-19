@@ -56,6 +56,7 @@ class ResumoAvaliacao:
         modelo: Nome do modelo de linguagem avaliado.
         dataset: Nome do dataset processado.
         total_exemplos: Quantidade de amostras analisadas.
+        atp_alpha_weight: Peso usado pela Acurácia Taxonômica Ponderada.
         acuracia_simples: Acurácia exata global.
         acuracia_semantica: Acurácia ponderada por proximidade taxonômica.
         acuracia_por_nivel: Acurácia simples segmentada por nível de dificuldade.
@@ -68,6 +69,7 @@ class ResumoAvaliacao:
     modelo: str
     dataset: str
     total_exemplos: int
+    atp_alpha_weight: float
     acuracia_simples: float
     acuracia_semantica: float
     acuracia_por_nivel: dict[str, float]

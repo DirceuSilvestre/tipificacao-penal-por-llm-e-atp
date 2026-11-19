@@ -24,7 +24,7 @@ datasets:
 metrics:
   # Peso da Acurácia Taxonômica Ponderada (ATP).
   # Esse valor é usado pela lógica de avaliação da métrica.
-  atp_alpha_weight: 0.5
+  atp_alpha_weight: 0.2
 
 llm:
   # Define qual modelo está ativo no momento para execução do pipeline.

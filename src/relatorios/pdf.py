@@ -85,6 +85,9 @@ def gerar_relatorio_pdf(
     gerador.adicionar_texto(f"<b>Dataset Analisado:</b> {resumo.dataset}")
     gerador.adicionar_texto(f"<b>Total de Casos:</b> {resumo.total_exemplos}")
     gerador.adicionar_texto(
+        f"<b>Peso alpha da ATP:</b> {resumo.atp_alpha_weight:g}"
+    )
+    gerador.adicionar_texto(
         f"<b>Acurácia Simples Global:</b> {resumo.acuracia_simples:.2f}"
     )
     gerador.adicionar_texto(
